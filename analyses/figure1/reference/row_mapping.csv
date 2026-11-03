@@ -1,0 +1,41 @@
+row_number,display_label,species,study,panel_id,assembly_accession,ani_matrix_name,kbase_tip_id,deposit_symbol,column_number_printed
+1,MR-6/3H,D. tsuruhatensis,no,MR-6/3H,GCA_026410155.1,GCA_026410155.1,user30,,yes
+2,GD03640,D. tsuruhatensis,no,GD03640,GCA_029845385.1,GCA_029845385.1,user12,,no
+3,NRS-1369,D. tsuruhatensis,no,NRS-1369,GCA_050481505.1,GCA_050481505.1,user16,,no
+4,CIP111669,D. tsuruhatensis,no,CIP111669,GCA_965137545.1,GCA_965137545.1,user24,,no
+5,CM13,D. tsuruhatensis,no,CM13,GCA_001753225.1,GCA_001753225.1,user29,,yes
+6,Dt1S33,D. tsuruhatensis,no,Dt1S33,GCA_048163855.1,GCA_048163855.1,user11,,no
+7,GD03808,D. tsuruhatensis,no,GD03808,GCA_029841905.1,GCA_029841905.1,user15,,no
+8,GD03900,D. tsuruhatensis,no,GD03900,GCA_029840065.1,GCA_029840065.1,user40,,no
+9,GD03716,D. tsuruhatensis,no,GD03716,GCA_029843645.1,GCA_029843645.1,user7,,no
+10,GD03927,D. tsuruhatensis,no,GD03927,GCA_029814915.1,GCA_029814915.1,user8,,yes
+11,RIT_BL10,D. tsuruhatensis,no,RIT_BL10,GCA_037723885.1,GCA_037723885.1,user34,,no
+12,GCA_039595435.1,D. tsuruhatensis,no,GCA_039595435.1,GCA_039595435.1,GCA_039595435.1,user13,,no
+13,BR1R2,D. tsuruhatensis,no,BR1R2,GCA_055379645.1,GCA_055379645.1,user23,,no
+14,Ery-6A,D. tsuruhatensis,no,Ery-6A,GCA_029590315.1,GCA_029590315.1,user21,,no
+15,GCA_050282465.1,D. tsuruhatensis,no,GCA_050282465.1,GCA_050282465.1,GCA_050282465.1,user27,,yes
+16,ULwDis3,D. tsuruhatensis,no,ULwDis3,GCA_029215875.1,GCA_029215875.1,user18,,no
+17,HA60,D. tsuruhatensis,no,HA60,GCA_034554595.1,GCA_034554595.1,user25,,no
+18,GCA_032077925.1,D. tsuruhatensis,no,GCA_032077925.1,GCA_032077925.1,GCA_032077925.1,user19,,no
+19,WW34,D. tsuruhatensis,no,WW34,GCA_055755135.1,GCA_055755135.1,user4,,no
+20,WSY_8,D. tsuruhatensis,no,WSY_8,GCA_043104825.1,GCA_043104825.1,user9,,yes
+21,TR1180,D. tsuruhatensis,no,TR1180,GCA_009362995.1,GCA_009362995.1,user32,,no
+22,GD04115,D. tsuruhatensis,no,GD04115,GCA_029835695.1,GCA_029835695.1,user37,,no
+23,I4-RSP,D. tsuruhatensis,no,I4-RSP,GCA_037198095.1,GCA_037198095.1,user1,,no
+24,GD03878,D. tsuruhatensis,no,GD03878,GCA_029840545.1,GCA_029840545.1,user10,,no
+25,ALG19,D. tsuruhatensis,yes,ALG19,Zenodo 10.5281/zenodo.21651127 (assembly); reads SRR31881480,ALG19,user33,,yes
+26,45.2.2,D. tsuruhatensis,no,45.2.2,GCA_023958235.1,GCA_023958235.1,user20,,no
+27,3.2.44,D. tsuruhatensis,no,3.2.44,GCA_024655835.1,GCA_024655835.1,user31,,no
+28,GSK TC1,D. tsuruhatensis,no,GSK_TC1,GCA_036828685.1,GCA_036828685.1,user38,,no
+29,BL-MMS-01,D. tsuruhatensis,no,BL-MMS-01,GCA_056547405.1,GCA_056547405.1,user3,,no
+30,ATCC 15668,D. acidovorans,yes,ATCC15668_own,GCA_060658745.1,ATCC 15668,user14,‡,yes
+31,DSM 39,D. acidovorans,no,DSM 39,GCA_059084005.1,GCA_059084005.1,user39,‡,no
+32,ATCC 13751,D. acidovorans,yes,ATCC13751_own,this study — accession pending,ATCC 13751,user5,,no
+33,DSM 21246,D. tsuruhatensis,no,DSM 21246,GCA_040267515.1,GCA_040267515.1,user35,§,no
+34,LMG 24775,D. tsuruhatensis,no,LMG 24775,GCA_900107225.1,GCA_900107225.1,user36,§,no
+35,GCA_032057505.1,D. tsuruhatensis,no,GCA_032057505.1,GCA_032057505.1,GCA_032057505.1,user6,,yes
+36,W19,D. tsuruhatensis,no,W19,GCA_059579365.1,GCA_059579365.1,user17,,no
+37,161/1,D. tsuruhatensis,no,161/1,GCA_023631505.1,GCA_023631505.1,user22,,no
+38,LMG 29104,D. tsuruhatensis,no,LMG 29104,GCA_900111975.1,GCA_900111975.1,user2,†,no
+39,BAA-554,D. tsuruhatensis,yes,BAA554,this study — accession pending,BAA-554,user26,†,no
+40,NBRC 16741,D. tsuruhatensis,no,NBRC16741,GCA_001571325.1,NBRC 16741,user28,†,yes

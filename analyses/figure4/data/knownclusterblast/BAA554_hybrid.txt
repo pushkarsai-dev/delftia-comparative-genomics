@@ -1,0 +1,587 @@
+ClusterBlast scores for BAA554_hybrid_contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+ctg1_1889	2160621	2160999	-		
+ctg1_1890	2161078	2162401	+		
+ctg1_1891	2162472	2163405	+		
+ctg1_1892	2163454	2163946	+		
+ctg1_1893	2164079	2165588	+		
+ctg1_1894	2165783	2166998	+		
+ctg1_1895	2166994	2168401	+		
+ctg1_1896	2168880	2169096	-		
+ctg1_1897	2169617	2170022	+		
+ctg1_1898	2170248	2171703	+		
+ctg1_1899	2171741	2172959	+		
+ctg1_1900	2172963	2176053	+		
+ctg1_1901	2176069	2176405	+		
+ctg1_1902	2177561	2178086	+		
+ctg1_1903	2178156	2178519	+		
+ctg1_1904	2178524	2179268	+		
+ctg1_1905	2179245	2179935	+		
+ctg1_1906	2179931	2180921	+		
+ctg1_1907	2180941	2186299	+		
+ctg1_1908	2186298	2191056	+		
+ctg1_1909	2191066	2201014	+		
+ctg1_1910	2201013	2219526	+		
+ctg1_1911	2219705	2222105	+		
+ctg1_1912	2222181	2223216	-		
+ctg1_1913	2223227	2223827	-		
+ctg1_1914	2224041	2225340	-		
+ctg1_1915	2225351	2226464	-		
+ctg1_1916	2226607	2227573	-		
+ctg1_1917	2227820	2229536	+		
+ctg1_1918	2229557	2230412	+		
+ctg1_1919	2230565	2231324	-		
+ctg1_1920	2231455	2232502	-		
+ctg1_1921	2232778	2233327	-		
+ctg1_1922	2233650	2234112	+		
+ctg1_1923	2234227	2235448	+		
+ctg1_1924	2235509	2236937	+		
+ctg1_1925	2236974	2237982	+		
+ctg1_1926	2238092	2239583	+		
+ctg1_1927	2239584	2240766	+		
+ctg1_1928	2240836	2241706	-		
+ctg1_1929	2241948	2242335	-		
+ctg1_1930	2242331	2242610	-		
+ctg1_1931	2242606	2243098	-		
+ctg1_1932	2243094	2244891	-		
+ctg1_1933	2244887	2245253	-		
+
+
+Significant hits: 
+1. BGC0000984.4	delftibactin A/delftibactin B
+2. BGC0002420.3	vacidobactin A/vacidobactin B
+3. BGC0002417.3	variochelin A/variochelin B
+4. BGC0002416.3	variobactin A/variobactin B
+5. BGC0002419.3	acidobactin A/acidobactin B
+6. BGC0002418.2	pacifibactin
+7. BGC0002117.3	potashchelin A/potashchelin B/potashchelin C/potashchelin D
+8. BGC0002001.3	crochelin A
+9. BGC0001189.5	taiwachelin
+10. BGC0000424.5	serobactin C/serobactin B/serobactin A
+11. BGC0000413.5	Pf-5 pyoverdine
+12. BGC0002433.3	azotobactin D
+13. BGC0002569.3	ornibactin C8/ornibactin C4/ornibactin C6
+14. BGC0001721.3	ornibactin
+15. BGC0000330.5	cupriachelin
+16. BGC0001389.5	cichopeptin A/cichopeptin B
+17. BGC0002565.2	plantaribactin
+18. BGC0002408.3	malleobactin X
+19. BGC0000386.5	malleobactin A/malleobactin B/malleobactin C/malleobactin D
+20. BGC0002465.2	amphibactin E/amphibactin H/amphibactin I
+21. BGC0002693.2	pyoverdine SXM-1
+22. BGC0002421.2	malleobactin LB400
+23. BGC0002503.3	chitinimide B/chitinimide F/chitinimide D/chitinimide A/chitinimide C/chitinimide E/chitinimide G
+24. BGC0002531.3	cepaciachelin
+25. BGC0002564.3	megapolibactin Acyc/megapolibactin Bcyc/megapolibactin A/megapolibactin B/megapolibactin C/megapolibactin D/megapolibactin E/megapolibactin F
+26. BGC0002329.2	trinickiabactin
+
+
+Details:
+
+>>
+1. BGC0000984.4
+Source: delftibactin A/delftibactin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 20
+Cumulative BLAST score: 38447.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1899	Daci_4764	99	712	100.0	5.39e-261
+ctg1_1900	Daci_4763	98	1867	100.0	0.0
+ctg1_1901	Daci_4762	98	216	100.0	2.89e-74
+ctg1_1902	Daci_4761	96	332	100.0	1.98e-118
+ctg1_1903	Daci_4760	93	233	101.66666666666666	1.13e-80
+ctg1_1904	Daci_4759	98	493	100.0	1.39e-179
+ctg1_1905	Daci_4758	97	440	100.0	3.81e-159
+ctg1_1906	Daci_4757	100	672	100.0	7.31e-248
+ctg1_1907	Daci_4756	97	3344	100.44817927170868	0.0
+ctg1_1907	Daci_4753	48	843	59.88795518207283	9.01e-260
+ctg1_1908	Daci_4755	94	2821	100.3154574132492	0.0
+ctg1_1909	Daci_4754	95	5943	100.36199095022624	0.0
+ctg1_1909	Daci_4753	62	2389	65.94268476621417	0.0
+ctg1_1910	Daci_4753	97	11723	100.17828200972447	0.0
+ctg1_1911	Daci_4752	98	1565	100.0	0.0
+ctg1_1912	Daci_4751	92	610	100.0	1.15e-222
+ctg1_1913	Daci_4750	96	367	100.0	1.77e-131
+ctg1_1914	Daci_4749	99	858	100.0	5.46e-318
+ctg1_1915	Daci_4748	97	755	100.0	9.37e-279
+ctg1_1916	Daci_4747	98	624	100.0	8.99e-229
+ctg1_1917	Daci_4746	98	1070	100.0	0.0
+ctg1_1918	Daci_4745	99	570	100.0	7.86e-209
+
+
+
+>>
+2. BGC0002420.3
+Source: vacidobactin A/vacidobactin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 10835.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1902	Vapar_3752	48	151	98.27586206896551	7.87e-47
+ctg1_1903	Vapar_3750	81	141	66.66666666666666	7.07e-45
+ctg1_1904	Vapar_3749	68	333	99.59514170040485	1.56e-116
+ctg1_1905	Vapar_3748	58	244	100.0	1.13e-81
+ctg1_1906	Vapar_3747	84	570	100.30395136778117	1.86e-207
+ctg1_1907	Vapar_3746	57	1834	100.11204481792717	0.0
+ctg1_1907	Vapar_3744	55	1047	59.04761904761905	0.0
+ctg1_1907	Vapar_3743	48	855	58.879551820728295	1.59e-270
+ctg1_1908	Vapar_3745	60	1659	99.5583596214511	0.0
+ctg1_1910	Vapar_3743	46	1904	41.66936790923825	0.0
+ctg1_1914	Vapar_3740	72	596	96.99074074074075	5.07e-214
+ctg1_1915	Vapar_3739	49	322	92.16216216216216	2.04e-108
+ctg1_1917	Vapar_3736	76	791	94.04553415061297	1.12e-286
+ctg1_1918	Vapar_3738	68	388	98.94366197183099	7.91e-137
+
+
+
+>>
+3. BGC0002417.3
+Source: variochelin A/variochelin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 12
+Cumulative BLAST score: 9147.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1902	VAPA_1c38770	47	147	98.27586206896551	5.14e-45
+ctg1_1903	VAPA_1c38750	77	140	70.0	2.03e-44
+ctg1_1904	VAPA_1c38740	67	332	99.19028340080972	4.32e-116
+ctg1_1905	VAPA_1c38730	57	239	100.0	7.51e-80
+ctg1_1906	VAPA_1c38720	83	561	100.30395136778117	1.19e-203
+ctg1_1907	VAPA_1c38710	57	1834	97.53501400560224	0.0
+ctg1_1907	VAPA_1c38690	54	1043	59.27170868347339	0.0
+ctg1_1907	VAPA_1c38680	48	847	58.767507002801125	2.14e-267
+ctg1_1908	VAPA_1c38700	60	1666	99.5583596214511	0.0
+ctg1_1913	VAPA_1c38580	63	240	103.01507537688441	5.65e-81
+ctg1_1914	VAPA_1c38650	72	597	96.52777777777779	3.74e-214
+ctg1_1915	VAPA_1c38640	49	320	92.16216216216216	1.16e-107
+ctg1_1917	VAPA_1c38610	77	799	94.04553415061297	7.14e-290
+ctg1_1918	VAPA_1c38630	68	382	98.94366197183099	1.07e-134
+
+
+
+>>
+4. BGC0002416.3
+Source: variobactin A/variobactin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 9687.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1904	ALG65337.1	65	311	99.19028340080972	4.22e-107
+ctg1_1905	ALG65338.1	58	239	100.43668122270742	8.55e-80
+ctg1_1907	ALG65336.1	51	1535	97.53501400560224	0.0
+ctg1_1907	ALG65341.1	49	867	58.767507002801125	2.04e-275
+ctg1_1907	ALG65342.1	48	840	59.77591036414566	1.94e-266
+ctg1_1908	ALG65339.1	60	1658	98.801261829653	0.0
+ctg1_1909	ALG65342.1	51	1806	65.94268476621417	0.0
+ctg1_1912	ALG65344.1	58	370	99.70930232558139	6.18e-128
+ctg1_1913	ALG65345.1	65	242	102.01005025125629	4.34e-82
+ctg1_1914	ALG65346.1	69	598	99.53703703703704	4.37e-215
+ctg1_1915	ALG65347.1	60	422	93.78378378378378	1.85e-147
+ctg1_1917	ALG65349.1	75	799	97.19789842381786	6.16e-290
+
+
+
+>>
+5. BGC0002419.3
+Source: acidobactin A/acidobactin B
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 10
+Cumulative BLAST score: 7178.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1902	Aave_3737	53	157	90.22988505747126	3.74e-49
+ctg1_1903	Aave_3736	81	153	73.33333333333333	1.8e-49
+ctg1_1904	Aave_3735	54	247	98.78542510121457	2.45e-82
+ctg1_1906	Aave_3734	78	524	99.08814589665653	3.51e-189
+ctg1_1907	Aave_3733	53	1669	100.33613445378151	0.0
+ctg1_1907	Aave_3731	50	909	59.27170868347339	3.17e-307
+ctg1_1908	Aave_3732	56	1520	100.12618296529969	0.0
+ctg1_1914	Aave_3723	66	548	98.14814814814815	3.99e-195
+ctg1_1915	Aave_3727	49	313	92.97297297297298	1.24e-104
+ctg1_1917	Aave_3724	73	771	94.7460595446585	6.57e-279
+ctg1_1918	Aave_3726	67	367	95.77464788732394	3.92e-128
+
+
+
+>>
+6. BGC0002418.2
+Source: pacifibactin
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 8
+Cumulative BLAST score: 5648.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	S7S_05285	66	105	58.333333333333336	7.64e-31
+ctg1_1904	S7S_05290	58	261	94.73684210526315	6.57e-88
+ctg1_1906	S7S_05300	66	437	97.56838905775076	4.75e-155
+ctg1_1907	S7S_05305	52	998	61.28851540616247	0.0
+ctg1_1907	S7S_05325	46	784	58.71148459383754	1.37e-244
+ctg1_1907	S7S_05320	46	753	58.767507002801125	1.52e-229
+ctg1_1908	S7S_05310	47	1159	97.72870662460568	0.0
+ctg1_1914	S7S_05400	60	504	100.0	6.59e-178
+ctg1_1915	S7S_05405	51	333	92.43243243243244	1.22e-112
+ctg1_1916	S7S_05390	58	314	90.34267912772586	8.4e-107
+
+
+
+>>
+7. BGC0002117.3
+Source: potashchelin A/potashchelin B/potashchelin C/potashchelin D
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 11577.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	FRY77_09840	71	114	60.83333333333333	4.07e-34
+ctg1_1904	FRY77_09845	62	288	91.49797570850203	1.93e-98
+ctg1_1906	FRY77_09855	71	463	96.65653495440729	4.37e-165
+ctg1_1907	FRY77_09875	53	1034	59.719887955182074	0.0
+ctg1_1907	FRY77_09870	46	848	59.15966386554622	1.02e-271
+ctg1_1909	FRY77_09880	54	3180	97.5867269984917	0.0
+ctg1_1909	FRY77_09875	53	1961	65.7315233785822	0.0
+ctg1_1909	FRY77_09870	49	1783	66.39517345399697	0.0
+ctg1_1911	FRY77_09825	54	743	86.60826032540676	7.78e-262
+ctg1_1914	FRY77_09905	62	523	95.37037037037037	2.01e-185
+ctg1_1915	FRY77_09910	55	317	79.1891891891892	5.32e-106
+ctg1_1916	FRY77_09900	55	323	96.88473520249221	5.09e-110
+
+
+
+>>
+8. BGC0002001.3
+Source: crochelin A
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 7394.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	Achr_RS19605	83	141	66.66666666666666	4.3e-45
+ctg1_1903	Achr_RS19650	49	70	50.83333333333333	5.63e-17
+ctg1_1904	Achr_RS19600	67	316	93.11740890688259	1.05e-109
+ctg1_1906	Achr_RS19595	74	499	100.0	3.28e-179
+ctg1_1907	Achr_RS19590	57	1850	100.05602240896359	0.0
+ctg1_1907	Achr_RS19580	57	1094	58.82352941176471	0.0
+ctg1_1907	Achr_RS19570	56	1065	58.59943977591037	0.0
+ctg1_1908	Achr_RS19585	57	1518	99.30599369085174	0.0
+ctg1_1914	Achr_RS19635	53	424	98.37962962962963	2.04e-146
+ctg1_1918	Achr_RS19550	75	417	96.47887323943662	2.38e-148
+
+
+
+>>
+9. BGC0001189.5
+Source: taiwachelin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 2148.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	RALTA_B1223	63	100	60.0	6.85e-29
+ctg1_1904	RALTA_B1224	54	236	92.3076923076923	3.86e-78
+ctg1_1907	RALTA_B1225	47	807	63.13725490196078	4e-263
+ctg1_1914	RALTA_B1237	50	406	97.45370370370371	3.49e-139
+ctg1_1915	RALTA_B1236	56	303	71.89189189189189	4.3e-101
+ctg1_1916	RALTA_B1235	53	296	99.06542056074767	3.03e-99
+
+
+
+>>
+10. BGC0000424.5
+Source: serobactin C/serobactin B/serobactin A
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 1941.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	Hsero_2339	63	93	58.333333333333336	5.28e-26
+ctg1_1904	Hsero_2340	51	224	100.8097165991903	3.17e-73
+ctg1_1906	Hsero_2342	65	425	97.26443768996961	9.65e-150
+ctg1_1914	Hsero_2346	62	539	99.30555555555556	1.82e-191
+ctg1_1915	Hsero_2347	48	318	93.24324324324324	4.77e-107
+ctg1_1916	Hsero_2344	58	342	99.06542056074767	1.34e-117
+
+
+
+>>
+11. BGC0000413.5
+Source: Pf-5 pyoverdine
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 2845.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	PFL_4178	64	92	61.66666666666667	2.2e-25
+ctg1_1907	PFL_4189	47	1415	97.3109243697479	0.0
+ctg1_1914	PFL_4079	49	399	96.06481481481481	2.07e-136
+ctg1_1917	PFL_4091	55	567	94.04553415061297	7.75e-199
+ctg1_1918	PFL_4090	66	372	95.4225352112676	1.18e-130
+
+
+
+>>
+12. BGC0002433.3
+Source: azotobactin D
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2151.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	Avin_25630	55	84	64.16666666666667	2.8e-22
+ctg1_1906	Avin_25610	59	364	93.00911854103343	5.68e-126
+ctg1_1907	Avin_25650	46	1311	97.08683473389355	0.0
+ctg1_1914	Avin_25600	47	392	96.29629629629629	9.97e-134
+
+
+
+>>
+13. BGC0002569.3
+Source: ornibactin C8/ornibactin C4/ornibactin C6
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1379.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	BCAL1689	50	71	53.333333333333336	3.91e-17
+ctg1_1906	BCAL1690	53	335	94.52887537993921	1.76e-114
+ctg1_1914	BCAL1699	51	399	95.83333333333334	3.17e-136
+ctg1_1915	BCAL1702	50	228	60.54054054054055	9.68e-72
+ctg1_1918	BCAL1701	65	346	95.77464788732394	1.95e-120
+
+
+
+>>
+14. BGC0001721.3
+Source: ornibactin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1306.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	AUD12001.1	50	70	53.333333333333336	2.06e-16
+ctg1_1906	AUD12000.1	53	337	94.52887537993921	4.36e-115
+ctg1_1914	AUD11991.1	51	333	81.71296296296296	3.2e-111
+ctg1_1915	AUD11988.1	50	224	60.54054054054055	1.44e-70
+ctg1_1918	AUD11989.1	64	342	95.77464788732394	9.14e-119
+
+
+
+>>
+15. BGC0000330.5
+Source: cupriachelin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1104.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1906	H16_B1688	59	356	96.35258358662614	1.48e-122
+ctg1_1914	H16_B1680	54	447	97.22222222222221	7.21e-155
+ctg1_1915	H16_B1681	51	301	83.78378378378379	4.19e-100
+
+
+
+>>
+16. BGC0001389.5
+Source: cichopeptin A/cichopeptin B
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 6291.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1909	AHZ34240.1	50	1318	47.48114630467571	0.0
+ctg1_1910	AHZ34239.1	47	2593	53.12803889789303	0.0
+ctg1_1910	AHZ34242.1	46	2380	49.95137763371151	0.0
+
+
+
+>>
+17. BGC0002565.2
+Source: plantaribactin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 2786.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1906	BGL_2c17000	53	289	82.97872340425532	1.39e-96
+ctg1_1907	BGL_2c16900	51	932	60.22408963585434	5.08e-299
+ctg1_1909	BGL_2c16910	46	1565	66.09351432880844	0.0
+
+
+
+>>
+18. BGC0002408.3
+Source: malleobactin X
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1163.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	GN109_07655	53	72	48.333333333333336	1.05e-17
+ctg1_1906	GN109_07660	54	333	95.44072948328267	1.68e-113
+ctg1_1914	GN109_07700	50	379	98.8425925925926	1.55e-128
+ctg1_1918	GN109_07710	69	379	94.36619718309859	2.67e-133
+
+
+
+>>
+19. BGC0000386.5
+Source: malleobactin A/malleobactin B/malleobactin C/malleobactin D
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 1121.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	BTH_I2426	57	74	48.333333333333336	3.61e-18
+ctg1_1906	BTH_I2425	56	343	94.22492401215806	2.07e-117
+ctg1_1914	BTH_I2416	47	370	104.39814814814814	2.01e-124
+ctg1_1918	BTH_I2414	70	334	84.50704225352112	3.31e-116
+
+
+
+>>
+20. BGC0002465.2
+Source: amphibactin E/amphibactin H/amphibactin I
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 705.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	ABO_2094	47	68	50.0	3.21e-16
+ctg1_1914	ABO_2089	49	391	97.22222222222221	1.33e-133
+ctg1_1915	ABO_2090	51	246	72.70270270270271	3.05e-79
+
+
+
+>>
+21. BGC0002693.2
+Source: pyoverdine SXM-1
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1861.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1907	DCC84_23185	48	891	58.71148459383754	7.45e-277
+ctg1_1914	DCC84_23115	48	407	100.2314814814815	1.38e-139
+ctg1_1917	DCC84_23160	55	563	94.22066549912435	4.91e-197
+
+
+
+>>
+22. BGC0002421.2
+Source: malleobactin LB400
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 3
+Cumulative BLAST score: 1102.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1906	Bxe_B0519	53	332	96.35258358662614	4.8e-113
+ctg1_1914	Bxe_B0527	50	390	100.0	8.86e-133
+ctg1_1918	Bxe_B0528	70	380	95.77464788732394	8.42e-134
+
+
+
+>>
+23. BGC0002503.3
+Source: chitinimide B/chitinimide F/chitinimide D/chitinimide A/chitinimide C/chitinimide E/chitinimide G
+Type: NRPS:Type I+PKS
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 1679.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	QPB41095.1	58	75	50.0	8.97e-19
+ctg1_1909	QPB41097.1	47	1604	66.93815987933634	0.0
+
+
+
+>>
+24. BGC0002531.3
+Source: cepaciachelin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 406.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	Bamb_1530	48	71	54.166666666666664	5.54e-17
+ctg1_1906	Bamb_1531	53	335	94.52887537993921	2.01e-114
+
+
+
+>>
+25. BGC0002564.3
+Source: megapolibactin Acyc/megapolibactin Bcyc/megapolibactin A/megapolibactin B/megapolibactin C/megapolibactin D/megapolibactin E/megapolibactin F
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 369.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	FNZ07_17525	53	69	48.333333333333336	1.61e-16
+ctg1_1906	FNZ07_17535	52	300	91.7933130699088	6.87e-101
+
+
+
+>>
+26. BGC0002329.2
+Source: trinickiabactin
+Type: NRPS:Type I
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 354.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ctg1_1903	FNF07_04320	53	74	58.333333333333336	2.42e-18
+ctg1_1906	FNF07_04310	50	280	89.66565349544074	6.06e-93
+

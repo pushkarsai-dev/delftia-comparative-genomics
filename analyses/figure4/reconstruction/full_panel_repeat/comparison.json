@@ -1,0 +1,261 @@
+{
+  "call_count": 1800,
+  "reciprocal_hits": 1774,
+  "identical_selected_pairs_and_decisions": true,
+  "presence_matrix_byte_identical": true,
+  "protein_manifests_equal": true,
+  "changed_call_fields": {
+    "forward_evalue": 300,
+    "forward_score": 263,
+    "reverse_evalue": 306,
+    "reverse_score": 267
+  },
+  "max_absolute_call_differences": {
+    "forward_evalue": 4.1519446380196595e-22,
+    "forward_score": 0.0322265625,
+    "reverse_evalue": 5.886854239875014e-54,
+    "reverse_score": 0.033203125
+  },
+  "max_relative_call_evalue_difference": 0.0004266306447268422,
+  "raw_hit_comparisons": {
+    "forward_hits.json": {
+      "hits_compared": 18240,
+      "identical_target_sets": true,
+      "changed_fields": {
+        "evalue": 9229,
+        "score": 8733,
+        "bias": 8731,
+        "dom_evalue": 8490,
+        "dom_score": 7919,
+        "env_to": 5,
+        "env_from": 1
+      },
+      "changed_order_lists": [
+        {
+          "genome": "GCA_009362995.1",
+          "query": "BAA554_hybrid_contig_1_1917"
+        },
+        {
+          "genome": "GCA_029215875.1",
+          "query": "BAA554_hybrid_contig_1_1910"
+        },
+        {
+          "genome": "GCA_029835695.1",
+          "query": "BAA554_hybrid_contig_1_1917"
+        },
+        {
+          "genome": "GCA_034554595.1",
+          "query": "BAA554_hybrid_contig_1_1910"
+        }
+      ],
+      "coordinate_differences": [
+        {
+          "genome": "ALG19_illumina",
+          "query": "BAA554_hybrid_contig_1_1917",
+          "target": "ALG19_illumina_contig_26_16",
+          "field": "env_to",
+          "reference": 248,
+          "repeat": 249,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_023631505.1",
+          "query": "BAA554_hybrid_contig_1_1909",
+          "target": "JAKZJM010000027.1_36",
+          "field": "env_to",
+          "reference": 512,
+          "repeat": 507,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_026410155.1",
+          "query": "BAA554_hybrid_contig_1_1909",
+          "target": "JAPMID010000019.1_39",
+          "field": "env_to",
+          "reference": 512,
+          "repeat": 507,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_029840545.1",
+          "query": "BAA554_hybrid_contig_1_1917",
+          "target": "JAOCCS010000036.1_39",
+          "field": "env_to",
+          "reference": 248,
+          "repeat": 249,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_055755135.1",
+          "query": "BAA554_hybrid_contig_1_1909",
+          "target": "CM146905.1_2747",
+          "field": "env_from",
+          "reference": 138,
+          "repeat": 140,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_056547405.1",
+          "query": "BAA554_hybrid_contig_1_1917",
+          "target": "CM152491.1_3251",
+          "field": "env_to",
+          "reference": 248,
+          "repeat": 249,
+          "selected_best_hit": false
+        }
+      ],
+      "max_bit_score_difference": 0.224945068359375
+    },
+    "reverse_hits.json": {
+      "hits_compared": 18152,
+      "identical_target_sets": true,
+      "changed_fields": {
+        "evalue": 8877,
+        "score": 8620,
+        "bias": 8558,
+        "dom_evalue": 8354,
+        "dom_score": 7964,
+        "env_from": 5,
+        "ali_from": 4,
+        "hmm_from": 4,
+        "env_to": 1
+      },
+      "changed_order_lists": [
+        {
+          "genome": "GCA_001753225.1",
+          "query": "CP017420.1_6476"
+        }
+      ],
+      "coordinate_differences": [
+        {
+          "genome": "ALG19_illumina",
+          "query": "ALG19_illumina_contig_18_8",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "env_from",
+          "reference": 202,
+          "repeat": 377,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "ALG19_illumina",
+          "query": "ALG19_illumina_contig_18_8",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "ali_from",
+          "reference": 207,
+          "repeat": 394,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "ALG19_illumina",
+          "query": "ALG19_illumina_contig_18_8",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "hmm_from",
+          "reference": 669,
+          "repeat": 851,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_026410155.1",
+          "query": "JAPMID010000001.1_705",
+          "target": "BAA554_hybrid_contig_1_5663",
+          "field": "env_from",
+          "reference": 373,
+          "repeat": 389,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_026410155.1",
+          "query": "JAPMID010000001.1_705",
+          "target": "BAA554_hybrid_contig_1_5663",
+          "field": "ali_from",
+          "reference": 393,
+          "repeat": 394,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_026410155.1",
+          "query": "JAPMID010000001.1_705",
+          "target": "BAA554_hybrid_contig_1_5663",
+          "field": "hmm_from",
+          "reference": 1622,
+          "repeat": 1623,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_029840545.1",
+          "query": "JAOCCS010000048.1_13",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "env_from",
+          "reference": 202,
+          "repeat": 377,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_029840545.1",
+          "query": "JAOCCS010000048.1_13",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "ali_from",
+          "reference": 207,
+          "repeat": 394,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_029840545.1",
+          "query": "JAOCCS010000048.1_13",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "hmm_from",
+          "reference": 669,
+          "repeat": 851,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_036828685.1",
+          "query": "CP109857.1_2025",
+          "target": "BAA554_hybrid_contig_1_3248",
+          "field": "env_from",
+          "reference": 27,
+          "repeat": 28,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_036828685.1",
+          "query": "CP109857.1_2025",
+          "target": "BAA554_hybrid_contig_1_3248",
+          "field": "env_to",
+          "reference": 541,
+          "repeat": 537,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_037198095.1",
+          "query": "JBBBVL010000007.1_1263",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "env_from",
+          "reference": 202,
+          "repeat": 377,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_037198095.1",
+          "query": "JBBBVL010000007.1_1263",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "ali_from",
+          "reference": 207,
+          "repeat": 394,
+          "selected_best_hit": false
+        },
+        {
+          "genome": "GCA_037198095.1",
+          "query": "JBBBVL010000007.1_1263",
+          "target": "BAA554_hybrid_contig_1_1618",
+          "field": "hmm_from",
+          "reference": 669,
+          "repeat": 851,
+          "selected_best_hit": false
+        }
+      ],
+      "max_bit_score_difference": 9.605087280273438
+    }
+  },
+  "scope": "Repeat of the deposited reconstruction, not recovered historical tables."
+}

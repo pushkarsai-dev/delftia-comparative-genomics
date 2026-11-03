@@ -1,0 +1,8 @@
+claim	manuscript_sha256	printed_lines	evidence
+Figure 4c Methods	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	379-388	reconstruction/full_panel_repeat/results/compatibility_manifest.json; reconstruction/bin/run_rbh.py
+Figure 4b Methods	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	389-396	scripts/rerun_region_search.py; data/corrected_search_evidence.json
+Figure 4a Results	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	528-532	data/knownclusterblast/BAA554_hybrid.txt; data/regions/BAA554_hybrid.gbk
+Top-match and Figure 4c Results	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	533-538	validation/current-analysis/pair-to-plot-verification.json; data/knownclusterblast_all.json
+Contig counts	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	539-540	validation/current-analysis/derived_genome_recovery.csv
+Figure 4b Results	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	541-544	data/region_gene_order_corrected.tsv
+Figure 4 caption	c8ddbbe82a4467cafd62ca653f8c8e594586ecf4ec42defde4b55400ac247ae2	640-654	docs/figure4.md; reference/figure4.pdf

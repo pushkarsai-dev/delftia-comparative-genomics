@@ -1,0 +1,375 @@
+[
+  {
+    "register": 1,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "sequencing-support-2026-10-03",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/sequencing-support-2026-10-03",
+    "assets": [
+      {
+        "name": "mgen-sequencing-support-2026-10-03.tar.gz",
+        "bytes": 24286720,
+        "digest": "sha256:edd4c377c22126def02978100c3643268e12032489dac3837743c4ff1be430d6",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/sequencing-support-2026-10-03/mgen-sequencing-support-2026-10-03.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 2,
+    "status": "external records gap; unavailable",
+    "module": null,
+    "limit": "Generic retained methods and related SRA metadata do not close the vendor QC and processing provenance gap.",
+    "next_action": "No further author-account search planned; retain the documented SeqCoast QC/processing limit."
+  },
+  {
+    "register": 3,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "18mer-crosswalk-evidence-2026-10-01",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/18mer-crosswalk-evidence-2026-10-01",
+    "assets": [
+      {
+        "name": "mgen-18mer-locus-crosswalk-2026-10-01.tar.gz",
+        "bytes": 44619765,
+        "digest": "sha256:547798f728a0d7d37d23f528e8fa28fd4d911a9e1004be91374bf69ac8b56d3b",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/18mer-crosswalk-evidence-2026-10-01/mgen-18mer-locus-crosswalk-2026-10-01.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 4,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-assembly-service-evidence-2026-10-04.tar.gz",
+        "bytes": 15018368,
+        "digest": "sha256:7581e159134ea636a0db18fe6147a61418b3a7886774f86dfbc1c27ad7975747",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-assembly-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 5,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-assembly-service-evidence-2026-10-04.tar.gz",
+        "bytes": 15018368,
+        "digest": "sha256:7581e159134ea636a0db18fe6147a61418b3a7886774f86dfbc1c27ad7975747",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-assembly-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 6,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-a6b-evidence-2026-10-04.tar.gz",
+        "bytes": 113572107,
+        "digest": "sha256:d17b0436f76509456dd464d80e8e52878dfb0d1b297ecf84b167cc151bba060b",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-a6b-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 7,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-fcs-gx-evidence-2026-10-04.tar.gz",
+        "bytes": 15429752,
+        "digest": "sha256:664d407c229b2cfd30bb045328b13576745f61d2964c8414669449e50f59e7ab",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-fcs-gx-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 8,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "panel-ani-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/panel-ani-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-panel-selection-evidence-2026-10-04.tar.gz",
+        "bytes": 3796091,
+        "digest": "sha256:169f1e5c6f0d5f7022c996ee2a4cb1c933a88d79d387971500a46609b27a1aa5",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/panel-ani-evidence-2026-10-04/mgen-panel-selection-evidence-2026-10-04.tar.gz"
+      }
+    ],
+    "manuscript_table_sources": "supporting-analysis/manuscript-tables/README.md"
+  },
+  {
+    "register": 9,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "panel-ani-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/panel-ani-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-type-strain-ani-evidence-2026-10-04.tar.gz",
+        "bytes": 9684407,
+        "digest": "sha256:aae5208e325b8ecba9d5091004737c8b958bb8fd72c0e4988fa8f1e033557883",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/panel-ani-evidence-2026-10-04/mgen-type-strain-ani-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 10,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "panel-ani-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/panel-ani-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-whole-panel-ani-evidence-2026-10-04.tar.gz",
+        "bytes": 77020601,
+        "digest": "sha256:0345ae61e571cc9314bc9249beefb8f6d5e1fde89bf6fc0e8e2c50e91acf4460",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/panel-ani-evidence-2026-10-04/mgen-whole-panel-ani-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 11,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-prediction-evidence-2026-10-04.tar.gz",
+        "bytes": 57926666,
+        "digest": "sha256:009c006db49c00a6a52521d609fa279be99a8e61d10ae400f3fd35734ff1db58",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-prediction-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 12,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-kbase-service-evidence-2026-10-04.tar.gz",
+        "bytes": 389716730,
+        "digest": "sha256:9b3f1bd213809ead02169f7c1d1e098fa0a86e6f1c8c35384de657f423939cb1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-kbase-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 13,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "18mer-crosswalk-evidence-2026-10-01",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/18mer-crosswalk-evidence-2026-10-01",
+    "assets": [
+      {
+        "name": "mgen-18mer-locus-crosswalk-2026-10-01.tar.gz",
+        "bytes": 44619765,
+        "digest": "sha256:547798f728a0d7d37d23f528e8fa28fd4d911a9e1004be91374bf69ac8b56d3b",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/18mer-crosswalk-evidence-2026-10-01/mgen-18mer-locus-crosswalk-2026-10-01.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 14,
+    "status": "exact source module integrated into main",
+    "module": "analyses/figure5"
+  },
+  {
+    "register": 15,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-kbase-service-evidence-2026-10-04.tar.gz",
+        "bytes": 389716730,
+        "digest": "sha256:9b3f1bd213809ead02169f7c1d1e098fa0a86e6f1c8c35384de657f423939cb1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-kbase-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 16,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "keyword-screen-evidence-2026-10-05",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/keyword-screen-evidence-2026-10-05",
+    "assets": [
+      {
+        "name": "mgen-keyword-screen-evidence-2026-10-05.tar.gz",
+        "bytes": 2167938,
+        "digest": "sha256:e07dcb2136cd4007c2af7ef26eeb022fdacf007d91158db1f036acfd85e73c2d",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/keyword-screen-evidence-2026-10-05/mgen-keyword-screen-evidence-2026-10-05.tar.gz"
+      }
+    ],
+    "scope": "Recovered original August keyword execution snippets and output, native family input, and September four-combination screen records. Historical runtime version pins remain limited; not a new annotation or sequence search."
+  },
+  {
+    "register": 17,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-kbase-service-evidence-2026-10-04.tar.gz",
+        "bytes": 389716730,
+        "digest": "sha256:9b3f1bd213809ead02169f7c1d1e098fa0a86e6f1c8c35384de657f423939cb1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-kbase-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 18,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "service-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/service-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-kbase-service-evidence-2026-10-04.tar.gz",
+        "bytes": 389716730,
+        "digest": "sha256:9b3f1bd213809ead02169f7c1d1e098fa0a86e6f1c8c35384de657f423939cb1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/service-evidence-2026-10-04/mgen-kbase-service-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 19,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "antismash-evidence-2026-09-30",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/antismash-evidence-2026-09-30",
+    "assets": [
+      {
+        "name": "antismash-verification-kit.zip",
+        "bytes": 44908,
+        "digest": "sha256:49a0057126de97436e82b2d9bc070991c054f0fd2b0bbe098d350448a4b74858",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/antismash-evidence-2026-09-30/antismash-verification-kit.zip"
+      },
+      {
+        "name": "final-native-results.tar.gz",
+        "bytes": 332899691,
+        "digest": "sha256:fa33d40d691bf3f6a2e33c9031f36f17bbd74cc464720913c1a047aaf8a88805",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/antismash-evidence-2026-09-30/final-native-results.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 20,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-family-search-evidence-2026-10-04.tar.gz",
+        "bytes": 565146,
+        "digest": "sha256:48b10a559c454798a9eb2b4cb18231c1cf5e1cf34cf2cc5f5074f1e9871b68da",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-family-search-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 21,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-family-search-evidence-2026-10-04.tar.gz",
+        "bytes": 565146,
+        "digest": "sha256:48b10a559c454798a9eb2b4cb18231c1cf5e1cf34cf2cc5f5074f1e9871b68da",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-family-search-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 22,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-direct-search-evidence-2026-10-04.tar.gz",
+        "bytes": 118994,
+        "digest": "sha256:6e079e9bb2ce45fd38e82d085616f42f2c9319f6ce107e7167daa370aaf1fbd1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-direct-search-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 23,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-direct-search-evidence-2026-10-04.tar.gz",
+        "bytes": 118994,
+        "digest": "sha256:6e079e9bb2ce45fd38e82d085616f42f2c9319f6ce107e7167daa370aaf1fbd1",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-direct-search-evidence-2026-10-04.tar.gz"
+      }
+    ]
+  },
+  {
+    "register": 24,
+    "status": "preserved in v1.0.0 within the stated package scope",
+    "release": "prediction-search-evidence-2026-10-04",
+    "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/prediction-search-evidence-2026-10-04",
+    "assets": [
+      {
+        "name": "mgen-naming-survey-evidence-2026-10-04.tar.gz",
+        "bytes": 19132,
+        "digest": "sha256:35c8f62271e460e819e5e9847c36834eaa6b8c6959725b4a7c820862ccb442af",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/prediction-search-evidence-2026-10-04/mgen-naming-survey-evidence-2026-10-04.tar.gz"
+      },
+      {
+        "name": "mgen-dated-negative-query-evidence-2026-10-06.tar.gz",
+        "bytes": 6076,
+        "digest": "sha256:c9520fc04426590afe3b0478a95f3d1d75ee724a3aa75b1167fa3cbf45f6942f",
+        "url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/dated-negative-query-evidence-2026-10-06/mgen-dated-negative-query-evidence-2026-10-06.tar.gz"
+      }
+    ],
+    "supplementary_release": "dated-negative-query-evidence-2026-10-06",
+    "supplementary_release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/dated-negative-query-evidence-2026-10-06",
+    "scope": "September 9 naming survey plus recovered original September 8 execution records: five UniProt returned header values, original header-query code, four full NCBI ESearch JSON bodies, and the BDT70508.1 ESummary accession link. Fresh downloads and offline checks pass.",
+    "limits": "UniProt full HTTP responses, full result bodies, status, and release/date headers were not retained; NCBI ESummary is not a full GenPept/FASTA export. Preserved dated counts resolve the earlier claim-specific evidence gap without establishing protein function or biological absence."
+  },
+  {
+    "register": 25,
+    "status": "exact source module integrated into main",
+    "module": "analyses/figure4"
+  },
+  {
+    "register": 26,
+    "status": "exact source module integrated into main",
+    "module": "analyses/figure4"
+  },
+  {
+    "register": 27,
+    "status": "Code and evidence included in v1.0.0; final manuscript proof and approval and public assembly access remain separate tasks.",
+    "modules": [
+      "analyses/figure1",
+      "analyses/figure2",
+      "analyses/figure3",
+      "analyses/figure4",
+      "analyses/figure5"
+    ],
+    "tables": {
+      "Table 1 and S2": "panel-ani-evidence-2026-10-04 / mgen-panel-selection-evidence-2026-10-04.tar.gz",
+      "Table S1": "prediction-search-evidence-2026-10-04 / mgen-family-search-evidence-2026-10-04.tar.gz",
+      "Table S3": "prediction-search-evidence-2026-10-04 / mgen-direct-search-evidence-2026-10-04.tar.gz; corrected 4 October source master and prior version preserved"
+    },
+    "archive_doi": "10.5281/zenodo.23219657",
+    "source_tag": "v1.0.0",
+    "manuscript_table_sources": "supporting-analysis/manuscript-tables/README.md"
+  },
+  {
+    "register": 28,
+    "status": "optional local diagnostic history; no dedicated deposit",
+    "module": null,
+    "limit": "No current independent manuscript claim has been identified that requires this diagnostic archive."
+  }
+]

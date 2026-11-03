@@ -1,0 +1,23 @@
+{
+  "panel_workbook_sha256": "9ba2116456ec302c511ee6b8d688c21686b3d9f92a3e7688c8464ab9b8a85743",
+  "panel_worksheet": "Panel",
+  "panel_header_row": 4,
+  "panel_source_rows": [
+    5,
+    60
+  ],
+  "selection": "Tier is T1, T2, or T3",
+  "fields": [
+    "Panel ID",
+    "Assembly accession",
+    "Strain",
+    "Species (NCBI)",
+    "GTDB call (fill)",
+    "Tier",
+    "Type material"
+  ],
+  "records": 40,
+  "tip_mapping_source_sha256": "6482d08ae7d0ecee3447e3a0eb4d39cf61b8d01f8d63088108c85b21b9679151",
+  "tip_mapping_selection": "in_panel equals yes",
+  "tip_mapping_records": 40
+}

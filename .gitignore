@@ -1,0 +1,8 @@
+# Distributed as a checksum-verified companion archive, not an ordinary Git blob.
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.venv/
+/supporting-analysis/antismash/final-native-results.tar.gz
+__pycache__/
+build/

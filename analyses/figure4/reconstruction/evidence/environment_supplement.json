@@ -1,0 +1,201 @@
+{
+ "applies_to": "the revision 1 results, which remain the authoritative evidence",
+ "why": "revision 1 recorded settings from hard-coded descriptions. These are read back from the installed API now. The 40 searches were NOT repeated.",
+ "versions_enforced": {
+  "pyhmmer": "0.12.2",
+  "pyrodigal": "3.7.1"
+ },
+ "settings_observed_from_api": {
+  "builder.seed": 42,
+  "builder.architecture": "fast",
+  "builder.weighting": "pb",
+  "builder.effective_number": "entropy",
+  "builder.prior_scheme": "alphabet",
+  "builder.popen": 0.02,
+  "builder.pextend": 0.4,
+  "builder.score_matrix": "BLOSUM62",
+  "builder.window_beta": 1e-07,
+  "pipeline.bias_filter": true,
+  "pipeline.null2": true,
+  "pipeline.seed": 42,
+  "pipeline.F1": 0.02,
+  "pipeline.F2": 0.001,
+  "pipeline.F3": 1e-05,
+  "background.uniform": false,
+  "background.L": 350
+ },
+ "settings_declared_not_readable_back": {
+  "builder.window_length": null,
+  "builder.symfrac": "0.5 (constructor default; not readable back)",
+  "builder.fragthres": "0.5 (constructor default; not readable back)",
+  "pipeline.Z": "set per search to the actual database size"
+ },
+ "per_genome_database_sizes": {
+  "ALG19_illumina": {
+   "forward_db_sequences": 6036,
+   "reverse_db_sequences": 5937
+  },
+  "ATCC13751_hybrid": {
+   "forward_db_sequences": 5657,
+   "reverse_db_sequences": 5937
+  },
+  "ATCC15668_hybrid": {
+   "forward_db_sequences": 6013,
+   "reverse_db_sequences": 5937
+  },
+  "BAA554_hybrid": {
+   "forward_db_sequences": 5937,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_001571325.1": {
+   "forward_db_sequences": 5944,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_001753225.1": {
+   "forward_db_sequences": 6591,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_009362995.1": {
+   "forward_db_sequences": 6021,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_023631505.1": {
+   "forward_db_sequences": 6488,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_023958235.1": {
+   "forward_db_sequences": 5953,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_024655835.1": {
+   "forward_db_sequences": 5813,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_026410155.1": {
+   "forward_db_sequences": 5814,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029215875.1": {
+   "forward_db_sequences": 6308,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029590315.1": {
+   "forward_db_sequences": 5885,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029814915.1": {
+   "forward_db_sequences": 6076,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029835695.1": {
+   "forward_db_sequences": 5965,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029840065.1": {
+   "forward_db_sequences": 6061,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029840545.1": {
+   "forward_db_sequences": 6108,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029841905.1": {
+   "forward_db_sequences": 6082,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029843645.1": {
+   "forward_db_sequences": 6065,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_029845385.1": {
+   "forward_db_sequences": 6392,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_032057505.1": {
+   "forward_db_sequences": 5599,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_032077925.1": {
+   "forward_db_sequences": 5553,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_034554595.1": {
+   "forward_db_sequences": 6241,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_036828685.1": {
+   "forward_db_sequences": 6095,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_037198095.1": {
+   "forward_db_sequences": 5865,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_037723885.1": {
+   "forward_db_sequences": 5634,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_039595435.1": {
+   "forward_db_sequences": 5485,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_040267515.1": {
+   "forward_db_sequences": 6513,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_043104825.1": {
+   "forward_db_sequences": 5621,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_048163855.1": {
+   "forward_db_sequences": 5826,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_050282465.1": {
+   "forward_db_sequences": 5450,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_050481505.1": {
+   "forward_db_sequences": 6646,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_055379645.1": {
+   "forward_db_sequences": 5479,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_055755135.1": {
+   "forward_db_sequences": 6323,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_056547405.1": {
+   "forward_db_sequences": 5508,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_059084005.1": {
+   "forward_db_sequences": 6015,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_059579365.1": {
+   "forward_db_sequences": 5992,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_900107225.1": {
+   "forward_db_sequences": 6463,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_900111975.1": {
+   "forward_db_sequences": 5939,
+   "reverse_db_sequences": 5937
+  },
+  "GCA_965137545.1": {
+   "forward_db_sequences": 6543,
+   "reverse_db_sequences": 5937
+  }
+ },
+ "timing_correction": {
+  "revision_1_field": "elapsed_s = 56.1",
+  "meaning": "wall time of the FINAL checkpointed invocation only, not total compute",
+  "actual": "about 13 minutes of search across checkpointed invocations, approximately 20 s per genome"
+ },
+ "profiles_deposited": "the 45 forward query profiles only (results/profiles/queries.hmm). Reverse profiles are not deposited; they are rebuilt deterministically from the forward best hits by run_rbh.py."
+}

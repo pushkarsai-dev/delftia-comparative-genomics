@@ -1,0 +1,98 @@
+{
+ "total reciprocal best hits": {
+  "got": 1774,
+  "expected": 1774,
+  "agrees": true,
+  "note": ""
+ },
+ "genome count": {
+  "got": 40,
+  "expected": 40,
+  "agrees": true,
+  "note": ""
+ },
+ "query count": {
+  "got": 45,
+  "expected": 45,
+  "agrees": true,
+  "note": ""
+ },
+ "per-genome total distribution": {
+  "got": {
+   "43": 4,
+   "44": 18,
+   "45": 18
+  },
+  "expected": {
+   "43": 4,
+   "44": 18,
+   "45": 18
+  },
+  "agrees": true,
+  "note": ""
+ },
+ "queries present in all 40 genomes": {
+  "got": 41,
+  "expected": 41,
+  "agrees": true,
+  "note": ""
+ },
+ "variable query counts": {
+  "got": [
+   25,
+   33,
+   37,
+   39
+  ],
+  "expected": [
+   25,
+   33,
+   37,
+   39
+  ],
+  "agrees": true,
+  "note": ""
+ },
+ "per-gene counts vs region002_gene_conservation.csv (45 identifiers)": {
+  "got": 0,
+  "expected": 0,
+  "agrees": true,
+  "note": "cell-level identity of historical pairs is not established"
+ },
+ "per-genome counts vs region002_rbh_matrix.csv (40 identifiers)": {
+  "got": 0,
+  "expected": 0,
+  "agrees": true,
+  "note": ""
+ },
+ "HFJBPOEG_02821 (BAA554_hybrid_contig_1_1928) recovered in all 40": {
+  "got": 40,
+  "expected": 40,
+  "agrees": true,
+  "note": ""
+ },
+ "HFJBPOEG_02843 (BAA554_hybrid_contig_1_1906) recovered in all 40": {
+  "got": 40,
+  "expected": 40,
+  "agrees": true,
+  "note": ""
+ },
+ "assemblies with the orthologs on one contig": {
+  "got": 23,
+  "expected": 23,
+  "agrees": true,
+  "note": ""
+ },
+ "assemblies spread over 2 to 5 contigs": {
+  "got": 17,
+  "expected": 17,
+  "agrees": true,
+  "note": ""
+ },
+ "contig counts vs region002_rbh_matrix.csv n_contigs": {
+  "got": 0,
+  "expected": 0,
+  "agrees": true,
+  "note": ""
+ }
+}

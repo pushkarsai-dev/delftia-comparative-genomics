@@ -1,0 +1,40 @@
+test_export (test_figure5.ExportTests.test_export) ... ok
+test_filled_gap_rejected (test_figure5.ExportTests.test_filled_gap_rejected) ... ok
+test_no_overwrite (test_figure5.ExportTests.test_no_overwrite) ... ok
+test_no_source_write (test_figure5.ExportTests.test_no_source_write) ... ok
+test_protected_destination (test_figure5.ExportTests.test_protected_destination) ... ok
+test_swapped_accessions_rejected (test_figure5.ExportTests.test_swapped_accessions_rejected) ... ok
+test_swapped_evalues_rejected (test_figure5.ExportTests.test_swapped_evalues_rejected) ... ok
+test_wrong_evalue_rejected (test_figure5.ExportTests.test_wrong_evalue_rejected) ... ok
+test_wrong_length_rejected (test_figure5.ExportTests.test_wrong_length_rejected) ... ok
+test_wrong_motif_rejected (test_figure5.ExportTests.test_wrong_motif_rejected) ... ok
+test_wrong_segment_rejected (test_figure5.ExportTests.test_wrong_segment_rejected) ... ok
+test_bad_fragment (test_figure5.SourceTests.test_bad_fragment) ... ok
+test_checksum (test_figure5.SourceTests.test_checksum) ... ok
+test_duplicate_fasta (test_figure5.SourceTests.test_duplicate_fasta) ... ok
+test_duplicate_json (test_figure5.SourceTests.test_duplicate_json) ... ok
+test_duplicate_library (test_figure5.SourceTests.test_duplicate_library) ... ok
+test_duplicate_tsv (test_figure5.SourceTests.test_duplicate_tsv) ... ok
+test_invalid_intervals (test_figure5.SourceTests.test_invalid_intervals) ... ok
+test_invalid_numbers (test_figure5.SourceTests.test_invalid_numbers) ... ok
+test_missing_json (test_figure5.SourceTests.test_missing_json) ... ok
+test_missing_signature (test_figure5.SourceTests.test_missing_signature) ... ok
+test_missing_tsv (test_figure5.SourceTests.test_missing_tsv) ... ok
+test_real_sources (test_figure5.SourceTests.test_real_sources) ... ok
+test_source_read_only (test_figure5.SourceTests.test_source_read_only) ... ok
+test_truncated_tsv (test_figure5.SourceTests.test_truncated_tsv) ... ok
+test_unknown_protein (test_figure5.SourceTests.test_unknown_protein) ... ok
+test_wrong_json_md5 (test_figure5.SourceTests.test_wrong_json_md5) ... ok
+test_wrong_json_sequence (test_figure5.SourceTests.test_wrong_json_sequence) ... ok
+test_wrong_library_version (test_figure5.SourceTests.test_wrong_library_version) ... ok
+test_wrong_tsv_coordinate (test_figure5.SourceTests.test_wrong_tsv_coordinate) ... ok
+test_wrong_tsv_date (test_figure5.SourceTests.test_wrong_tsv_date) ... ok
+test_wrong_tsv_evalue (test_figure5.SourceTests.test_wrong_tsv_evalue) ... ok
+test_wrong_tsv_ipr (test_figure5.SourceTests.test_wrong_tsv_ipr) ... ok
+test_wrong_tsv_length (test_figure5.SourceTests.test_wrong_tsv_length) ... ok
+test_wrong_tsv_md5 (test_figure5.SourceTests.test_wrong_tsv_md5) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 2.497s
+
+OK

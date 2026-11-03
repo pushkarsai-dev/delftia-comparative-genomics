@@ -1,0 +1,536 @@
+[
+  {
+    "genome": "ALG19_illumina",
+    "record": "ALG19_illumina_contig_18",
+    "genbank": "regions/ALG19_illumina.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#ALG19_illumina",
+    "cds": 32,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "ALG19_illumina_contig_18.region001.gbk"
+    ],
+    "score": 35686.0
+  },
+  {
+    "genome": "ATCC13751_hybrid",
+    "record": "ATCC13751_hybrid_contig_1",
+    "genbank": "regions/ATCC13751_hybrid.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#ATCC13751_hybrid",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "ATCC13751_hybrid_contig_1.region005.gbk"
+    ],
+    "score": 38436.0
+  },
+  {
+    "genome": "ATCC15668_hybrid",
+    "record": "ATCC15668_hybrid_contig_1",
+    "genbank": "regions/ATCC15668_hybrid.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#ATCC15668_hybrid",
+    "cds": 40,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "ATCC15668_hybrid_contig_1.region001.gbk"
+    ],
+    "score": 38538.0
+  },
+  {
+    "genome": "BAA554_hybrid",
+    "record": "BAA554_hybrid_contig_1",
+    "genbank": "regions/BAA554_hybrid.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#BAA554_hybrid",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "BAA554_hybrid_contig_1.region002.gbk"
+    ],
+    "score": 38447.0
+  },
+  {
+    "genome": "GCA_001571325.1",
+    "record": "BCTO01000081.1",
+    "genbank": "regions/GCA_001571325.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_001571325.1",
+    "cds": 7,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "BCTO01000022.1.region001.gbk",
+      "BCTO01000081.1.region001.gbk",
+      "BCTO01000082.1.region001.gbk"
+    ],
+    "score": 8740.0
+  },
+  {
+    "genome": "GCA_001753225.1",
+    "record": "CP017420.1",
+    "genbank": "regions/GCA_001753225.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_001753225.1",
+    "cds": 47,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP017420.1.region006.gbk"
+    ],
+    "score": 38079.0
+  },
+  {
+    "genome": "GCA_009362995.1",
+    "record": "CP045291.1",
+    "genbank": "regions/GCA_009362995.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_009362995.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP045291.1.region001.gbk"
+    ],
+    "score": 38326.0
+  },
+  {
+    "genome": "GCA_023631505.1",
+    "record": "JAKZJM010000036.1",
+    "genbank": "regions/GCA_023631505.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_023631505.1",
+    "cds": 10,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAKZJM010000036.1.region001.gbk"
+    ],
+    "score": 30059.0
+  },
+  {
+    "genome": "GCA_023958235.1",
+    "record": "JAMXHV010000005.1",
+    "genbank": "regions/GCA_023958235.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_023958235.1",
+    "cds": 32,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAMXHV010000005.1.region001.gbk"
+    ],
+    "score": 35536.0
+  },
+  {
+    "genome": "GCA_024655835.1",
+    "record": "JANLGP010000009.1",
+    "genbank": "regions/GCA_024655835.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_024655835.1",
+    "cds": 37,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JANLGP010000009.1.region001.gbk"
+    ],
+    "score": 38360.0
+  },
+  {
+    "genome": "GCA_026410155.1",
+    "record": "JAPMID010000001.1",
+    "genbank": "regions/GCA_026410155.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_026410155.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAPMID010000001.1.region001.gbk"
+    ],
+    "score": 34456.0
+  },
+  {
+    "genome": "GCA_029215875.1",
+    "record": "CP118775.1",
+    "genbank": "regions/GCA_029215875.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029215875.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP118775.1.region004.gbk"
+    ],
+    "score": 38518.0
+  },
+  {
+    "genome": "GCA_029590315.1",
+    "record": "CP120956.1",
+    "genbank": "regions/GCA_029590315.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029590315.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP120956.1.region007.gbk"
+    ],
+    "score": 38261.0
+  },
+  {
+    "genome": "GCA_029814915.1",
+    "record": "CP104581.1",
+    "genbank": "regions/GCA_029814915.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029814915.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP104581.1.region001.gbk"
+    ],
+    "score": 38360.0
+  },
+  {
+    "genome": "GCA_029835695.1",
+    "record": "JAOEAI010000020.1",
+    "genbank": "regions/GCA_029835695.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029835695.1",
+    "cds": 30,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOEAI010000020.1.region001.gbk"
+    ],
+    "score": 35184.0
+  },
+  {
+    "genome": "GCA_029840065.1",
+    "record": "JAOCBW010000013.1",
+    "genbank": "regions/GCA_029840065.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029840065.1",
+    "cds": 24,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOCBW010000013.1.region001.gbk",
+      "JAOCBW010000028.1.region001.gbk"
+    ],
+    "score": 11272.0
+  },
+  {
+    "genome": "GCA_029840545.1",
+    "record": "JAOCCS010000048.1",
+    "genbank": "regions/GCA_029840545.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029840545.1",
+    "cds": 16,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOCCS010000037.1.region001.gbk",
+      "JAOCCS010000048.1.region001.gbk"
+    ],
+    "score": 27940.0
+  },
+  {
+    "genome": "GCA_029841905.1",
+    "record": "JAOCFH010000023.1",
+    "genbank": "regions/GCA_029841905.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029841905.1",
+    "cds": 24,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOCFH010000023.1.region001.gbk",
+      "JAOCFH010000026.1.region001.gbk",
+      "JAOCFH010000062.1.region001.gbk"
+    ],
+    "score": 15349.0
+  },
+  {
+    "genome": "GCA_029843645.1",
+    "record": "JAOCIT010000010.1",
+    "genbank": "regions/GCA_029843645.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029843645.1",
+    "cds": 33,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOCIT010000010.1.region001.gbk"
+    ],
+    "score": 35586.0
+  },
+  {
+    "genome": "GCA_029845385.1",
+    "record": "JAOCLQ010000019.1",
+    "genbank": "regions/GCA_029845385.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_029845385.1",
+    "cds": 37,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JAOCLQ010000019.1.region001.gbk"
+    ],
+    "score": 38403.0
+  },
+  {
+    "genome": "GCA_032057505.1",
+    "record": "DAMCFF010000070.1",
+    "genbank": "regions/GCA_032057505.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_032057505.1",
+    "cds": 8,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "DAMCFF010000041.1.region001.gbk",
+      "DAMCFF010000070.1.region001.gbk"
+    ],
+    "score": 12570.0
+  },
+  {
+    "genome": "GCA_032077925.1",
+    "record": "DAMAVQ010000001.1",
+    "genbank": "regions/GCA_032077925.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_032077925.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "DAMAVQ010000001.1.region001.gbk"
+    ],
+    "score": 38535.0
+  },
+  {
+    "genome": "GCA_034554595.1",
+    "record": "CP135236.1",
+    "genbank": "regions/GCA_034554595.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_034554595.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP135236.1.region001.gbk"
+    ],
+    "score": 38518.0
+  },
+  {
+    "genome": "GCA_036828685.1",
+    "record": "CP109857.1",
+    "genbank": "regions/GCA_036828685.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_036828685.1",
+    "cds": 46,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP109857.1.region001.gbk"
+    ],
+    "score": 38914.0
+  },
+  {
+    "genome": "GCA_037198095.1",
+    "record": "JBBBVL010000007.1",
+    "genbank": "regions/GCA_037198095.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_037198095.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBBBVL010000007.1.region001.gbk"
+    ],
+    "score": 38512.0
+  },
+  {
+    "genome": "GCA_037723885.1",
+    "record": "JBBKAN010000111.1",
+    "genbank": "regions/GCA_037723885.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_037723885.1",
+    "cds": 2,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBBKAN010000042.1.region001.gbk",
+      "JBBKAN010000111.1.region001.gbk",
+      "JBBKAN010000130.1.region001.gbk"
+    ],
+    "score": 6047.0
+  },
+  {
+    "genome": "GCA_039595435.1",
+    "record": "JBCNLN010000008.1",
+    "genbank": "regions/GCA_039595435.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_039595435.1",
+    "cds": 24,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBCNLN010000008.1.region001.gbk",
+      "JBCNLN010000028.1.region001.gbk"
+    ],
+    "score": 16782.0
+  },
+  {
+    "genome": "GCA_040267515.1",
+    "record": "CP141274.1",
+    "genbank": "regions/GCA_040267515.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_040267515.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP141274.1.region001.gbk"
+    ],
+    "score": 38423.0
+  },
+  {
+    "genome": "GCA_043104825.1",
+    "record": "JBICLA010000009.1",
+    "genbank": "regions/GCA_043104825.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_043104825.1",
+    "cds": 10,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBICLA010000009.1.region001.gbk",
+      "JBICLA010000036.1.region001.gbk"
+    ],
+    "score": 24938.0
+  },
+  {
+    "genome": "GCA_048163855.1",
+    "record": "CP182417.1",
+    "genbank": "regions/GCA_048163855.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_048163855.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP182417.1.region001.gbk"
+    ],
+    "score": 38317.0
+  },
+  {
+    "genome": "GCA_050282465.1",
+    "record": "JBLZZA010000026.1",
+    "genbank": "regions/GCA_050282465.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_050282465.1",
+    "cds": 2,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBLZZA010000012.1.region001.gbk",
+      "JBLZZA010000023.1.region001.gbk",
+      "JBLZZA010000026.1.region001.gbk"
+    ],
+    "score": 6517.0
+  },
+  {
+    "genome": "GCA_050481505.1",
+    "record": "JBCNGG010000008.1",
+    "genbank": "regions/GCA_050481505.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_050481505.1",
+    "cds": 32,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "JBCNGG010000008.1.region001.gbk"
+    ],
+    "score": 35622.0
+  },
+  {
+    "genome": "GCA_055379645.1",
+    "record": "AP027205.1",
+    "genbank": "regions/GCA_055379645.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_055379645.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "AP027205.1.region001.gbk"
+    ],
+    "score": 38437.0
+  },
+  {
+    "genome": "GCA_055755135.1",
+    "record": "CM146905.1",
+    "genbank": "regions/GCA_055755135.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_055755135.1",
+    "cds": 49,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CM146905.1.region004.gbk"
+    ],
+    "score": 40324.0
+  },
+  {
+    "genome": "GCA_056547405.1",
+    "record": "CM152491.1",
+    "genbank": "regions/GCA_056547405.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_056547405.1",
+    "cds": 46,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CM152491.1.region001.gbk"
+    ],
+    "score": 37738.0
+  },
+  {
+    "genome": "GCA_059084005.1",
+    "record": "CP195181.1",
+    "genbank": "regions/GCA_059084005.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_059084005.1",
+    "cds": 40,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CP195181.1.region001.gbk"
+    ],
+    "score": 38538.0
+  },
+  {
+    "genome": "GCA_059579365.1",
+    "record": "CM184192.1",
+    "genbank": "regions/GCA_059579365.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_059579365.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CM184192.1.region001.gbk"
+    ],
+    "score": 38402.0
+  },
+  {
+    "genome": "GCA_900107225.1",
+    "record": "FNPE01000005.1",
+    "genbank": "regions/GCA_900107225.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_900107225.1",
+    "cds": 44,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "FNPE01000005.1.region001.gbk",
+      "FNPE01000052.1.region001.gbk"
+    ],
+    "score": 34390.0
+  },
+  {
+    "genome": "GCA_900111975.1",
+    "record": "FOKN01000001.1",
+    "genbank": "regions/GCA_900111975.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_900111975.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "FOKN01000001.1.region001.gbk"
+    ],
+    "score": 38447.0
+  },
+  {
+    "genome": "GCA_965137545.1",
+    "record": "CBCSDN010000008.1",
+    "genbank": "regions/GCA_965137545.1.gbk",
+    "knownclusterblast": "knownclusterblast_all.json#GCA_965137545.1",
+    "cds": 45,
+    "top_match": "BGC0000984.4",
+    "selection": "record archived in A14 region_gene_order.tsv",
+    "matching_candidate_regions": [
+      "CBCSDN010000008.1.region001.gbk"
+    ],
+    "score": 38362.0
+  }
+]

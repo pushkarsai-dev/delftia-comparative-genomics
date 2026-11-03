@@ -1,0 +1,161 @@
+[
+  {
+    "id": "HFJBPOEG_02821",
+    "length": 289,
+    "sequence_md5": "4ff384cf5794bcdc71124460591a091c",
+    "hits": [
+      {
+        "db": "Gene3D",
+        "accession": "G3DSA:3.40.50.450",
+        "start": 49,
+        "end": 287,
+        "fragments": [
+          [
+            49,
+            287
+          ]
+        ],
+        "evalue": 9e-61,
+        "evalue_scope": "location",
+        "interpro": null,
+        "description": "",
+        "library_version": "4.3.0"
+      },
+      {
+        "db": "SUPERFAMILY",
+        "accession": "SSF102405",
+        "start": 41,
+        "end": 282,
+        "fragments": [
+          [
+            41,
+            84
+          ],
+          [
+            115,
+            282
+          ]
+        ],
+        "evalue": 8.09e-51,
+        "evalue_scope": "match",
+        "interpro": null,
+        "description": "MCP/YpsA-like",
+        "library_version": "1.75"
+      },
+      {
+        "db": "Pfam",
+        "accession": "PF03641",
+        "start": 151,
+        "end": 279,
+        "fragments": [
+          [
+            151,
+            279
+          ]
+        ],
+        "evalue": 1.3e-28,
+        "evalue_scope": "location",
+        "interpro": "IPR031100",
+        "description": "LOG family",
+        "library_version": "38.2"
+      },
+      {
+        "db": "PANTHER",
+        "accession": "PTHR43393",
+        "start": 40,
+        "end": 285,
+        "fragments": [
+          [
+            40,
+            285
+          ]
+        ],
+        "evalue": 5.7e-64,
+        "evalue_scope": "match",
+        "interpro": "IPR052341",
+        "description": "LOG family pyrimidine/purine nucleotide 5'-monophosphatases",
+        "library_version": "19.0"
+      }
+    ],
+    "motif": {
+      "sequence": "PGGFGTLDE",
+      "start": 211,
+      "end": 219
+    }
+  },
+  {
+    "id": "HFJBPOEG_02843",
+    "length": 329,
+    "sequence_md5": "587e27198ff902e0c1efaf2da1f5da89",
+    "hits": [
+      {
+        "db": "Gene3D",
+        "accession": "G3DSA:3.60.130.10",
+        "start": 3,
+        "end": 320,
+        "fragments": [
+          [
+            3,
+            320
+          ]
+        ],
+        "evalue": 9.2e-98,
+        "evalue_scope": "location",
+        "interpro": "IPR042098",
+        "description": "Glutarate 2-hydroxylase superfamily",
+        "library_version": "4.3.0"
+      },
+      {
+        "db": "SUPERFAMILY",
+        "accession": "SSF51197",
+        "start": 10,
+        "end": 319,
+        "fragments": [
+          [
+            10,
+            319
+          ]
+        ],
+        "evalue": 1.28e-88,
+        "evalue_scope": "match",
+        "interpro": null,
+        "description": "Clavaminate synthase-like",
+        "library_version": "1.75"
+      },
+      {
+        "db": "Pfam",
+        "accession": "PF02668",
+        "start": 29,
+        "end": 317,
+        "fragments": [
+          [
+            29,
+            317
+          ]
+        ],
+        "evalue": 2e-47,
+        "evalue_scope": "location",
+        "interpro": "IPR003819",
+        "description": "TauD/TfdA-like domain",
+        "library_version": "38.2"
+      },
+      {
+        "db": "PANTHER",
+        "accession": "PTHR10696",
+        "start": 35,
+        "end": 323,
+        "fragments": [
+          [
+            35,
+            323
+          ]
+        ],
+        "evalue": 2.8e-40,
+        "evalue_scope": "match",
+        "interpro": "IPR050411",
+        "description": "Alpha-ketoglutarate-dependent hydroxylases",
+        "library_version": "19.0"
+      }
+    ]
+  }
+]

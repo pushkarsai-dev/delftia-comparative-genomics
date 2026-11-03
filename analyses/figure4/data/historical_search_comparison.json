@@ -1,0 +1,11 @@
+{
+  "pyhmmer": "0.12.2",
+  "E": 1e-05,
+  "parser_mode": "historical",
+  "genomes": 40,
+  "rows": 1293,
+  "archived_rows": 1293,
+  "missing": [],
+  "added": [],
+  "limitation": "Does not repeat panel-wide whole-proteome RBH search used for conservation counts."
+}

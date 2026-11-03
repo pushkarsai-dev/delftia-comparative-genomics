@@ -1,0 +1,13 @@
+{
+  "filename": "final-native-results.tar.gz",
+  "bytes": 332899691,
+  "sha256": "fa33d40d691bf3f6a2e33c9031f36f17bbd74cc464720913c1a047aaf8a88805",
+  "member_manifest": "native-output-manifest.json",
+  "member_count": 875,
+  "distribution": "GitHub evidence release asset and consolidated Zenodo archive",
+  "publication_status": "included in v1.0.0",
+  "release_tag": "antismash-evidence-2026-09-30",
+  "release_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/tag/antismash-evidence-2026-09-30",
+  "download_url": "https://github.com/pushkarsai-dev/delftia-comparative-genomics/releases/download/antismash-evidence-2026-09-30/final-native-results.tar.gz",
+  "archive_doi": "10.5281/zenodo.23219657"
+}

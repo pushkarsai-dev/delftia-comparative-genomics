@@ -1,0 +1,1 @@
+PASS: 933 source-derived gene arrows, 45 conservation bars, 20 row counts/spans, PDF polygons, 10 kb scale, embedded TrueType fonts, 170 x 220 mm, >=8 pt upright text, and identical fresh PDF/PNG rendering.

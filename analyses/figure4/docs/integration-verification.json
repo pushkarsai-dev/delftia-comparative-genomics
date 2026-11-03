@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-22",
+  "fresh_dependency_environment": true,
+  "relocated_module": true,
+  "figure_tests": 32,
+  "reconstruction_tests": 54,
+  "integration_tests": 4,
+  "skipped_tests": 0,
+  "evidence_calls_checked": 1800,
+  "evidence_matrix_cells_checked": 1800,
+  "reciprocal_best_hits": 1774,
+  "compressed_assemblies_restored_and_hashed": 40,
+  "query_fasta_verified": true,
+  "saved_repeat_genomes_checked": 6,
+  "fresh_sequence_searches_run": 0,
+  "figure_pdf_render_and_glyphs_identical": true,
+  "figure_pdf_byte_identical": false,
+  "figure_png_and_plot_data_byte_identical": true,
+  "caption_unchanged": true,
+  "reviewed_search_calculation_ast_unchanged": true,
+  "reviewed_core_byte_unchanged": true,
+  "historical_cell_pair_identity_established": false
+}

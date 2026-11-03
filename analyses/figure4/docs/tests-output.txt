@@ -1,0 +1,37 @@
+test_bad_interval (test_figure4.Geometry.test_bad_interval) ... ok
+test_bad_strand (test_figure4.Geometry.test_bad_strand) ... ok
+test_forward_arrow (test_figure4.Geometry.test_forward_arrow) ... ok
+test_head_visible (test_figure4.Geometry.test_head_visible) ... ok
+test_noncollinear_rejected (test_figure4.Geometry.test_noncollinear_rejected) ... ok
+test_reverse_arrow (test_figure4.Geometry.test_reverse_arrow) ... ok
+test_reverse_transform (test_figure4.Geometry.test_reverse_transform) ... ok
+test_short_arrow (test_figure4.Geometry.test_short_arrow) ... ok
+test_20_kcb (test_figure4.Inputs.test_20_kcb) ... ok
+test_20_tracks (test_figure4.Inputs.test_20_tracks) ... ok
+test_23_single_contig (test_figure4.Inputs.test_23_single_contig) ... ok
+test_40_panel (test_figure4.Inputs.test_40_panel) ... ok
+test_41_universal (test_figure4.Inputs.test_41_universal) ... ok
+test_45_genes (test_figure4.Inputs.test_45_genes) ... ok
+test_added_genome (test_figure4.Inputs.test_added_genome) ... ok
+test_cds_identifier_fallback (test_figure4.Inputs.test_cds_identifier_fallback) ... ok
+test_clusterblast_archive (test_figure4.Inputs.test_clusterblast_archive) ... ok
+test_conservation_sum (test_figure4.Inputs.test_conservation_sum) ... ok
+test_hash_corruption_rejected (test_figure4.Inputs.test_hash_corruption_rejected) ... ok
+test_hashes (test_figure4.Inputs.test_hashes) ... ok
+test_historical_parser_defect (test_figure4.Inputs.test_historical_parser_defect) ... ok
+test_inclusive_span (test_figure4.Inputs.test_inclusive_span) ... ok
+test_matched_lengths (test_figure4.Inputs.test_matched_lengths) ... ok
+test_original_exact_rerun (test_figure4.Inputs.test_original_exact_rerun) ... ok
+test_original_retained (test_figure4.Inputs.test_original_retained) ... ok
+test_reference_order (test_figure4.Inputs.test_reference_order) ... ok
+test_second_fallback (test_figure4.Inputs.test_second_fallback) ... ok
+test_variable_counts (test_figure4.Inputs.test_variable_counts) ... ok
+test_artist_validation (test_figure4.Render.test_artist_validation) ... ok
+test_corrupted_bar_rejected (test_figure4.Render.test_corrupted_bar_rejected) ... ok
+test_wrong_arrow_rejected (test_figure4.Render.test_wrong_arrow_rejected) ... ok
+test_wrong_scale_rejected (test_figure4.Render.test_wrong_scale_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 2.420s
+
+OK

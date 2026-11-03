@@ -1,0 +1,53 @@
+[
+  {
+    "family": "PF00282",
+    "db": "panel",
+    "n_targets": 239999,
+    "hits": []
+  },
+  {
+    "family": "PF00282",
+    "db": "panel_plus_A7B1V0",
+    "n_targets": 240000,
+    "hits": [
+      {
+        "target": "A7B1V0_TRPDC_MEDG7",
+        "evalue": 1.3177474019289505e-65,
+        "score": 225.25772094726562
+      }
+    ]
+  },
+  {
+    "family": "PF18631",
+    "db": "panel",
+    "n_targets": 239999,
+    "hits": []
+  },
+  {
+    "family": "PF18631",
+    "db": "four_references",
+    "n_targets": 4,
+    "hits": [
+      {
+        "target": "KslB_cand_E4NJY1_Kitasatospora_setae_KSE_75260",
+        "evalue": 1.0803561221789025e-54,
+        "score": 172.63681030273438
+      },
+      {
+        "target": "McbB_R4QPW9_Marinactinospora_thermotolerans",
+        "evalue": 3.569444823150033e-52,
+        "score": 164.4730224609375
+      },
+      {
+        "target": "NscbB_WP_017567978.1_Nocardiopsis_synnemataformans_DSM_44143",
+        "evalue": 2.799146479314448e-49,
+        "score": 155.0926513671875
+      },
+      {
+        "target": "KslB_cand_E4NIM4_Kitasatospora_setae_KSE_70640",
+        "evalue": 1.1174727673921958e-22,
+        "score": 68.88235473632812
+      }
+    ]
+  }
+]

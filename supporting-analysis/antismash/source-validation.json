@@ -1,0 +1,496 @@
+{
+  "final_runs": 40,
+  "gff3_replacements": 2,
+  "genomes_with_multiple_qualifying_regions": 10,
+  "qualifying_regions": 54,
+  "max_unselected_region_cds": 24,
+  "all_45_baa_query_translations_match_region_after_terminal_stop_removal": true,
+  "query_fasta_bytes_match_A11": true,
+  "json_configuration_checks": [
+    {
+      "genome": "ALG19_illumina",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "ATCC13751_hybrid",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "ATCC15668_hybrid",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "BAA554_hybrid",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_001571325.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_001753225.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_009362995.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_023631505.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_023958235.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_024655835.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_026410155.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029215875.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029590315.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029814915.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029835695.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029840065.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029840545.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029841905.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029843645.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_029845385.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_032057505.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_032077925.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_034554595.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_036828685.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_037198095.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_037723885.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_039595435.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_040267515.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_043104825.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_048163855.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_050282465.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_050481505.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_055379645.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_055755135.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_056547405.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_059084005.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_059579365.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_900107225.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_900111975.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    },
+    {
+      "genome": "GCA_965137545.1",
+      "version": "8.0.4",
+      "taxon": "bacteria",
+      "strictness": [
+        "relaxed"
+      ],
+      "active_site_finder_present": true,
+      "cluster_compare_present": true,
+      "knowncluster_present": true,
+      "subcluster_present": true
+    }
+  ],
+  "baa_clusterblast": {
+    "alignment_rows": 22,
+    "distinct_query_proteins": 20,
+    "score_sum": 38447
+  }
+}

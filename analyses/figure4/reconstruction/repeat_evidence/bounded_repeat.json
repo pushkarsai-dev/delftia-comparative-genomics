@@ -1,0 +1,66 @@
+{
+  "claim": "a BOUNDED repeat of 6 of the 40 genomes in a clean output directory with a fresh proteome cache. This is NOT an independent 40-genome repeat.",
+  "genomes": [
+    "ALG19_illumina",
+    "ATCC13751_hybrid",
+    "ATCC15668_hybrid",
+    "BAA554_hybrid",
+    "GCA_001571325.1",
+    "GCA_001753225.1"
+  ],
+  "command": "python3 bin/run_rbh.py --project-root <root> --outdir <fresh> --proteome-cache <fresh> --time-budget 80   (repeated until 6 done)",
+  "primary_run_dir": "historical temporary primary output; aggregate evidence is ../evidence",
+  "repeat_run_dir": "historical temporary repeat output; six checkpoints are in this folder",
+  "input_fingerprint_note": "both runs read the same panel40_fasta and region002.faa; hashes are in input_inventory.json",
+  "per_genome": [
+    {
+      "genome": "ALG19_illumina",
+      "primary_sha256": "1eb43d45fbde9f91f037cf7bb87cfc6e8ab3f223e973b9f731a9dc60bbbbe45b",
+      "repeat_sha256": "1eb43d45fbde9f91f037cf7bb87cfc6e8ab3f223e973b9f731a9dc60bbbbe45b",
+      "identical_json": true,
+      "rbh_primary": 44,
+      "rbh_repeat": 44
+    },
+    {
+      "genome": "ATCC13751_hybrid",
+      "primary_sha256": "b77c579fd12a88730228e79e1d86d263411c43fae3d98c3f96273d956ef98546",
+      "repeat_sha256": "b77c579fd12a88730228e79e1d86d263411c43fae3d98c3f96273d956ef98546",
+      "identical_json": true,
+      "rbh_primary": 45,
+      "rbh_repeat": 45
+    },
+    {
+      "genome": "ATCC15668_hybrid",
+      "primary_sha256": "c398d6ef215290a6aa7883203fb7dfdd882457d39a7e95742714e696be836aeb",
+      "repeat_sha256": "c398d6ef215290a6aa7883203fb7dfdd882457d39a7e95742714e696be836aeb",
+      "identical_json": true,
+      "rbh_primary": 45,
+      "rbh_repeat": 45
+    },
+    {
+      "genome": "BAA554_hybrid",
+      "primary_sha256": "7bea6d067bcc436b7c5cc6da4dbddc9575ff2ab9055aa67a36fbf8c5055096a3",
+      "repeat_sha256": "7bea6d067bcc436b7c5cc6da4dbddc9575ff2ab9055aa67a36fbf8c5055096a3",
+      "identical_json": true,
+      "rbh_primary": 45,
+      "rbh_repeat": 45
+    },
+    {
+      "genome": "GCA_001571325.1",
+      "primary_sha256": "3f711d800ef86fbc0e3f908b978711062fe44fe26f8735bd7a671de622683c02",
+      "repeat_sha256": "3f711d800ef86fbc0e3f908b978711062fe44fe26f8735bd7a671de622683c02",
+      "identical_json": true,
+      "rbh_primary": 44,
+      "rbh_repeat": 44
+    },
+    {
+      "genome": "GCA_001753225.1",
+      "primary_sha256": "c603f958580f917001aa5c51dbd62123e76b2e8fa8b6b913e8f76d5c460a9b3a",
+      "repeat_sha256": "c603f958580f917001aa5c51dbd62123e76b2e8fa8b6b913e8f76d5c460a9b3a",
+      "identical_json": true,
+      "rbh_primary": 45,
+      "rbh_repeat": 45
+    }
+  ],
+  "all_identical": true
+}

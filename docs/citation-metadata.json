@@ -1,0 +1,28 @@
+{
+  "title": "Delftia comparative genomics: analysis code and supporting evidence",
+  "creators": [
+    {
+      "name": "Pushkar Sai"
+    },
+    {
+      "name": "Carlos C. Goller"
+    }
+  ],
+  "repository": "https://github.com/pushkarsai-dev/delftia-comparative-genomics",
+  "original_code_license": "MIT",
+  "original_study_data_license": "CC-BY-4.0",
+  "scope_document": "docs/licensing-scope.md",
+  "release_status": "versioned public code and evidence release",
+  "metadata_approved": "2026-10-07",
+  "omitted_unconfirmed_fields": [
+    "ORCID",
+    "affiliations",
+    "funding"
+  ],
+  "note": "MIT covers original code and associated usage documentation. CC BY 4.0 covers original study data where the creators hold rights. Third-party material retains its original terms.",
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "doi": "10.5281/zenodo.23219657",
+  "date_released": "2026-11-03",
+  "archive": "https://doi.org/10.5281/zenodo.23219657"
+}

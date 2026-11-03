@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Cite version 1.0.0 of this software and evidence archive. The project licenses cover different components. Third-party material retains its original terms."
+type: software
+version: "1.0.0"
+date-released: 2026-11-03
+doi: "10.5281/zenodo.23219657"
+title: "Delftia comparative genomics: analysis code and supporting evidence"
+authors:
+  - family-names: Sai
+    given-names: Pushkar
+  - family-names: Goller
+    given-names: Carlos C.
+repository-code: "https://github.com/pushkarsai-dev/delftia-comparative-genomics"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Delftia
+  - comparative genomics
+  - reproducibility
+  - pangenome

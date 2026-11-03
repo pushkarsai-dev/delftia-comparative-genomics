@@ -1,0 +1,77 @@
+ERROR    02/08 16:26:09   Failed to run prodigal: -------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Metagenomic, Phase:  Training
+Initializing training files...done!
+-------------------------------------
+Request:  Metagenomic, Phase:  Gene Finding
+Finding genes in sequence #1 (5326 bp)...
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/common/record_processing.py", line 289, in ensure_cds_info
+    genefinding(sequence, options)
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/support/genefinding/__init__.py", line 98, in run_on_record
+    return run_prodigal(record)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/support/genefinding/prodigal.py", line 83, in run_prodigal
+    locations = _filter_genes(exec_prodigal(seq), record)
+                              ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/common/subprocessing/prodigal.py", line 74, in run_prodigal
+    raise RuntimeError(f"prodigal error: {result.stderr}")
+RuntimeError: prodigal error: -------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Metagenomic, Phase:  Training
+Initializing training files...done!
+-------------------------------------
+Request:  Metagenomic, Phase:  Gene Finding
+Finding genes in sequence #1 (5326 bp)...
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniforge3/envs/antismash8/bin/antismash", line 10, in <module>
+    sys.exit(entrypoint())
+             ^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/__main__.py", line 127, in entrypoint
+    sys.exit(main(sys.argv[1:]))
+             ^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/__main__.py", line 116, in main
+    return antismash.run_antismash(sequence, options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/main.py", line 683, in run_antismash
+    result = _run_antismash(sequence_file, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/main.py", line 739, in _run_antismash
+    results.records = record_processing.pre_process_sequences(results.records, options,
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/common/record_processing.py", line 449, in pre_process_sequences
+    sequences = parallel_function(partial, ([sequence] for sequence in sequences))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/site-packages/antismash/common/subprocessing/base.py", line 142, in parallel_function
+    results = jobs.get(timeout=timeout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniforge3/envs/antismash8/lib/python3.11/multiprocessing/pool.py", line 774, in get
+    raise self._value
+RuntimeError: prodigal error: -------------------------------------
+PRODIGAL v2.6.3 [February, 2016]         
+Univ of Tenn / Oak Ridge National Lab
+Doug Hyatt, Loren Hauser, et al.     
+-------------------------------------
+Request:  Metagenomic, Phase:  Training
+Initializing training files...done!
+-------------------------------------
+Request:  Metagenomic, Phase:  Gene Finding
+Finding genes in sequence #1 (5326 bp)...

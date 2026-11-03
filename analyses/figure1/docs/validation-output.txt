@@ -1,0 +1,95 @@
+==========================================================================
+1. TREE SOURCE
+  [PASS] tree digest equals pinned expected digest
+  [PASS] digest independently recomputed from disk matches
+  [PASS] 40 tips drawn  40
+
+2. HEATMAP ARTIST vs INDEPENDENT EXPECTED MATRIX
+  [PASS] plotted array equals expected matrix in every cell  1600 cells, 0 mismatched, worst |diff| 0
+  [PASS] NEGATIVE CONTROL: rejects transposed matrix  1556 cells mismatch
+  [PASS] NEGATIVE CONTROL: rejects one altered cell
+  [PASS] extent maps row i to y=i and column j to x=j+0.5  (0.0, 40.0, 39.5, -0.5)
+  [PASS] y axis puts row 1 at top
+  [PASS] normalization is 95 to 100
+  [PASS] no cell clipped by normalization  95.2958-100.0000
+  [PASS] matrix not symmetrized  max |M-M.T| 0.2122
+  [PASS] diagonal not forced to 100  min 99.9889
+
+3. ROW / COLUMN MAPPING
+  [PASS] mapping has exactly rows 1 through 40
+  [PASS] mapping row order equals the drawn key order
+  [PASS] mapping ANI names equal the plotted column order
+  [PASS] mapping tip order equals the plotted leaf order
+  [PASS] 40 unique tips, keys, panel IDs, and matrix names
+  [PASS] mapping tree digest matches the pinned tree
+  [PASS] mapping scale bar equals the drawn scale bar
+  [PASS] mapping column-label scheme equals the drawn scheme
+  [PASS] mapping deposit symbols equal the plotter's assignments
+  [PASS] mapping metadata agrees with the panel actually used for plotting
+  [PASS] saved support counts agree with the plotted clade audit  {'measured_ge_0.95': 3, 'measured_0.70_to_0.95': 17, 'measured_lt_0.70': 5, 'unreported': 10, 'root_no_value': 1}
+  [PASS] mapping CSV has 40 rows
+  [PASS] mapping CSV identifiers and order agree with JSON
+  [PASS] mapping CSV row numbers are 1 through 40
+  [PASS] mapping CSV printed-column flags agree with actual scheme
+
+4. SUPPORT MARKERS, READ FROM PLOTTED ARTISTS
+  [PASS] every plotted marker matches tree support label  20 markers, 0 disagreements
+  [PASS] classes are 3 filled, 17 open, 15 unmarked  {'open': 17, 'none': 15, 'filled': 3}
+  [PASS] NEGATIVE CONTROL: wrongly filled marker rejected
+  [PASS] 10 clades have unreported support and no numeric value
+  [PASS] saved support audit agrees with plotted clades
+
+5. LEGEND vs RENDERED MAPPING
+  [PASS] every deposit group states its rendered rows and count
+  [PASS] three-deposit group present and says '3 deposits'
+  [PASS] legend explains low and unreported support
+
+6A. SAVED EXPORTS vs FRESH IN-MEMORY EXPORTS
+  [PASS] all saved PNG pixels equal the current figure export  0 differing pixels
+  [PASS] saved PDF page count equals the current figure export
+  [PASS] all rendered PDF pixels equal current export, page 1 (200 dpi)  0 differing pixels
+  [PASS] PDF contains exactly one page
+
+6. SPARSE COLUMN LABELS
+  [PASS] labelled columns are 1, 5, 10 ... 40  [1, 5, 10, 15, 20, 25, 30, 35, 40]
+  [PASS] exactly nine specified numbers are printed under the heatmap  ['1', '5', '10', '15', '20', '25', '30', '35', '40']
+  [PASS] no collision between printed column numbers  min gap 14.64 pt = 5.17 mm
+  [PASS] a tick is drawn for all 40 columns  40 ticks at top=536.6
+
+7. PAGE GEOMETRY AND TEXT
+  [PASS] page is 170.00 x 220.00 mm  170.00 x 220.00 mm
+  [PASS] a PDF scale-bar candidate is present
+  [PASS] independent tree-scale anchors are present
+  [PASS] scale bar length matches the tree scale  27.5845 pt, expected 27.5845 pt, error -0.0000%
+  [PASS] PDF has measurable text and graphic objects
+  [PASS] nothing clipped  margins mm L0.52 R0.50 T0.30 B1.53
+  [PASS] upright text is 7 pt or larger  [8.0, 9.0, 10.0]
+  [PASS] rotated labels meet the 8 pt minimum (x-extent at 90 degrees)  measured sizes [9.0, 9.0] pt
+
+8. FONTS
+  [PASS] pdffonts exited 0  rc=0
+  [PASS] no font-type mismatch warning  clean stderr
+  [PASS] at least one font is listed  3 fonts
+  [PASS] font table is parseable
+  [PASS] every font is an approved face, explicitly embedded, and TrueType  GOFYPY+Arial-BoldMT; BWGHJF+Arial-ItalicMT; GOFYPY+ArialMT
+
+9. PNG
+  [PASS] PNG is 600 dpi at the same physical size  4015x5196px = 169.97 x 219.96 mm
+  [PASS] PNG scale bar is independently detected
+  [PASS] PDF scale-bar measurement is available for PNG comparison
+  [PASS] PNG scale bar agrees with PDF within one pixel at 600 dpi  0.16 px = 0.0068 mm
+
+10. CANONICAL CAPTION AND ALT TEXT (docs/figure1.md)
+  [PASS] caption, alt text, and Methods blocks are present  3 fenced blocks
+  [PASS] caption deposit groups match rendered mapping exactly
+  [PASS] caption states missing and low support separately
+  [PASS] caption describes the exported sparse column scheme
+  [PASS] caption scale-bar value matches mapping
+  [PASS] caption limits deposit claim rather than asserting an exhaustive audit
+  [PASS] alt text is at most 255 characters  236 characters
+  [PASS] alt text says 'sequenced or reassembled'
+  [PASS] caption paragraphs have no internal line breaks
+  [PASS] no superseded row list survives in caption  []
+
+==========================================================================
+ALL CHECKS PASSED

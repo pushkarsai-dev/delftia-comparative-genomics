@@ -1,0 +1,35 @@
+{
+  "scope": "Read-only snapshot of installed MIBiG 4.0 files on 29 September 2026. Not proof of byte identity at historical run time. Database contents not bundled; rights and exact restoration route require author review.",
+  "files": [
+    {
+      "path": "knownclusterblast/4.0/clusters.txt",
+      "bytes": 1040440,
+      "sha256": "47210c4a0af91d535f8ad3685b53b6c7d9912984721fb605dc0ef143f60e865f"
+    },
+    {
+      "path": "knownclusterblast/4.0/proteins.dmnd",
+      "bytes": 28855540,
+      "sha256": "8806ddfaf20f37e413718b8cd5994151822b750bfd377c673ddf3cf7209d40b7"
+    },
+    {
+      "path": "knownclusterblast/4.0/proteins.fasta",
+      "bytes": 28215556,
+      "sha256": "65b9a9bc8700d8fef54b80a2e57d88e7ca8e05f1b57a848bb6a5e8f47a3070b9"
+    },
+    {
+      "path": "clustercompare/mibig/4.0/data.json",
+      "bytes": 17132594,
+      "sha256": "0d5d6544b9a94564d2f9ef957a415672acf82afb00aef1ad9ac779e06f637faa"
+    },
+    {
+      "path": "clustercompare/mibig/4.0/proteins.dmnd",
+      "bytes": 26463272,
+      "sha256": "ef7beb0aca892dac14876bce423b5c29118cb4cfa12278da5d6cf3cea0793b91"
+    },
+    {
+      "path": "clustercompare/mibig/4.0/proteins.fasta",
+      "bytes": 25823288,
+      "sha256": "6cad44254d8ad7e2e735fcd15eb2e40b526150db62d8dff68001e533c5aa22d2"
+    }
+  ]
+}

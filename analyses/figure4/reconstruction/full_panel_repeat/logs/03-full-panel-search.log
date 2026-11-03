@@ -1,0 +1,82 @@
+  predicted ALG19_illumina: 6036
+  predicted ATCC13751_hybrid: 5657
+  predicted ATCC15668_hybrid: 6013
+  predicted BAA554_hybrid: 5937
+  predicted GCA_001571325.1: 5944
+  predicted GCA_001753225.1: 6591
+  predicted GCA_009362995.1: 6021
+  predicted GCA_023631505.1: 6488
+  predicted GCA_023958235.1: 5953
+  predicted GCA_024655835.1: 5813
+  predicted GCA_026410155.1: 5814
+  predicted GCA_029215875.1: 6308
+  predicted GCA_029590315.1: 5885
+  predicted GCA_029814915.1: 6076
+  predicted GCA_029835695.1: 5965
+  predicted GCA_029840065.1: 6061
+  predicted GCA_029840545.1: 6108
+  predicted GCA_029841905.1: 6082
+  predicted GCA_029843645.1: 6065
+  predicted GCA_029845385.1: 6392
+  predicted GCA_032057505.1: 5599
+  predicted GCA_032077925.1: 5553
+  predicted GCA_034554595.1: 6241
+  predicted GCA_036828685.1: 6095
+  predicted GCA_037198095.1: 5865
+  predicted GCA_037723885.1: 5634
+  predicted GCA_039595435.1: 5485
+  predicted GCA_040267515.1: 6513
+  predicted GCA_043104825.1: 5621
+  predicted GCA_048163855.1: 5826
+  predicted GCA_050282465.1: 5450
+  predicted GCA_050481505.1: 6646
+  predicted GCA_055379645.1: 5479
+  predicted GCA_055755135.1: 6323
+  predicted GCA_056547405.1: 5508
+  predicted GCA_059084005.1: 6015
+  predicted GCA_059579365.1: 5992
+  predicted GCA_900107225.1: 6463
+  predicted GCA_900111975.1: 5939
+  predicted GCA_965137545.1: 6543
+  searched ALG19_illumina: 44 RBH
+  searched ATCC13751_hybrid: 45 RBH
+  searched ATCC15668_hybrid: 45 RBH
+  searched BAA554_hybrid: 45 RBH
+  searched GCA_001571325.1: 44 RBH
+  searched GCA_001753225.1: 45 RBH
+  searched GCA_009362995.1: 45 RBH
+  searched GCA_023631505.1: 45 RBH
+  searched GCA_023958235.1: 44 RBH
+  searched GCA_024655835.1: 44 RBH
+  searched GCA_026410155.1: 43 RBH
+  searched GCA_029215875.1: 44 RBH
+  searched GCA_029590315.1: 45 RBH
+  searched GCA_029814915.1: 45 RBH
+  searched GCA_029835695.1: 44 RBH
+  searched GCA_029840065.1: 44 RBH
+  searched GCA_029840545.1: 44 RBH
+  searched GCA_029841905.1: 45 RBH
+  searched GCA_029843645.1: 45 RBH
+  searched GCA_029845385.1: 44 RBH
+  searched GCA_032057505.1: 44 RBH
+  searched GCA_032077925.1: 45 RBH
+  searched GCA_034554595.1: 44 RBH
+  searched GCA_036828685.1: 44 RBH
+  searched GCA_037198095.1: 44 RBH
+  searched GCA_037723885.1: 44 RBH
+  searched GCA_039595435.1: 44 RBH
+  searched GCA_040267515.1: 45 RBH
+  searched GCA_043104825.1: 44 RBH
+  searched GCA_048163855.1: 45 RBH
+  searched GCA_050282465.1: 43 RBH
+  searched GCA_050481505.1: 44 RBH
+  searched GCA_055379645.1: 45 RBH
+  searched GCA_055755135.1: 43 RBH
+  searched GCA_056547405.1: 45 RBH
+  searched GCA_059084005.1: 45 RBH
+  searched GCA_059579365.1: 45 RBH
+  searched GCA_900107225.1: 43 RBH
+  searched GCA_900111975.1: 45 RBH
+  searched GCA_965137545.1: 44 RBH
+
+total reciprocal best hits: 1774

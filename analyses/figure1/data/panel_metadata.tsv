@@ -1,0 +1,41 @@
+Panel ID	Assembly accession	Strain	Species (NCBI)	GTDB call (fill)	Tier	Type material
+ALG19	Zenodo 10.5281/zenodo.21651127 (assembly); reads SRR31881480	ALG19	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.53%, AF 0.899)	T1	—
+BAA554	this study — accession pending	ATCC BAA-554 (= T7, type strain)	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 100.0%, AF 1.0)	T1	—
+BL-MMS-01	GCA_056547405.1	BL-MMS-01	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.39%, AF 0.883)	T1	
+BR1R2	GCA_055379645.1	BR1R2	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.52%, AF 0.902)	T1	
+CM13	GCA_001753225.1	CM13	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.52%, AF 0.909)	T1	
+Dt1S33	GCA_048163855.1	Dt1S33	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.28%, AF 0.875)	T1	
+Ery-6A	GCA_029590315.1	Ery-6A	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.56%, AF 0.925)	T1	
+GD03927	GCA_029814915.1	GD03927	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.44%, AF 0.905)	T1	
+GSK_TC1	GCA_036828685.1	GSK TC1	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.55%, AF 0.883)	T1	
+HA60	GCA_034554595.1	HA60	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.45%, AF 0.895)	T1	
+NBRC16741	GCA_001571325.1	NBRC 16741	Delftia tsuruhatensis NBRC 16741	Comamonas tsuruhatensis (GTDB R214; ANI 100.0%, AF 0.996)	T1	YES — type material
+TR1180	GCA_009362995.1	TR1180	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.35%, AF 0.891)	T1	
+ULwDis3	GCA_029215875.1	ULwDis3	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.47%, AF 0.891)	T1	
+W19	GCA_059579365.1	W19	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.54%, AF 0.899)	T1	
+WW34	GCA_055755135.1	WW34	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.42%, AF 0.894)	T1	
+161/1	GCA_023631505.1	161/1	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.43%, AF 0.891)	T2	
+3.2.44	GCA_024655835.1	3.2.44	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.65%, AF 0.887)	T2	
+45.2.2	GCA_023958235.1	45.2.2	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.59%, AF 0.875)	T2	
+CIP111669	GCA_965137545.1	CIP111669	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.48%, AF 0.897)	T2	
+GCA_032057505.1	GCA_032057505.1	na	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.6%, AF 0.896)	T2	
+GCA_032077925.1	GCA_032077925.1	na	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.54%, AF 0.909)	T2	
+GCA_039595435.1	GCA_039595435.1	na	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.5%, AF 0.905)	T2	
+GCA_050282465.1	GCA_050282465.1	na	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.22%, AF 0.902)	T2	
+GD03640	GCA_029845385.1	GD03640	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.58%, AF 0.88)	T2	
+GD03716	GCA_029843645.1	GD03716	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.48%, AF 0.892)	T2	
+GD03808	GCA_029841905.1	GD03808	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.48%, AF 0.899)	T2	
+GD03878	GCA_029840545.1	GD03878	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.55%, AF 0.891)	T2	
+GD03900	GCA_029840065.1	GD03900	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.46%, AF 0.898)	T2	
+GD04115	GCA_029835695.1	GD04115	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.44%, AF 0.873)	T2	
+I4-RSP	GCA_037198095.1	I4-RSP	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.56%, AF 0.895)	T2	
+LMG 29104	GCA_900111975.1	LMG 29104	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 100.0%, AF 1.0)	T2	
+MR-6/3H	GCA_026410155.1	MR-6/3H	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.55%, AF 0.884)	T2	
+NRS-1369	GCA_050481505.1	NRS-1369	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.49%, AF 0.9)	T2	
+RIT_BL10	GCA_037723885.1	RIT_BL10	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 97.76%, AF 0.867)	T2	
+WSY_8	GCA_043104825.1	WSY_8	Delftia tsuruhatensis	Comamonas tsuruhatensis (GTDB R214; ANI 98.66%, AF 0.926)	T2	
+ATCC13751_own	this study — accession pending	ATCC 13751	Delftia acidovorans	Comamonas acidovorans (GTDB R214; ANI 98.15%, AF 0.923)	T3	
+ATCC15668_own	GCA_060658745.1	ATCC 15668 (= 2167 = DSM 39 = NBRC 14950)	Delftia acidovorans	Comamonas acidovorans (GTDB R214; ANI 100.0%, AF 0.999)	T3	YES — type material
+DSM 21246	GCA_040267515.1	DSM 21246	Delftia lacustris	Comamonas tsuruhatensis (GTDB R214; ANI 98.27%, AF 0.894)	T2	YES — type material
+DSM 39	GCA_059084005.1	DSM 39	Delftia acidovorans	Comamonas acidovorans (GTDB R214; ANI 100.0%, AF 0.999)	T3	YES — type material
+LMG 24775	GCA_900107225.1	LMG 24775	Delftia lacustris	Comamonas tsuruhatensis (GTDB R214; ANI 98.36%, AF 0.884)	T2	YES — type material

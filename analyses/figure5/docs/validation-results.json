@@ -1,0 +1,19 @@
+{
+  "signatures": 8,
+  "matched_segments": 9,
+  "protein_lengths": [
+    289,
+    329
+  ],
+  "motif": [
+    211,
+    219
+  ],
+  "minimum_font_pt": 7.5,
+  "page_mm": [
+    170,
+    160
+  ],
+  "embedded_truetype": true,
+  "alt_text_characters": 215
+}

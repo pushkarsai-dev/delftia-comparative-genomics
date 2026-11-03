@@ -1,0 +1,35 @@
+{
+ "python": "3.10.12",
+ "platform": "Linux-6.8.0-138-generic-aarch64-with-glibc2.35",
+ "pyhmmer": "0.12.2",
+ "pyrodigal": "3.7.1",
+ "seed": 42,
+ "e_threshold": 1e-05,
+ "reverse_db": "proteome",
+ "n_reverse_db_sequences": 5937,
+ "builder_defaults": {
+  "architecture": "fast",
+  "weighting": "pb",
+  "effective_number": "entropy",
+  "prior_scheme": "alphabet",
+  "popen": 0.02,
+  "pextend": 0.4,
+  "score_matrix": "BLOSUM62",
+  "window_beta": 1e-07,
+  "seed": 42
+ },
+ "pipeline_settings": {
+  "bias_filter": true,
+  "null2": true,
+  "F1": 0.02,
+  "F2": 0.001,
+  "F3": 1e-05,
+  "seed": 42,
+  "Z": "actual database size per search"
+ },
+ "background": {
+  "uniform": false,
+  "L": 350
+ },
+ "elapsed_s": 56.1
+}

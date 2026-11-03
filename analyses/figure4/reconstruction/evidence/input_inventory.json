@@ -1,0 +1,170 @@
+{
+ "note": "SHA-256 of the assembly FASTA bytes actually read. A proteome hash alone does not identify these.",
+ "panel_dir": "A3 antiSMASH Local (2 Aug 2026)/panel40_fasta",
+ "query_fasta": {
+  "path": "A11 Region Synteny (19 Aug 2026)/region002.faa",
+  "sha256": "b819c735c890ac49474fe9413324225f534af2d8d322c7866eba0c587327ae99"
+ },
+ "assemblies": {
+  "ALG19_illumina": {
+   "sha256": "a0a10d338ec78d714ae17e1c805a9e87818d30e9f6dd8816230f244f943b9109",
+   "bytes": 6822686
+  },
+  "ATCC13751_hybrid": {
+   "sha256": "6430e0252365f1e1fcbd3fad0d9e63fdb9570be133ff875fd385270f2b48fa2f",
+   "bytes": 6564940
+  },
+  "ATCC15668_hybrid": {
+   "sha256": "ce51311242b12d9497bea3192565936f5a02f2f55be99b5924af9bb6778bba9d",
+   "bytes": 6910102
+  },
+  "BAA554_hybrid": {
+   "sha256": "6d67fcdbe48d2003f0f4e873df2baba2dbcbd1affafd7208752e612d235f202b",
+   "bytes": 6808537
+  },
+  "GCA_001571325.1": {
+   "sha256": "21df951b8ba1c44c1dd9596b189faaf735ba9fe47745213ed28259af939e8829",
+   "bytes": 6705966
+  },
+  "GCA_001753225.1": {
+   "sha256": "7522a570631ae39e4b21c0fd8e471dac59e3ce8135c7f720770816b25ff7da87",
+   "bytes": 7285737
+  },
+  "GCA_009362995.1": {
+   "sha256": "a056f64324f34152232eb1191233c0a86e3856ab1e80d0f92d1ccfe968d45866",
+   "bytes": 6794982
+  },
+  "GCA_023631505.1": {
+   "sha256": "28bb42780654d8eea1690471bf5e772cf90abc4d04d87ee37be0ed50ae221e79",
+   "bytes": 7187227
+  },
+  "GCA_023958235.1": {
+   "sha256": "e7bcac5611e13bdd9c26c6a4653ae3e0ce7a1a4693cd3a4e8569943295728368",
+   "bytes": 6707574
+  },
+  "GCA_024655835.1": {
+   "sha256": "032edaabe29dde376376b0b8f92e39cc6cb69ee8a85c46e09a0da71de793ee34",
+   "bytes": 6566699
+  },
+  "GCA_026410155.1": {
+   "sha256": "55a1f897b5bbe3ccfd1ee404c0a4e9897506091553304df10decb3738e717691",
+   "bytes": 6555219
+  },
+  "GCA_029215875.1": {
+   "sha256": "f1ec957c8bd374a5e607f1581f6dd4e2ab0f81cc8e7d8d3015bf3515c3c2b78a",
+   "bytes": 7030960
+  },
+  "GCA_029590315.1": {
+   "sha256": "2c927da496faf7391536705b7dbcf444eab308cd80e34cac6b88c0fe08ac1bef",
+   "bytes": 6768582
+  },
+  "GCA_029814915.1": {
+   "sha256": "c4973b062cfb31ba58fef20a097ec09146bbeb59295ac4891ae20810dffb3f9d",
+   "bytes": 6897710
+  },
+  "GCA_029835695.1": {
+   "sha256": "71dda6701d1fa508c6f9667a3049c4620d6bccd49a6755c9e0e2b429e71dc87d",
+   "bytes": 6687248
+  },
+  "GCA_029840065.1": {
+   "sha256": "2c67e4b6f9b9e30c9cc840a57e7c3b2490be692e8ba610348cb42afb019b498a",
+   "bytes": 6823103
+  },
+  "GCA_029840545.1": {
+   "sha256": "50063e29c9dce22994f2ede438303349a023960f842d66fa29a10eb49d5cbd60",
+   "bytes": 6824058
+  },
+  "GCA_029841905.1": {
+   "sha256": "99f14365fe962a8466960fd6b0fde8a01356e0c02f74824e5a1d6291f96af7a4",
+   "bytes": 6816987
+  },
+  "GCA_029843645.1": {
+   "sha256": "674d1f554fa79fbc8cb1fcbdfc8f8b2e96e00e817bdc896b1684985fbe1635a2",
+   "bytes": 6824149
+  },
+  "GCA_029845385.1": {
+   "sha256": "93715d4426c726da75879ca6452964d78d6da449f286ab5d27f654f8b2c5dea5",
+   "bytes": 7054563
+  },
+  "GCA_032057505.1": {
+   "sha256": "c02c5309bb0493b73115ca49c92b54b894d8d5768b7b4248abf806f6809e818f",
+   "bytes": 6301665
+  },
+  "GCA_032077925.1": {
+   "sha256": "1ed31f08e5e8c4149b4a2660632cab1f478776d34e51aa290dd8e07d0d7cd05f",
+   "bytes": 6357642
+  },
+  "GCA_034554595.1": {
+   "sha256": "df4c2edfa294c8c81d8797267b125caf1a55d051f164a0ee1799eca17ad0a1b0",
+   "bytes": 7008797
+  },
+  "GCA_036828685.1": {
+   "sha256": "ee77caddcbade52141ccae0f3613233e62bf01f585fcc163418f05dfe69a283a",
+   "bytes": 6843800
+  },
+  "GCA_037198095.1": {
+   "sha256": "dfd5a8c3613bf74558f86633e5e742574531caca2c77425a5a48ba1f0df887d0",
+   "bytes": 6711254
+  },
+  "GCA_037723885.1": {
+   "sha256": "0f93036415096b6c533abd9d1d2d52fa6cd3ef4e888e8dd5f1185db9ffe3c7e2",
+   "bytes": 6440538
+  },
+  "GCA_039595435.1": {
+   "sha256": "0b8f035536f5ea58f690657016ad0fdb882312fb298412d8112d616d914ef2c8",
+   "bytes": 6247711
+  },
+  "GCA_040267515.1": {
+   "sha256": "71043b58c22bae74e58c140f9b5c05a45d2a9da346fd77f4445e982cc9d74ef9",
+   "bytes": 7358295
+  },
+  "GCA_043104825.1": {
+   "sha256": "7b9524903490c63d167c6d9494e41259ae3838b56946129138760d82e670bd7c",
+   "bytes": 6371367
+  },
+  "GCA_048163855.1": {
+   "sha256": "eafe0083cc5680aca471789c510ec79552ed7e42c242939e618689437f6b5b57",
+   "bytes": 6623861
+  },
+  "GCA_050282465.1": {
+   "sha256": "a30728ceb8a067f26105ac377f041a39bfed6357189f5341cf85c87fb5aef7cc",
+   "bytes": 6235063
+  },
+  "GCA_050481505.1": {
+   "sha256": "430c6412b0afd741f1e1e1ed0fd56f807a6d9f92d7bab1de35273fe77ab07cc2",
+   "bytes": 7394096
+  },
+  "GCA_055379645.1": {
+   "sha256": "33351df37db61074a25281c9c0b2b66057e7c7306ce4832fdce63156a140d03f",
+   "bytes": 6278088
+  },
+  "GCA_055755135.1": {
+   "sha256": "b6d307be967f9b24f0040ed57af08e2a5d570ea94f6bcfdfb6884f4dfdc1aa06",
+   "bytes": 7032371
+  },
+  "GCA_056547405.1": {
+   "sha256": "2d682a908bd1c69e1945d55b38c0bb673b97ef515b00508c527448e1cea2d0d8",
+   "bytes": 6356429
+  },
+  "GCA_059084005.1": {
+   "sha256": "42ace7e71260c56560d0bdf20c27398f630080e703bc22ddc39a65f3abba895b",
+   "bytes": 6881721
+  },
+  "GCA_059579365.1": {
+   "sha256": "3f73c0bd63a49325a6bc5f5c850df92a74ec1dc7032366a1c5a22c8afd620262",
+   "bytes": 6828297
+  },
+  "GCA_900107225.1": {
+   "sha256": "dc2644dce7692f17118dfdfc365a4c62abfb707060cbcc56ea2045759a6c6410",
+   "bytes": 7273659
+  },
+  "GCA_900111975.1": {
+   "sha256": "8e17803201d27792381fb616b2fdbbb4557b0db4d68cf5d2a518fb278826f696",
+   "bytes": 6728370
+  },
+  "GCA_965137545.1": {
+   "sha256": "fabac8d6203e2557f7c158f0e0d949124de90ce5ba2f4025f997ebf721bff2aa",
+   "bytes": 7192231
+  }
+ }
+}

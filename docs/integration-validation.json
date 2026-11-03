@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-07",
+  "status": "integrated into main on 6 October 2026",
+  "tests_passed": 231,
+  "module_files_exact_source_blobs": 369,
+  "per_suite": [
+    {
+      "suite": "figure1-tests",
+      "passed": 29
+    },
+    {
+      "suite": "figure2-tests",
+      "passed": 35
+    },
+    {
+      "suite": "figure3-tests",
+      "passed": 27
+    },
+    {
+      "suite": "figure4-tests",
+      "passed": 42
+    },
+    {
+      "suite": "figure4-reconstruction-tests",
+      "passed": 63
+    },
+    {
+      "suite": "figure5-tests",
+      "passed": 35
+    }
+  ],
+  "environment": "Existing separate module environments, Python 3.12.14; no clean dependency installation. No full-panel scientific computation.",
+  "scope": "Five figure modules and antiSMASH support in tree; other analysis code/data remain checksum-pinned release assets across eight private prereleases (44 assets). Items 16 and 24 are privately deposited within their stated preserved scopes.",
+  "fresh_clone": "Reviewed head was fresh-cloned before merge. The merged main source was freshly downloaded and verified byte-identical to that reviewed head; receipts are retained separately.",
+  "test_applicability": "The 231 tests passed for the 5 October integration candidate. Subsequent changes affect documentation, licensing metadata, and checksum manifests. Scientific code, input data, tests, and reference outputs remain unchanged; the 231 tests were not repeated for documentation-only changes.",
+  "merge_commit": "1fdfbb38e0ab638415d87d9783ced2d8fddef47b",
+  "tests_verified_at": "2026-10-05",
+  "status_updated_at": "2026-10-07",
+  "metadata_update": "Approved creators and component-specific licenses; public release on hold. Scientific source files unchanged; no test or manuscript-validation rerun.",
+  "module_files_exact_source_blobs_scope": "Historical integration candidate verified on 5 October 2026; see documentation_update for the current source-map comparison.",
+  "documentation_update": {
+    "date": "2026-10-07",
+    "original_source_map_files": 369,
+    "current_exact_original_source_blobs": 360,
+    "changed_documentation_and_manifest_files": 9,
+    "override_map": "integration-sources.json#documentation_update",
+    "scientific_files_unchanged": true
+  },
+  "release_documentation_note": "The October results are historical. See integration-sources.json#release_documentation_update for the v1.0.0 comparison."
+}

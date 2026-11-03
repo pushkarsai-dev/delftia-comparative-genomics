@@ -1,0 +1,6 @@
+route:            conda (bioconda)
+environment:      antismash8
+antismash:        antiSMASH 8.0.4
+conda subdir:     osx-64 (Rosetta on arm64)
+host:             macOS 26.5.2, arm64
+created:          2026-08-02 15:51:02 EDT

@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-22",
+  "scope": "Validation after packaging the completed full-panel repeat; no new searches during packaging",
+  "figure_tests": 32,
+  "reconstruction_integration_comparison_tests": 63,
+  "total_tests": 95,
+  "failures": 0,
+  "skips": 0,
+  "primary_evidence_validator": "ACCEPTED: 1774 reciprocal best hits",
+  "full_repeat_evidence_validator": "ACCEPTED: 1774 reciprocal best hits",
+  "saved_comparison_recomputed": true,
+  "figure_inputs_changed": false,
+  "reference_pdf_png_changed": false,
+  "caption_changed": false,
+  "search_runner_changed": false,
+  "original_evidence_changed": false
+}

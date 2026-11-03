@@ -1,0 +1,23 @@
+# Tested with Python 3.12.14 on macOS arm64. Includes optional upstream-search dependencies.
+archspec==0.2.6
+cffi==2.1.1
+charset-normalizer==3.5.1
+contourpy==1.4.0
+cryptography==50.0.1
+cycler==0.12.1
+fonttools==4.65.0
+kiwisolver==1.5.1
+matplotlib==3.10.9
+numpy==2.2.6
+packaging==26.3
+pdfminer.six==20260107
+pdfplumber==0.11.10
+pillow==12.3.0
+psutil==7.2.2
+pycparser==3.0
+pyhmmer==0.12.2
+pyparsing==3.3.2
+pypdfium2==5.13.0
+pyrodigal==3.7.1
+python-dateutil==2.9.0.post0
+six==1.17.0

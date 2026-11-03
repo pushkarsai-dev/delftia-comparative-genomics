@@ -1,0 +1,11 @@
+{
+  "accumulation_curve.tsv": "cefa0af269119f5846deb27f37a18e34d1bcf84605b0f4a6afbb0f02edb52cb0",
+  "families.tsv": "3a207fd6c4c4241936bb8bc56dd8e4cfda60af80beef6152b67ed2241bdda2ef",
+  "genome_name_map.tsv": "9cb135f976645960d57a1c1f0de2f844ccdd9a8c1e251535a39fe2474f2ad9a7",
+  "node_table.tsv": "e93d4a42bda1a8915bf12279f64e61e0884300295a5ee7ddf89ba20b90bbf66c",
+  "pan_phylo_table.tsv": "73b3819ada5525d1150ba1ddff1c91b769ca93963d364bd48b71fb319d925a80",
+  "pangenome.json.gz": "c5754b994e7379086254a43396728baea95c17cbb50021fd7189191519b0746d",
+  "presence_absence.tsv": "82f5785f3a944a3687ff5b844260da5140dbbd1e16d968d2be4f1e03a547d2c5",
+  "tree_40tips_corrected.newick": "ace5e0da9aa2ebcd4689a95d81d4f3f4f2bb4b77a950603f6c5b5c27e456498a",
+  "tree_40tips_historical.json": "6b3aa4a0c90e5a4df31c2572688d08bbdb77bceb92f18da64ecfe3b2b7543ec9"
+}

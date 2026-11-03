@@ -1,0 +1,1 @@
+PASS: 440 matrix cells, labels, raw-hit counts, and exported PDF numbers; 170 x 220 mm; no clipped text; embedded TrueType; fresh PDF/PNG renders identical.

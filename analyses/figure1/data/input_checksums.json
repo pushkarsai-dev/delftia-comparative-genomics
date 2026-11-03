@@ -1,0 +1,9 @@
+{
+  "data/ani40_matrix.tsv": "2dcf2f26b2b4d6970a4462f3f4a56c8607d4117ba3fc97155e7cace0dc227b1f",
+  "data/metadata_extraction.json": "e2682ca3deec61a3f90c9a33f0004faa2964483c94a8f18505572f92b2c62a5b",
+  "data/panel_metadata.tsv": "f030ef9b84541b4c3a3f2ff149cd45359494a462f7883754305ed539d37c6f94",
+  "data/tip_mapping.tsv": "623bbc24ace838091619aa055b24a76242c8fd23964ba9b80ed0ad8eb629df0d",
+  "data/tree_40tips_corrected.newick": "ace5e0da9aa2ebcd4689a95d81d4f3f4f2bb4b77a950603f6c5b5c27e456498a",
+  "data/tree_40tips_historical.newick": "50434f444fe492d650afcffac44f8dad9dd46faa941a626df6233c56d9589a00",
+  "data/tree_41tips_source.newick": "bfb0dbb2118b3cfcb974a2e8644609b9bf616585f3368722c0e487f1db7159b3"
+}

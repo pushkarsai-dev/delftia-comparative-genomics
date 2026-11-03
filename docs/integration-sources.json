@@ -1,0 +1,2351 @@
+{
+  "date": "2026-10-05",
+  "status": "Source-map snapshot prepared for the 5 October integration candidate; source identities below are preserved. PR #5 merged into main on 6 October 2026.",
+  "branches": {
+    "figure2-review": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+    "figure3-review": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+    "figure4-current-analysis": "0a1446eed2c817a5600bb0a08693a948b568b3da",
+    "figure4-review": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+    "figure5-review": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+    "main": "68dc52bcc35c85c2da6c2fb2be2189120be210b3"
+  },
+  "files": [
+    {
+      "path": "analyses/figure1/README.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "37c64b93ef85b644967abc1d56f93f88a17f4538"
+    },
+    {
+      "path": "analyses/figure1/data/ani40_matrix.tsv",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "a42d69e4819b5e77919194984a3cacd893360005"
+    },
+    {
+      "path": "analyses/figure1/data/input_checksums.json",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "2dedea15acb887e5a9a6485033a249754786e513"
+    },
+    {
+      "path": "analyses/figure1/data/metadata_extraction.json",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "7d82c6e99e3788723c4d55bef022e3c03bdacaf5"
+    },
+    {
+      "path": "analyses/figure1/data/panel_metadata.tsv",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "7c04cd6ee506d5c95dd7ac73613accfe6a52aa6e"
+    },
+    {
+      "path": "analyses/figure1/data/tip_mapping.tsv",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "f3ecdb4377b85282b85d9763a56b820a98e569ba"
+    },
+    {
+      "path": "analyses/figure1/data/tree_40tips_corrected.newick",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "95fa0d0f8a1018f8e99a9e4dad65ca471b6bad1c"
+    },
+    {
+      "path": "analyses/figure1/data/tree_40tips_historical.newick",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "376a6042f567e5999a734273b631f7b7121dfc1a"
+    },
+    {
+      "path": "analyses/figure1/data/tree_41tips_source.newick",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "bd514141636474b74b36416a28b75e270afc91a6"
+    },
+    {
+      "path": "analyses/figure1/docs/data-dictionary.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "a4e6abd25eedf4fce5a27c608e1816bb40e2fa01"
+    },
+    {
+      "path": "analyses/figure1/docs/figure1.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "84e63faf9b04a2f87dc98824fd3264ae27b0fdbc"
+    },
+    {
+      "path": "analyses/figure1/docs/methods-record.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "76be40c9454822f76d99725bc37545fbc0e8b832"
+    },
+    {
+      "path": "analyses/figure1/docs/provenance.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "2ae5ee047c1b9b38d83454b0aa8fbdf8ee4945f2"
+    },
+    {
+      "path": "analyses/figure1/docs/reorganization-tests.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "a78e47fc4ae80fa211af79553254fc80aa5a9915"
+    },
+    {
+      "path": "analyses/figure1/docs/reorganization-validation.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "9d53aee640bb0d76d59619cdad63bf7fb53f9c58"
+    },
+    {
+      "path": "analyses/figure1/docs/test-output.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "36b7a2525cf6f8d427100573e1ec0183f1b92ebc"
+    },
+    {
+      "path": "analyses/figure1/docs/validation-output.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "3d5affd47184e1b6ed91c9d44ea42d3177fe9ab7"
+    },
+    {
+      "path": "analyses/figure1/docs/validation.md",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "ba38aafa73e2fb3d5a8366dfc2c519afc412765f"
+    },
+    {
+      "path": "analyses/figure1/reference/figure1.pdf",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "47c15497767c53bb4416eeb3347d085e324982fd"
+    },
+    {
+      "path": "analyses/figure1/reference/figure1.png",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "637bf9049253d1fb0c010d84502aa9e2dc267b09"
+    },
+    {
+      "path": "analyses/figure1/reference/rebuild_report.json",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "a890bdff19232ef57a81369490314140fb145756"
+    },
+    {
+      "path": "analyses/figure1/reference/row_mapping.csv",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "8c66d3282caf7c5752d4c1722afe642aad88451a"
+    },
+    {
+      "path": "analyses/figure1/reference/support_audit.csv",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "5fecc08087e9cd6b4711a25ea7ce7b13fa0d749d"
+    },
+    {
+      "path": "analyses/figure1/requirements-lock.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "c8fd5b9dc0634b790a464d7242b18d5fcc6324bc"
+    },
+    {
+      "path": "analyses/figure1/requirements.txt",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "2c075d27728333b2fe5b5dd193a6dc010798d667"
+    },
+    {
+      "path": "analyses/figure1/scripts/plot_figure1.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "cad213d2e07a2d048353082dec327f6d792c2394"
+    },
+    {
+      "path": "analyses/figure1/scripts/rebuild_tree.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "c6c3f1eaf0941e45e69258b3093e92cbbc71f7bf"
+    },
+    {
+      "path": "analyses/figure1/scripts/validate_figure1.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "abc5f39a74d4c340480c446db55748795dc8d36b"
+    },
+    {
+      "path": "analyses/figure1/scripts/verify_inputs.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "6eaef1b3378b913467570aaf9082b2b3725f2da8"
+    },
+    {
+      "path": "analyses/figure1/tests/test_export_integrity.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "5842b8049a3fdd12c3ffd16c0426e51b1579e6aa"
+    },
+    {
+      "path": "analyses/figure1/tests/test_input_integrity.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "25758f141af1387ad1eec02835c81dfaeb707903"
+    },
+    {
+      "path": "analyses/figure1/tests/test_tree_correction.py",
+      "source_branch": "main",
+      "source_commit": "68dc52bcc35c85c2da6c2fb2be2189120be210b3",
+      "git_blob_sha": "a5a2dd4070f7168e0b981367091e49b18d3a7879"
+    },
+    {
+      "path": "analyses/figure2/README.md",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "42aa62046170f5bdb476db3c55e5f70da13d0675"
+    },
+    {
+      "path": "analyses/figure2/data/accumulation_curve.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "d15f7176ae5dd08a123a07ba14026ff1deed4e48"
+    },
+    {
+      "path": "analyses/figure2/data/families.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "b3bd69a95cc6670c73a0bb4b229f4e07647f4b09"
+    },
+    {
+      "path": "analyses/figure2/data/genome_name_map.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "7bc87eba439e1708a31d85d8647bcc2b0e035b49"
+    },
+    {
+      "path": "analyses/figure2/data/input_checksums.json",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "e55babfead091e8a2834f225af258a08045912b7"
+    },
+    {
+      "path": "analyses/figure2/data/node_table.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "23badbccb54f0bae1980da7dc58558ae19784d80"
+    },
+    {
+      "path": "analyses/figure2/data/pan_phylo_table.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "d94bbdf945bd4b916a93a05623e8cb2da24c2f02"
+    },
+    {
+      "path": "analyses/figure2/data/pangenome.json.gz",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "3b21ba2ee7678cc84715fe00650881c87169d7a1"
+    },
+    {
+      "path": "analyses/figure2/data/presence_absence.tsv",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "1a5363e01e0eba64a648be6cb80581538648a00f"
+    },
+    {
+      "path": "analyses/figure2/data/tree_40tips_corrected.newick",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "95fa0d0f8a1018f8e99a9e4dad65ca471b6bad1c"
+    },
+    {
+      "path": "analyses/figure2/data/tree_40tips_historical.json",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "68ebdf3e4870d5f4f1e5d24bdd31d76f846c531f"
+    },
+    {
+      "path": "analyses/figure2/docs/figure2.md",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "5a1a7df06f1a52c902a402c7d85d0bd6b162e2ea"
+    },
+    {
+      "path": "analyses/figure2/docs/provenance.md",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "b16d7b10c2fdf030dbdd0d20760f8aa598d85034"
+    },
+    {
+      "path": "analyses/figure2/docs/validation.md",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "d4a6ca63cac529a1931296b8ad846fb90475035b"
+    },
+    {
+      "path": "analyses/figure2/reference/figure2.pdf",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "7c3a2b29e4869f43ee79fe6176c7a02c58ce2120"
+    },
+    {
+      "path": "analyses/figure2/reference/figure2.png",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "d77332599905e0fa1070be8605b9da590ef3da83"
+    },
+    {
+      "path": "analyses/figure2/requirements-lock.txt",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "c8fd5b9dc0634b790a464d7242b18d5fcc6324bc"
+    },
+    {
+      "path": "analyses/figure2/requirements.txt",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "b66dc72cbda2554e0a2f69a4df5388bb45942a19"
+    },
+    {
+      "path": "analyses/figure2/scripts/figstyle.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "e3cc19fee48d0cd89f011ceee30de49cf261d98f"
+    },
+    {
+      "path": "analyses/figure2/scripts/figure2_data.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "81d17615156dafe65e3090820ac33bb3ed2a7792"
+    },
+    {
+      "path": "analyses/figure2/scripts/plot_figure2.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "aab8c976ded22829f14719800e69417646af7161"
+    },
+    {
+      "path": "analyses/figure2/scripts/rebuild_counts.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "da4c27d897977df39a096a42b9666c86e0881fc1"
+    },
+    {
+      "path": "analyses/figure2/scripts/validate_figure2.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "47f09f34b0954cb5f7252b7c636f21043835fea5"
+    },
+    {
+      "path": "analyses/figure2/tests/test_figure2.py",
+      "source_branch": "figure2-review",
+      "source_commit": "21075eca81fc40da6ed14300658aee7b8a0695ba",
+      "git_blob_sha": "0d3235530490c45518a54951c49449a4482a6ef7"
+    },
+    {
+      "path": "analyses/figure3/README.md",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "970ac363138d67d7c43fc019399f95a969481e53"
+    },
+    {
+      "path": "analyses/figure3/SHA256SUMS.txt",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "cd79cd2e8b2de7cc183de167c12fda616a930736"
+    },
+    {
+      "path": "analyses/figure3/data/independent_hits.tsv",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "5c241aa1f8378580d5cd01f8003b715ae4095916"
+    },
+    {
+      "path": "analyses/figure3/data/independent_search.json",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "35ccf4358af3dd51967b510e86aafe0851b04cdf"
+    },
+    {
+      "path": "analyses/figure3/data/input_checksums.json",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "aa68c6d51198e76429becfa14f680d3ee84484f0"
+    },
+    {
+      "path": "analyses/figure3/data/panel40_family_counts.csv",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "214961a710a064a87a49904f41f75a6925ac1249"
+    },
+    {
+      "path": "analyses/figure3/data/pictet_spenglerase_search.txt",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "ce0d4e740016aeb92283fc983630bdef5ff9fda9"
+    },
+    {
+      "path": "analyses/figure3/data/target_controls.json",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "22e4c33f02cf48812219cd470677997862709f21"
+    },
+    {
+      "path": "analyses/figure3/docs/figure3.md",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "e86b47c11822c034db9cdfafd872a4051b10c3b2"
+    },
+    {
+      "path": "analyses/figure3/docs/provenance.md",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "cb650f0efc4715adf8e18495d8c8b6de6fb5f778"
+    },
+    {
+      "path": "analyses/figure3/docs/tests-output.txt",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "2ced04d5e2be68f917b214129e390e0059205749"
+    },
+    {
+      "path": "analyses/figure3/docs/validate-output.txt",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "fd11152cd4a5e381533ddc4f9a9d0475a6af46ac"
+    },
+    {
+      "path": "analyses/figure3/docs/validation.md",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "d41bd26c933c848ab116e3bc6fb00108d2ddc239"
+    },
+    {
+      "path": "analyses/figure3/reference/figure3.pdf",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "3e9ca2c3e6f3e712f55459b7cb66c1fab026aed8"
+    },
+    {
+      "path": "analyses/figure3/reference/figure3.png",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "631eb50a93d7bda526192dffb15300d3dd629cb2"
+    },
+    {
+      "path": "analyses/figure3/requirements-lock.txt",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "b6d957c4bdd1283bead6efc010e3720a0c2d985d"
+    },
+    {
+      "path": "analyses/figure3/scripts/figure3_data.py",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "9b1c338c51191c7b70d68356fedf0e3ae71aeedf"
+    },
+    {
+      "path": "analyses/figure3/scripts/plot_figure3.py",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "fe8b916037cc493dab96979244da4a4debcd04da"
+    },
+    {
+      "path": "analyses/figure3/scripts/rerun_family_search.py",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "87db365f3123e60c74f29bdd4ab2546720c2aa45"
+    },
+    {
+      "path": "analyses/figure3/scripts/validate_figure3.py",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "92354776c0f2bd540a3278c928759f44d1adeb1e"
+    },
+    {
+      "path": "analyses/figure3/tests/test_figure3.py",
+      "source_branch": "figure3-review",
+      "source_commit": "0d065a022632dd804fe2917e5aa8b3dbb01605c7",
+      "git_blob_sha": "028175561e0aff060f60d4a0a76758bd38ddb7e8"
+    },
+    {
+      "path": "analyses/figure4/CURRENT_ANALYSIS.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3d17c06d648802585b4687a37f10c73fd5909b90"
+    },
+    {
+      "path": "analyses/figure4/README.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e50b1d856e7c24a664b7159877ad6fde103c748c"
+    },
+    {
+      "path": "analyses/figure4/SHA256SUMS.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b21ad17673da2c105c7916385ea696f4da60310a"
+    },
+    {
+      "path": "analyses/figure4/data/corrected_search_comparison.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c148d5d21efa0c931dbd0af2d057cea844fc141f"
+    },
+    {
+      "path": "analyses/figure4/data/corrected_search_evidence.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "a2bb30b984a0b9809fb2f8b1e458f94c1c1115fd"
+    },
+    {
+      "path": "analyses/figure4/data/historical_search_comparison.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "47eeb8e9f63c77bfafe424123b28bbce88c5fa49"
+    },
+    {
+      "path": "analyses/figure4/data/historical_search_evidence.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "8abf0250a4721d7ce72cabc6475de49b3ba22c68"
+    },
+    {
+      "path": "analyses/figure4/data/input_checksums.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "785ad58818285e51f40e0e5ea53395b313a86901"
+    },
+    {
+      "path": "analyses/figure4/data/knownclusterblast/BAA554_hybrid.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "08c5d5601e40b8f16119c5ebbb9ce7ac9c7fe15a"
+    },
+    {
+      "path": "analyses/figure4/data/knownclusterblast_all.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7ec4528bcc4c4e9c66828fdc797640c4c933e551"
+    },
+    {
+      "path": "analyses/figure4/data/region002.faa",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "fddc23c8d6e658058f114971b38b5b0d64ae5687"
+    },
+    {
+      "path": "analyses/figure4/data/region002_gene_conservation.csv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6a6dab6bd1c050e84a71cd4a82b41d4bcbeb3455"
+    },
+    {
+      "path": "analyses/figure4/data/region002_rbh_matrix.csv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c8a4d93e29ab10969cdd7002d65ea1bca264f1ca"
+    },
+    {
+      "path": "analyses/figure4/data/region_gene_order.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9a312a1acda88b9d2681d5389bb0e82e6ef4c988"
+    },
+    {
+      "path": "analyses/figure4/data/region_gene_order_corrected.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0daf381eee85bfecb771e3b86a5ee40617a4e413"
+    },
+    {
+      "path": "analyses/figure4/data/region_manifest.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ca64255686c4021681e244d826537dbcf006d3f3"
+    },
+    {
+      "path": "analyses/figure4/data/regions/ALG19_illumina.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2bfa2d9f39aa70c7e6a06cca48748b7381fcf690"
+    },
+    {
+      "path": "analyses/figure4/data/regions/ATCC13751_hybrid.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "956260b9d8a92d03c44d06f83377bbf5cb60e75a"
+    },
+    {
+      "path": "analyses/figure4/data/regions/ATCC15668_hybrid.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2c752b08eea33f12574ed45043432739fe982b16"
+    },
+    {
+      "path": "analyses/figure4/data/regions/BAA554_hybrid.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "442d9548d1490d7503ebe668ade4aaaba38677f9"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_001571325.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "daf5000b1b60f08ce97d182c2603d11dbc1ae09a"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_001753225.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e141af5cd8797db43e351653c0c9f25b4aa5cc90"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_009362995.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c9731c892cb1da6a6b8646faa0b8586dbe5892b8"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_023631505.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7ce00f9aac678a17c741e39220ca845c203d60a4"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_023958235.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ea0399b08a61d5de30fc837e8e9f8cd0cd62a4dc"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_024655835.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "bd2185a86358e18f07879d2614949cf5afe81baa"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_026410155.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ec5486fcdee668c7af28b0907cd28673d2b2081e"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029215875.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5bebcfc454e9408ca6d4810141b356bf1bb120a2"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029590315.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7e69764bc83e0cb737be2a3b3cc487a5608572c4"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029814915.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "44649be2a9448212b319d68c6c535dd9bc04b968"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029835695.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "bf6e419964830d2e10986ce2e366677ae8e62e1f"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029840065.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b5d568bfa0b61dd4363f0eea9ae9c71ad0db66ba"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029840545.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d7310089af64914e5719a53c20f8ed9783476c11"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029841905.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5f1d0e148d7ba57b1dba52f4737e658ca1493e73"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029843645.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "eb3c3addad8aa70fe5ff70b12afcaaa6d57ffee9"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_029845385.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "bc984b3d23b6c2e7726d3d48f0fa77729b564957"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_032057505.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5ad577336bd407309760a393ea2054f70ef3018f"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_032077925.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b8fbb78dea7d446e35188920efc6b752a6bc4aa9"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_034554595.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "029511d300811af318152d160fc8922bf2e8a6bf"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_036828685.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5ba13046fa084f704b116cd1e7f027efb4cdf1ea"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_037198095.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "54abfc12f0cff6961f9e81627329cb6195c68945"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_037723885.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f457bc5c3e4ef8468ee1f0dce4510d19e3b06c69"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_039595435.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9a1a4da87dd0fc292260d0f888978737c451ea4b"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_040267515.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "fafd3c89a74e6a5edf932d52c408aa8451855205"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_043104825.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7cc8674edbc3bac8244d586790bffca8002005e5"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_048163855.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b96ebe3be0e9ffbedfa6c14496d6a3cb7e38a6b2"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_050282465.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9f5c3a38684de3832271ff9bc046adbda1573000"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_050481505.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "17c4b3c75da96f675fa3e7fec2f051c48ad4a56f"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_055379645.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e39215da144267684cc3533d474724cb3bf6fa03"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_055755135.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "4ff656af6779a36f5d41863a58f9d7cf2f17f20b"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_056547405.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d31549c42cca867157dbced45a61bc774eea64df"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_059084005.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "1f8b15c01976822e32e4e46cc95300b4ec71ec54"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_059579365.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c87969e161120decbbc36e7d2d8c15a9f6bf4f2a"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_900107225.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b5af7283b1c795c7bc262a5af1d1b2a767e819ac"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_900111975.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "bffd07aa0a4b0e17107414ef5e87429db28068fa"
+    },
+    {
+      "path": "analyses/figure4/data/regions/GCA_965137545.1.gbk",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "534c73ca4d29abcf95c34a5b71baa4459f718ec7"
+    },
+    {
+      "path": "analyses/figure4/docs/figure4.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "61f2ba21e67a730fc25480089d7dbdc9dab37984"
+    },
+    {
+      "path": "analyses/figure4/docs/integration-verification.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ef2f031de24d1b69434ba07b2ba64f56d5583593"
+    },
+    {
+      "path": "analyses/figure4/docs/manuscript-crosswalk-20260929.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6af635c3d6b9d555a2d4754bb188ce8d00ababbb"
+    },
+    {
+      "path": "analyses/figure4/docs/provenance.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5afbebb312c8313397497f5afec2cfe35d9f35b7"
+    },
+    {
+      "path": "analyses/figure4/docs/tests-output.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3adc171861df5c0ff6cd2b886a41e040e9128361"
+    },
+    {
+      "path": "analyses/figure4/docs/validation-output.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3f1e9d757a1b32b290b215b40368e10678231d48"
+    },
+    {
+      "path": "analyses/figure4/docs/validation.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "375be4d4a8eaacc505b21acf836760a907910126"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/README.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d0c1f125e3a04e6c304fe5d4d60c10bd9a3775a7"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/bin/compare_repeat.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ef4be98048faeac06d163900c2b4867930e223b1"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/bin/prepare_inputs.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "87db1f27dfd047593c7c2d12d344fcba824f3fe6"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/bin/rbh_core.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "792426c03bd672bf5401c09760bf00a694024385"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/bin/run_rbh.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c2d6d10dc37c5dc1ddc02fdfdfd2b11cc7e411ab"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/bin/validate_evidence.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3be479faa62cf867ffe578cd0858b3eafe6531bc"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/comparison_to_archive.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "aeb491c52b15750214026620189a9885ce037da6"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/environment.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "be4a8ba08ebc51324a13d9e0ba9f0a4bef930908"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/environment_supplement.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "37a2fbfbd9948c9409981bd7ff3ea3d73193e4c0"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/forward_hits.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0677d5f9f977271b3249048502426670226f4b8d"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/input_inventory.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "1b36c65447fefb17a16394358b76c97915608590"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/presence_matrix.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "497f3d755786844b7059cea9d008d5452a74603a"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/profiles/queries.hmm",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "27bfd0f294f6882e4ef6f4d16ec6bb40e99024e0"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/proteome_manifest.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6c81f95f29449ee8dd96fa64016a0ddee273afe2"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/query_id_check.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0987454c853f664b65fea5778f1b633c13dc9a57"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/rbh_calls.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "cfbbfb53dfdaba4e64370679638b60ab96b6d7fb"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/rbh_calls.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "99489cb9cbd40c813d311b7ad115e78f126ebd64"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/reverse_hits.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "94ef812d9c561117292c0f23dd842ba40e7077d9"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/evidence/source_files.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0b4018909360cfb65cd6a4880e962d92d2e0f4fc"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/README.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "350961a305f48daf0ca763bb5344552aa52d232b"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/comparison.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b8e579b85d4b9ad295446a5b07b66833dee99a6c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/execution.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b09283841ed2f6f0b887a7df8d4f8dbd01951e7c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/logs/01a-figure-tests.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "8060c05b1c3e37371f4a1b0590d9dcd8194af8d1"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/logs/01b-reconstruction-tests.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "304e848f7cd7490a1097956cb6f0c00cd046d858"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/logs/03-full-panel-search.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "122fed534bd9f24e3a51abf615a8606a505db9f2"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/logs/04-validate-new-evidence.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "4f4d9f56d427c7e6bd903fd053d13760185ec988"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/packaging-verification.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9997a76d42b7c3356bf3b02715e4e4aa7e0a7153"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/compatibility_manifest.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "fd1850c685f39b46743700d3ca73f90713eacfd1"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/environment.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f6b0b7b15fe763b09df8c43653195f9fe9562cf3"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/forward_hits.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e1a105fe6a7d7bcfc223ae3d162e2615d47d0b37"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/ALG19_illumina.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f9e5a6a9a3ae84389277fafe482febe7e5e058f5"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/ATCC13751_hybrid.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3e235b94d6c5f435c397424d776cf9b4367c15ee"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/ATCC15668_hybrid.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "4f478f7c58c8a2ecfe224bb429e3d8bd5222cb64"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/BAA554_hybrid.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5a4a6b80ca12e378e68fbd29fa17153d8aaaa39c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_001571325.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "269d9ddb18ceff5def2becffe96f3717b2c54406"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_001753225.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7e9ab69390f28c295f88cc686be98a9b974eca4c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_009362995.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "523d41f45083fc24739f5f018563abd9176b2cac"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_023631505.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9483e0ffdd4c30c14a022f0dfee07cf68ab36cb5"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_023958235.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2f53c99d0a0982c97dcb1796b1f00f40cd031bfb"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_024655835.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b6f0855caf3154fd76a1e5becbd2279c29bc6f2f"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_026410155.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "216e7d5b26e751c0d524aac9ec590405124551cf"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029215875.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "71d16532c0d4c9bfafe5f88d504f096b62162901"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029590315.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "57153ad7a22550b9b1e8ec92567e36d0f34a53af"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029814915.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "abd72bce9be90f0854fb6fd0e0974cacae39c8e7"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029835695.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "71bd3a9a5bcb13fe8b3951f6fedbf298caf9ac14"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029840065.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "11a6faefb607cff8a239d5ba09b3bc68480099c0"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029840545.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "4325c4d6700f302a8fe93036cde12be3c741e85d"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029841905.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "988ec2a381680f24dd261a578058a4093dc84778"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029843645.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b12f429de042a65e443e6fbd3dde2cf283a65d95"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_029845385.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e0cf8a1a8cd7b22a75568a19109f9c93e36f2a7e"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_032057505.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "140f44cb5cc86a04c45712f66f2edec1fe1e6627"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_032077925.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "351d12ca1be49a65af1e8b8a09938763257bdf59"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_034554595.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6ac246a8325b5487d144adba96e0484c058abb86"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_036828685.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "431fbcafd2e5020eb7d28416f40afbd0d830feb9"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_037198095.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "91d461faf17b478a2dd1f1c2a70425683089df75"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_037723885.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d45524ad000a5b6945309e9c0b2ec09edb96e770"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_039595435.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6ae1e5eff468f6db17e78666978833249498e7e6"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_040267515.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "1684af0361a82e01faee3e4f505cb6937d05aa3f"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_043104825.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2a955de3388b0cd7cb6fbbd6ef19cb74d9431458"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_048163855.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "8faa93341f27b610196205d38f745a93e8609860"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_050282465.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c1dd81811ae2bbc74ead3bd276af25fb80b665df"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_050481505.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0f7f0699bc3ae472f1f18b4629d3f42dbdd03a17"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_055379645.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3afba59cf13a6fd1e86322edea5051b1b1a1090e"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_055755135.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "805d9f904b48c397315a86ad96ca8392d173f1bf"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_056547405.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7cd728e5ba8e66c4fbf9ef0c0955380f377cc0d2"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_059084005.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "00e28aa65a20115687ac26e8292ba638bee05aad"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_059579365.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3cb4ebe80294a4ce30d108c684610bc897e6724f"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_900107225.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c36d05360f2d709af66708928cd376d12ac87261"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_900111975.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5ef44ccdfb5cd41cf70492a71198bd9e4bda2df4"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/per_genome/GCA_965137545.1.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ee389318cecb39a06762222a1fc670e0578ebcc6"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/presence_matrix.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "497f3d755786844b7059cea9d008d5452a74603a"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/profiles/queries.hmm",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "8372bf5d4d074b4dfd6895a9352d57ebfd39a91d"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/proteome_manifest.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d3f6e959eae85f13449c44aedfe69e19406dfb3d"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/query_id_check.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d8f7dd8f43fe11081bb35f468aabbe11bb2e309f"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/rbh_calls.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "42dd645f604c478e2b0aa9cde3b3dd1241df3005"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/rbh_calls.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "dac8ed08c20e9ac5c8ceae10288a0e6162240a18"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/full_panel_repeat/results/reverse_hits.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "38c20d6efd941cbe9e353cc13fd33a07be38f3e4"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/ALG19_illumina.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3d6533fb14508d7535b3c81e616359a72129fa51"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/ATCC13751_hybrid.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e84a910f56c8741e5e734decc0b792e3a1cc4267"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/ATCC15668_hybrid.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "de37037738dbc8eb659b755feb10030edfb72133"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/BAA554_hybrid.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "62ef56e3d274cbaeb1dffa1906375662f837be2c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_001571325.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "94df96a056a0c8236da939f31fef973cc2cae8c3"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_001753225.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "baebfcb694326d72506350009f2adaf889ea6215"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_009362995.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "96e377b578f165c9a3d02ec074c87d224eaf67c8"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_023631505.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "536d71b538d35b897d9484cbbbde823ecffe055e"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_023958235.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "38459751592814f68736513219401b8013ce4baa"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_024655835.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "50915be1ed5ce65999dd2c974d06e7adf2bc0800"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_026410155.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "4963538657e4d3597b4915956facfd6c6bdfbe86"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029215875.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ab5c513a305544148cdc957d42f5c57fee1278af"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029590315.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7e68267b7d838d1195d92b212560174a1bd50b06"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029814915.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3d30afab19975d44f299cc86af80dfa371b98e7a"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029835695.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "00649f0e2a148610eb1c61528a417ffd7aeb3691"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029840065.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "741f3694f9e34b58d36a051d5211173bf402ba93"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029840545.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "36edfd5f497475638c2bc01dffec779b2b33c080"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029841905.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9380d01516f916fdfb20684cefdd89c2be73345b"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029843645.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "66f3e21174dd34452c4949ed548165c7887e1a1a"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_029845385.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "10b81218a9958ead5c9cfeaca2d832520c2e1e24"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_032057505.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "fb55d16b3ab5be610b3b5fdec175994dc3390100"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_032077925.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "483cb26563bbca59a410cbc3751de0109cfb4a1b"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_034554595.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "646ef9d4b3b3345982167d03d292962da058a081"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_036828685.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0095bad8c1a5ed8f8df4b7346761edc0efd2d086"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_037198095.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "385e332b3ca8665fc67c5aacfccf5aa5591436c0"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_037723885.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b82ea0409d68bf78a5d411160179ac37eefbf7a5"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_039595435.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7cd77b6054ce1750e8a8e71eb0f3dcbc71ff28aa"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_040267515.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "60384e96274d5886bca79be4206eb7101de27f4c"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_043104825.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6a19b1f192422fb74a04ee420095ff912fdcfaf3"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_048163855.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f2a14dd85312205cafb8959128e620f0e5141471"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_050282465.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "afef666ec47d0f84f7659b9f999a932b5cf5dc27"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_050481505.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "b22579c9b662f39b059d1641b1f9d8eeda0ae0ed"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_055379645.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5079d00c7d05deaed3c8e3fe4c0db07262ff23e5"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_055755135.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "1c0f2114d263d4607eb93932dc93cf4ac38ce8f2"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_056547405.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0017a09a1aef00e3c71ee04d0edf3e4d52068bf7"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_059084005.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "a76802aa52b9122f848bb20685c7c0cc6d0ec99f"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_059579365.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2bd74d5520edc2ac4de8fdba72a53068c368a7e3"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_900107225.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "684a8df2a81418a8cafd722aace06eef02b5dbe0"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_900111975.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2d563e571fab49535dd4927fce763cc93691e60d"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/inputs/assemblies/GCA_965137545.1.fna.gz",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0cc03878fc01269e049c76c0a6f848ea98dbd529"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/ALG19_illumina.hardened_runner.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "a7443ee24a25dfa85faa105c649fd6051f20e653"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/ALG19_illumina.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "87ec00460dd3b077c2aec7a91ce5c796ed354fef"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/ATCC13751_hybrid.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "efb4b9fde6f5455722bf7efc8b3ed5bbb4253de2"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/ATCC15668_hybrid.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e9981f72c47791dca8e4ae99f23419f01547e67e"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/BAA554_hybrid.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7f5d5805db1e817805fcd15aa95ff66f51a056c3"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/GCA_001571325.1.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7be908695546b0f7e85c062589250c73ca5d3716"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/GCA_001753225.1.repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "42e4bee0b6b4f40e345f7af61315e25ce2f98c05"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/repeat_evidence/bounded_repeat.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "8cfd8f61e78b4f347c7069a6580212c4cbdba4e4"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/tests/test_full_repeat.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e9ea23dfb274f8492e6910bc762573f2c22eff56"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/tests/test_guards.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "30b977d7711b383b8768de53b6c4b50540ce5c4b"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/tests/test_integration.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "c02b13cb78801859090e5a46749b4c63da228e48"
+    },
+    {
+      "path": "analyses/figure4/reconstruction/tests/test_mutations.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "de9a287f3cc9b4d46d045efddf5f37cb181483b6"
+    },
+    {
+      "path": "analyses/figure4/reference/execution.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "523c0fde2928ca2e5b23b5398459c7b840d49164"
+    },
+    {
+      "path": "analyses/figure4/reference/figure4.pdf",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "bfcdcc88a9aac2b171e45663e721be0229c5866f"
+    },
+    {
+      "path": "analyses/figure4/reference/figure4.png",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d615987608222238d1a6c009405f88dbd7c26b2a"
+    },
+    {
+      "path": "analyses/figure4/reference/plot_data.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6eb8b6f997c74d754b2c45fb2bbcce7cfa3b436a"
+    },
+    {
+      "path": "analyses/figure4/requirements-lock.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ca13bb2aea20c9c9f50a6fd57354574e14c02e43"
+    },
+    {
+      "path": "analyses/figure4/scripts/figure4_data.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "d4470a3fe8927e5625f74c795dc222a865510e95"
+    },
+    {
+      "path": "analyses/figure4/scripts/plot_figure4.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0fc41c37a1503fa9e9ba0d5001448e83e538e022"
+    },
+    {
+      "path": "analyses/figure4/scripts/rerun_region_search.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "539aa3baf7fba45afe8b4badba55a8f2fc55c778"
+    },
+    {
+      "path": "analyses/figure4/scripts/validate_figure4.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "7c94a6ae664674ed7d3e1ab39b39a356d869c71a"
+    },
+    {
+      "path": "analyses/figure4/scripts/verify_current_analysis.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f5b07c1371b16378b535d1e3449740919f7173c2"
+    },
+    {
+      "path": "analyses/figure4/tests/test_current_analysis.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ae2af0bb863e45bdaf325e913c82fca73731f667"
+    },
+    {
+      "path": "analyses/figure4/tests/test_figure4.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3a8585ad10f238e51e1d9229c903239571cf92d3"
+    },
+    {
+      "path": "analyses/figure4/validation/current-analysis/derived_gene_conservation.csv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6a6dab6bd1c050e84a71cd4a82b41d4bcbeb3455"
+    },
+    {
+      "path": "analyses/figure4/validation/current-analysis/derived_genome_recovery.csv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f0574b32f364f4bf47077f0cbd662881cabc1869"
+    },
+    {
+      "path": "analyses/figure4/validation/current-analysis/pair-to-plot-verification.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f8f8f8f572164940f74aa7226a86691368be209c"
+    },
+    {
+      "path": "analyses/figure4/validation/repository-update-20260929.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "5162473685c7397e77906bb359d7465dc039da99"
+    },
+    {
+      "path": "analyses/figure5/README.md",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "f44335e007ebd717352f6f8cbc4e1341bafc51e1"
+    },
+    {
+      "path": "analyses/figure5/SHA256SUMS.txt",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "b6c1553381afde80746e923784c5e51469f5b853"
+    },
+    {
+      "path": "analyses/figure5/data/BAA554_two_loci.faa",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "4817ae5eab1661c04509f0eba30d0aa93364c1f4"
+    },
+    {
+      "path": "analyses/figure5/data/InterProScan_results.json",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "35ddda99fcd7089585696c9ef5338b8681fbada1"
+    },
+    {
+      "path": "analyses/figure5/data/InterProScan_results.tsv",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "92ca89df89034f746a2c97fb31c16acc4809b6b4"
+    },
+    {
+      "path": "analyses/figure5/data/input_checksums.json",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "48a5174875fd8dce3b768d8986266aed48518b42"
+    },
+    {
+      "path": "analyses/figure5/docs/annotation-audit.tsv",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "8653d008933f59d3f032a3c9d844d9099b634836"
+    },
+    {
+      "path": "analyses/figure5/docs/caption-and-alt-text.md",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "0d8ade57eb948c1cd62231828799829f8357738e"
+    },
+    {
+      "path": "analyses/figure5/docs/provenance.md",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "c6b08a8bc4efe0b8d3e58f0a035c1041d464d7d7"
+    },
+    {
+      "path": "analyses/figure5/docs/repeat-results.json",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "927cea7ac52e6b9f6a327ba3acdad7bad0620c17"
+    },
+    {
+      "path": "analyses/figure5/docs/test-results.txt",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "49ab70a4e679624f14fdae3dd96a644013f66dd1"
+    },
+    {
+      "path": "analyses/figure5/docs/validation-results.json",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "3df45df4dd10854715f14e197962dd3efcf7856e"
+    },
+    {
+      "path": "analyses/figure5/docs/validation.md",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "ec8c516dde1db85a0201af2b60a1e23a32bcac4a"
+    },
+    {
+      "path": "analyses/figure5/reference/figure5.pdf",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "6441a8f25854fa78ff94469448fc4fb039d738f0"
+    },
+    {
+      "path": "analyses/figure5/reference/figure5.png",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "9e0c9994fada91cd2ef24673cf4fe4a4347ede61"
+    },
+    {
+      "path": "analyses/figure5/reference/plotted_data.json",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "6957b6216f493947346fb09d4e6ef0d6d2b81a59"
+    },
+    {
+      "path": "analyses/figure5/requirements-lock.txt",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "a3cd4bf3f1d54cb3d4c103405570a31bb088b57f"
+    },
+    {
+      "path": "analyses/figure5/requirements.txt",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "3df21e3ee0e7765c806065f2ef52693a51eb46c2"
+    },
+    {
+      "path": "analyses/figure5/scripts/figure5_data.py",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "342fa466b3b2542f8ec18bad13a24bbf8b04dac2"
+    },
+    {
+      "path": "analyses/figure5/scripts/plot_figure5.py",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "edd904373e56a24e520d9468662d9866da2392e7"
+    },
+    {
+      "path": "analyses/figure5/scripts/validate_figure5.py",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "d7449f6165e34c79cab260e851b471ff149ef3fe"
+    },
+    {
+      "path": "analyses/figure5/tests/test_figure5.py",
+      "source_branch": "figure5-review",
+      "source_commit": "59265dec199a6dbbbdbd99b0b27c17e90eb6eb58",
+      "git_blob_sha": "6d3cf09509f0f5c6da7295d94ad601364f9b4574"
+    },
+    {
+      "path": "supporting-analysis/antismash/README.md",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9d764a497f3b6ebe870ad1b6c953fbb546727320"
+    },
+    {
+      "path": "supporting-analysis/antismash/archive-descriptor.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "0e7fed8c93a767f2aa510a172cc2a11bdbb31691"
+    },
+    {
+      "path": "supporting-analysis/antismash/conda-history.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2dc1f1b791eeb48166576838b085e1697b5e8a91"
+    },
+    {
+      "path": "supporting-analysis/antismash/database-observed-20260929.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "05770442f74ed9d7983ff60cb78b30d76432679d"
+    },
+    {
+      "path": "supporting-analysis/antismash/environment-observed-20260929-explicit.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "90177b8a60528979682f93d4810e40ffb0621203"
+    },
+    {
+      "path": "supporting-analysis/antismash/environment-observed-20260929.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "be63188b8f9cd9ff773c6155f12d77ce8123ded0"
+    },
+    {
+      "path": "supporting-analysis/antismash/final-runs.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "ca389f7bbb8808678b7bbae61d2a0a6f08f606eb"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/04_setup_antismash_conda.sh",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "04b37ac109b402bba4023571c5d2d6e870fcdb97"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/05_run_panel40_conda.sh",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e204329380abdd151f91496e59faa8634275d5ba"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/antismash_region_counts.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "49695e6ba0e779956cd12f149e9ad5a55865512c"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/antismash_region_counts.tsv.bak",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6952ef0ebdedc3271bbfe50da857b471018a92ed"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/antismash_version.txt",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "879f203e6edc6441b9f7f4cb6d7cbe425696183c"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/ALG19_illumina.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "a3defdc3a81e2909251307d17ec1561d2485eb9d"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/ATCC13751_hybrid.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "2e26ef4965c2c0cbfd1a9c71ac7a8f3a3a8871cc"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/ATCC15668_hybrid.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "a3defdc3a81e2909251307d17ec1561d2485eb9d"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/BAA554_hybrid.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "04a08a8c191e19b2ba307bef70bc88858ec0fe6c"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_001571325.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_001753225.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_009362995.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_023631505.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_023958235.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_024655835.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_026410155.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029215875.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029590315.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029814915.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029840065.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029840545.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029841905.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029843645.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_029845385.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_032057505.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_032077925.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_034554595.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_036828685.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_037723885.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_039595435.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_040267515.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_043104825.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_048163855.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_050282465.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_050481505.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_055379645.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_055755135.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_056547405.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_059084005.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_059579365.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_900107225.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_900111975.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/logs/GCA_965137545.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/rerun_two/GCA_029835695.1.gff",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "1ee0813cd53b81e7896164ae97835936bdd991fd"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/rerun_two/GCA_029835695.1.rerun.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/rerun_two/GCA_037198095.1.gff",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "6e84d998e269be95dfee354c351570c0d0046ae8"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/rerun_two/GCA_037198095.1.rerun.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/rerun_two/run_rerun_two.sh",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "61dc8831288a4d587400409fd861149b00f45049"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/superseded-initial-logs/GCA_029835695.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "3ef9670e9d6641b51d6f29a2d0ffef02cf9fd1e4"
+    },
+    {
+      "path": "supporting-analysis/antismash/historical/superseded-initial-logs/GCA_037198095.1.log",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "206e0e3b88292f3367eb0a355f62bbdeaf251733"
+    },
+    {
+      "path": "supporting-analysis/antismash/native-output-manifest.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f743cd09d9d3a3ea1a80e221f989f1c6ec67e4cf"
+    },
+    {
+      "path": "supporting-analysis/antismash/region-selection-audit.tsv",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "f674cf07c965117b8f205b6a0e511f54af92cbc7"
+    },
+    {
+      "path": "supporting-analysis/antismash/source-record.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "9297caedb0d3202d3a4bbc8cc2b680f974d50f8f"
+    },
+    {
+      "path": "supporting-analysis/antismash/source-validation.json",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "e51af7416ab3f6aed0331add903240162b2b1e39"
+    },
+    {
+      "path": "supporting-analysis/antismash/verify_archive.py",
+      "source_branch": "figure4-review",
+      "source_commit": "70dabbbcaa731af95911022fa0ea4ebaf9ed9aaa",
+      "git_blob_sha": "30f2d962e8a3b458900e82c504c3193c0cb7a946"
+    }
+  ],
+  "documentation_update": {
+    "date": "2026-10-07",
+    "scope": "Original source mappings in files and branches are preserved as the historical integration snapshot. Current documentation differences are listed below.",
+    "unchanged_original_files": 360,
+    "changed_documentation_files": 9,
+    "overrides": [
+      {
+        "path": "analyses/figure1/README.md",
+        "original_git_blob_sha": "37c64b93ef85b644967abc1d56f93f88a17f4538",
+        "current_git_blob_sha": "9d5e1bb76a4d2849e1d8e29f61cfed71efd147d6",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure1/docs/methods-record.md",
+        "original_git_blob_sha": "76be40c9454822f76d99725bc37545fbc0e8b832",
+        "current_git_blob_sha": "4e1779e5c67d7a5a679097f92109f562739c52ff",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure2/docs/provenance.md",
+        "original_git_blob_sha": "b16d7b10c2fdf030dbdd0d20760f8aa598d85034",
+        "current_git_blob_sha": "7f4203928dfd334ca9cf61f4e44f2b190f939c60",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure3/README.md",
+        "original_git_blob_sha": "970ac363138d67d7c43fc019399f95a969481e53",
+        "current_git_blob_sha": "6fc849d7b83b1ee6132a00958b2cee0d0131f739",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure3/SHA256SUMS.txt",
+        "original_git_blob_sha": "cd79cd2e8b2de7cc183de167c12fda616a930736",
+        "current_git_blob_sha": "5d3c3d8bcaf4547bb95e4d0235f0bcd22e15fa22",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure3/docs/validation.md",
+        "original_git_blob_sha": "d41bd26c933c848ab116e3bc6fb00108d2ddc239",
+        "current_git_blob_sha": "79909dc7921fecaf57a3ef71a36cb6cdd57cb1fc",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure4/SHA256SUMS.txt",
+        "original_git_blob_sha": "b21ad17673da2c105c7916385ea696f4da60310a",
+        "current_git_blob_sha": "5fd7fa31bdbcf2511a9b7ef903a8d5881f5c6f66",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "analyses/figure4/docs/provenance.md",
+        "original_git_blob_sha": "5afbebb312c8313397497f5afec2cfe35d9f35b7",
+        "current_git_blob_sha": "8de09095d54deec502b2ed6d747a6793ab1f8708",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      },
+      {
+        "path": "supporting-analysis/antismash/README.md",
+        "original_git_blob_sha": "9d764a497f3b6ebe870ad1b6c953fbb546727320",
+        "current_git_blob_sha": "a5f17d6682bdd24a45382d97a858e96c57f91a1a",
+        "reason": "Documentation status, licensing clarification, or its checksum manifest; scientific inputs, code, tests, and reference outputs unchanged."
+      }
+    ]
+  },
+  "release_documentation_update": {
+    "date": "2026-11-03",
+    "tag": "v1.0.0",
+    "scope": "Documentation, the antiSMASH archive descriptor, and related checksum manifests. The dated October comparison is retained above.",
+    "unchanged_original_files": 359,
+    "changed_documentation_files": 10,
+    "overrides": [
+      {
+        "path": "analyses/figure1/README.md",
+        "source_git_blob_sha": "37c64b93ef85b644967abc1d56f93f88a17f4538",
+        "release_git_blob_sha": "9d5e1bb76a4d2849e1d8e29f61cfed71efd147d6"
+      },
+      {
+        "path": "analyses/figure1/docs/methods-record.md",
+        "source_git_blob_sha": "76be40c9454822f76d99725bc37545fbc0e8b832",
+        "release_git_blob_sha": "4e1779e5c67d7a5a679097f92109f562739c52ff"
+      },
+      {
+        "path": "analyses/figure2/docs/provenance.md",
+        "source_git_blob_sha": "b16d7b10c2fdf030dbdd0d20760f8aa598d85034",
+        "release_git_blob_sha": "7f4203928dfd334ca9cf61f4e44f2b190f939c60"
+      },
+      {
+        "path": "analyses/figure3/README.md",
+        "source_git_blob_sha": "970ac363138d67d7c43fc019399f95a969481e53",
+        "release_git_blob_sha": "d2b80b75b7ac0c1ba5419e12ed843552bbce5670"
+      },
+      {
+        "path": "analyses/figure3/SHA256SUMS.txt",
+        "source_git_blob_sha": "cd79cd2e8b2de7cc183de167c12fda616a930736",
+        "release_git_blob_sha": "ce5e8998b0f20ab19f1dbb725b1db54c93318f50"
+      },
+      {
+        "path": "analyses/figure3/docs/validation.md",
+        "source_git_blob_sha": "d41bd26c933c848ab116e3bc6fb00108d2ddc239",
+        "release_git_blob_sha": "79909dc7921fecaf57a3ef71a36cb6cdd57cb1fc"
+      },
+      {
+        "path": "analyses/figure4/SHA256SUMS.txt",
+        "source_git_blob_sha": "b21ad17673da2c105c7916385ea696f4da60310a",
+        "release_git_blob_sha": "5fd7fa31bdbcf2511a9b7ef903a8d5881f5c6f66"
+      },
+      {
+        "path": "analyses/figure4/docs/provenance.md",
+        "source_git_blob_sha": "5afbebb312c8313397497f5afec2cfe35d9f35b7",
+        "release_git_blob_sha": "8de09095d54deec502b2ed6d747a6793ab1f8708"
+      },
+      {
+        "path": "supporting-analysis/antismash/README.md",
+        "source_git_blob_sha": "9d764a497f3b6ebe870ad1b6c953fbb546727320",
+        "release_git_blob_sha": "06aebd46fcb51350080ab224346c24859bf65592"
+      },
+      {
+        "path": "supporting-analysis/antismash/archive-descriptor.json",
+        "source_git_blob_sha": "0e7fed8c93a767f2aa510a172cc2a11bdbb31691",
+        "release_git_blob_sha": "5f2a54153e95d4edc0834ba2af5d5642a4bf79d2"
+      }
+    ]
+  },
+  "public_checkout": "v1.0.0",
+  "historical_identifier_scope": "Source commits and branches in this file identify the original review history. The public source snapshot is tagged v1.0.0."
+}

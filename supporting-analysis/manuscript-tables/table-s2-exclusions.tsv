@@ -1,0 +1,17 @@
+Accession	Strain	Species (NCBI)	Exclusion class	Criterion failed	Measured values
+GCA_000972325.1	CM13	D. tsuruhatensis	Redundancy	Same strain as the closed GCA_001753225.1, which was retained	1,744 contigs; N50 11,247; 6,797,636 bp; 66.0% GC
+GCA_000741825.1	2167	D. acidovorans	Redundancy	Further deposit of the D. acidovorans type strain; GCA_059084005.1 (DSM 39) and the ATCC 15668 assembly generated here were retained	6 contigs; N50 920,397; 6,777,958 bp; 66.5% GC
+GCA_001598795.1	NBRC 14950	D. acidovorans	Redundancy	Further deposit of the D. acidovorans type strain, as above	91 contigs; N50 289,875; 6,630,389 bp; 67.0% GC
+GCA_001021565.1	MTQ3	D. tsuruhatensis	Assembly quality	Length outside 6.0–7.3 Mb	62 contigs; N50 254,996; 5,737,182 bp; 67.0% GC
+GCA_004353655.1	11304	D. tsuruhatensis	Assembly quality	Contig count above 200	214 contigs; N50 67,660; 6,615,676 bp; 67.0% GC
+GCA_009914115.1	—	D. tsuruhatensis	Assembly quality	Length outside range; contig count above 200; N50 below 50 kb	735 contigs; N50 5,904; 4,177,276 bp; 67.5% GC
+GCA_032013385.1	—	D. tsuruhatensis	Assembly quality	Length outside range; contig count above 200; N50 below 50 kb; GC outside 65.5–68.0%	1,245 contigs; N50 2,372; 2,370,153 bp; 64.5% GC
+GCA_032074965.1	—	D. tsuruhatensis	Assembly quality	Length outside range; contig count above 200; N50 below 50 kb	848 contigs; N50 8,710; 5,601,929 bp; 67.5% GC
+GCA_040396275.1	—	D. tsuruhatensis	Assembly quality	Length outside range; contig count above 200; N50 below 50 kb	361 contigs; N50 7,813; 2,510,842 bp; 67.0% GC
+GCA_047345365.1	DUEML3	D. tsuruhatensis	Assembly quality	Contig count above 200; N50 below 50 kb	495 contigs; N50 22,692; 6,372,929 bp; 66.5% GC
+GCA_057314915.1	—	D. tsuruhatensis	Assembly quality	Contig count above 200; N50 below 50 kb	566 contigs; N50 19,065; 6,287,228 bp; 67.0% GC
+GCA_975904375.1	—	D. tsuruhatensis	Assembly quality	Length outside range; contig count above 200; N50 below 50 kb	2,011 contigs; N50 2,901; 5,055,074 bp; 67.0% GC
+GCA_903815225.1	BB1455	D. tsuruhatensis	Species assignment	90.3% ANI to BAA-554, below the 95% species boundary	1 contig; 6,126,880 bp; 67.0% GC
+GCA_903684635.1	—	D. tsuruhatensis	Species assignment	90.38% ANI to BAA-554 and 90.22% to the public NBRC 16741 assembly; 100% ANI (alignment fraction 0.999) to GCA_903815225.1; GTDB-Tk R214 places it in s__Comamonas tsuruhatensis_A	169 contigs; N50 148,859; 6,134,768 bp; 67.0% GC
+GCA_043950175.1	B7	D. tsuruhatensis	Genome integrity	Suspected mixed or contaminated assembly: ~1.7× the expected genome size and G+C outside the species range. Not experimentally confirmed	2 contigs; N50 7,063,573; 11,257,845 bp; 62.5% GC
+GCA_000710165.1	391	D. tsuruhatensis	Genome integrity	CheckM completeness 91.58%, below the 95% threshold; also the lowest GTDB-Tk MSA occupancy of any retrieved genome, at 83.44% against ~97.5% for the retained panel	153 contigs; N50 95,943; 6,732,149 bp; 66.5% GC

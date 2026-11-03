@@ -1,0 +1,15 @@
+{
+ "source_file_sha256": "bfb0dbb2118b3cfcb974a2e8644609b9bf616585f3368722c0e487f1db7159b3",
+ "source_string_sha256": "37783c28819907e30ebb9caac2e3be5bae4e450b0c57a1bacb9ec81d8c75d34e",
+ "dropped": "GCF_000018665.1",
+ "tips_in": 41,
+ "tips_out": 40,
+ "retained_pairs": 780,
+ "distances_equal_to_source": 780,
+ "unlabelled_internal_nodes": 10,
+ "root_children_lengths": [
+  0.01449,
+  0.002059999999999999
+ ],
+ "output_string_sha256": "70c1c8362b2b2686cdb45965a45a04fd364d94e78db36b22c69811abf71bf729"
+}

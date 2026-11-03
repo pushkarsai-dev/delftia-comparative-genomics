@@ -1,0 +1,32 @@
+test_all_original_families_match_fresh (test_figure3.Figure3Tests.test_all_original_families_match_fresh) ... ok
+test_altered_fresh_count (test_figure3.Figure3Tests.test_altered_fresh_count) ... ok
+test_both_targets_zero (test_figure3.Figure3Tests.test_both_targets_zero) ... ok
+test_changed_target (test_figure3.Figure3Tests.test_changed_target) ... ok
+test_duplicate_genome (test_figure3.Figure3Tests.test_duplicate_genome) ... ok
+test_empty_value (test_figure3.Figure3Tests.test_empty_value) ... ok
+test_existing_output_refused (test_figure3.Figure3Tests.test_existing_output_refused) ... ok
+test_fractional_value (test_figure3.Figure3Tests.test_fractional_value) ... ok
+test_fresh_output (test_figure3.Figure3Tests.test_fresh_output) ... ok
+test_hash_tampering (test_figure3.Figure3Tests.test_hash_tampering) ... ok
+test_missing_fresh_pf18631 (test_figure3.Figure3Tests.test_missing_fresh_pf18631) ... ok
+test_missing_genome (test_figure3.Figure3Tests.test_missing_genome) ... ok
+test_missing_pf18631_evidence (test_figure3.Figure3Tests.test_missing_pf18631_evidence) ... ok
+test_negative_value (test_figure3.Figure3Tests.test_negative_value) ... ok
+test_one_exception (test_figure3.Figure3Tests.test_one_exception) ... ok
+test_output_ancestor_refused (test_figure3.Figure3Tests.test_output_ancestor_refused) ... ok
+test_plot (test_figure3.Figure3Tests.test_plot) ... ok
+test_protected_output_refused (test_figure3.Figure3Tests.test_protected_output_refused) ... ok
+test_protein_counts (test_figure3.Figure3Tests.test_protein_counts) ... ok
+test_shifted_plot_rows (test_figure3.Figure3Tests.test_shifted_plot_rows) ... ok
+test_study_first (test_figure3.Figure3Tests.test_study_first) ... ok
+test_swapped_counts_preserving_summary (test_figure3.Figure3Tests.test_swapped_counts_preserving_summary) ... ok
+test_too_small_labels (test_figure3.Figure3Tests.test_too_small_labels) ... ok
+test_valid (test_figure3.Figure3Tests.test_valid) ... ok
+test_wrong_cell_label (test_figure3.Figure3Tests.test_wrong_cell_label) ... ok
+test_wrong_colors (test_figure3.Figure3Tests.test_wrong_colors) ... ok
+test_wrong_genome_label (test_figure3.Figure3Tests.test_wrong_genome_label) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.740s
+
+OK

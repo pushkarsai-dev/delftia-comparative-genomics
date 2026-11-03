@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-29",
+  "source_root": "A3 antiSMASH Local (2 Aug 2026)",
+  "final_runs": 40,
+  "gff3_replacements": 2,
+  "all_40_input_bytes_match_figure4_assemblies": true,
+  "all_40_selected_regions_and_kcb_texts_match_figure4": true,
+  "all_40_top_matches": "BGC0000984.4",
+  "empty_final_logs": 36,
+  "native_output_files": 875,
+  "native_output_uncompressed_bytes": 1053383582,
+  "excluded": "HTML/JS/CSS, images, duplicate ZIPs, obsolete installers, strictness trials, failed outputs. Final native JSON, full/region GenBank, KnownClusterBlast and SubClusterBlast texts retained. No antiSMASH execution.",
+  "historical_script_public_copies": [
+    {
+      "path": "historical/04_setup_antismash_conda.sh",
+      "original_sha256": "43d438964826f7bdec00a34f293c862841389d8369cbb2690ba892421ad9cada",
+      "public_sha256": "d67677126167f3b063c34399a40d82aa5570e8d40ac1c0b3b640e57680843945",
+      "transformation": "Wording-only diagnostic-message cleanup; scientific commands unchanged."
+    },
+    {
+      "path": "historical/05_run_panel40_conda.sh",
+      "original_sha256": "1c0c25b6e7c4573d0f917cd20fd38be4018c358f5326dd93a2660f9ca8a9067a",
+      "public_sha256": "3e182f1b9979faf6f0371afd53e28a192a9ff79fe8e99979f7a5c8e59980a07c",
+      "transformation": "Wording-only diagnostic-message cleanup; scientific commands unchanged."
+    }
+  ]
+}

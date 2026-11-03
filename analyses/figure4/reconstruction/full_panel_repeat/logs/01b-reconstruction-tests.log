@@ -1,0 +1,81 @@
+test_failed_write_leaves_the_original_intact (test_guards.TestAtomicWrite.test_failed_write_leaves_the_original_intact) ... analyses/figure4/reconstruction/tests/test_guards.py:278: ResourceWarning: unclosed file <_io.BufferedReader name='<temporary-directory>/atomic2_xndijurl/out.json'>
+  before = open(p, "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+analyses/figure4/reconstruction/tests/test_guards.py:283: ResourceWarning: unclosed file <_io.BufferedReader name='<temporary-directory>/atomic2_xndijurl/out.json'>
+  self.assertEqual(open(p, "rb").read(), before)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_no_temporary_file_survives (test_guards.TestAtomicWrite.test_no_temporary_file_survives) ... analyses/figure4/reconstruction/tests/test_guards.py:268: ResourceWarning: unclosed file <_io.TextIOWrapper name='<temporary-directory>/atomic_bx708vje/out.json' mode='r' encoding='UTF-8'>
+  self.assertEqual(json.load(open(p)), {"a": 1})
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_foreign_fingerprint_is_refused (test_guards.TestCheckpointGuards.test_foreign_fingerprint_is_refused) ... ok
+test_refusal_leaves_the_checkpoint_unchanged (test_guards.TestCheckpointGuards.test_refusal_leaves_the_checkpoint_unchanged) ... analyses/figure4/reconstruction/tests/test_guards.py:106: ResourceWarning: unclosed file <_io.BufferedReader name='<temporary-directory>/guard_t6ja8ad_/g1.json'>
+  before = open(self.p, "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+analyses/figure4/reconstruction/tests/test_guards.py:109: ResourceWarning: unclosed file <_io.BufferedReader name='<temporary-directory>/guard_t6ja8ad_/g1.json'>
+  self.assertEqual(open(self.p, "rb").read(), before)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_truncated_checkpoint_is_refused (test_guards.TestCheckpointGuards.test_truncated_checkpoint_is_refused) ... ok
+test_valid_checkpoint_is_accepted (test_guards.TestCheckpointGuards.test_valid_checkpoint_is_accepted) ... ok
+test_wrong_query_set_is_refused (test_guards.TestCheckpointGuards.test_wrong_query_set_is_refused) ... ok
+test_wrong_schema_is_refused (test_guards.TestCheckpointGuards.test_wrong_schema_is_refused) ... ok
+test_call_belonging_to_another_genome_is_refused (test_guards.TestDeepCheckpoint.test_call_belonging_to_another_genome_is_refused) ... ok
+test_duplicate_call_alone_is_refused (test_guards.TestDeepCheckpoint.test_duplicate_call_alone_is_refused) ... ok
+test_genuine_checkpoint_is_accepted (test_guards.TestDeepCheckpoint.test_genuine_checkpoint_is_accepted) ... ok
+test_incomplete_forward_coverage_is_refused (test_guards.TestDeepCheckpoint.test_incomplete_forward_coverage_is_refused) ... ok
+test_invalid_database_size_is_refused (test_guards.TestDeepCheckpoint.test_invalid_database_size_is_refused) ... ok
+test_reviewers_probe_duplicate_call_and_empty_evidence (test_guards.TestDeepCheckpoint.test_reviewers_probe_duplicate_call_and_empty_evidence) ... ok
+test_tampered_call_inconsistent_with_raw_hits_is_refused (test_guards.TestDeepCheckpoint.test_tampered_call_inconsistent_with_raw_hits_is_refused) ... ok
+test_duplicate_fasta_identifier_is_refused (test_guards.TestFastaGuards.test_duplicate_fasta_identifier_is_refused) ... ok
+test_unique_identifiers_are_accepted (test_guards.TestFastaGuards.test_unique_identifiers_are_accepted) ... ok
+test_fingerprint_changes_with_an_input_hash (test_guards.TestFingerprint.test_fingerprint_changes_with_an_input_hash) ... ok
+test_fingerprint_changes_with_the_reverse_database (test_guards.TestFingerprint.test_fingerprint_changes_with_the_reverse_database) ... ok
+test_fingerprint_changes_with_the_software_version (test_guards.TestFingerprint.test_fingerprint_changes_with_the_software_version) ... ok
+test_fingerprint_is_stable_under_key_reordering (test_guards.TestFingerprint.test_fingerprint_is_stable_under_key_reordering) ... ok
+test_effective_settings_are_part_of_the_manifest (test_guards.TestSettingsInFingerprint.test_effective_settings_are_part_of_the_manifest) ... ok
+test_observed_settings_come_from_the_installed_api (test_guards.TestSettingsReadback.test_observed_settings_come_from_the_installed_api) ... ok
+test_empty_directory_is_allowed (test_guards.TestValidateBeforeWrite.test_empty_directory_is_allowed) ... ok
+test_populated_directory_without_a_manifest_is_refused_unchanged (test_guards.TestValidateBeforeWrite.test_populated_directory_without_a_manifest_is_refused_unchanged) ... ok
+test_unknown_checkpoint_file_is_refused (test_guards.TestValidateBeforeWrite.test_unknown_checkpoint_file_is_refused) ... ok
+test_prepare_inputs_checks_bytes_and_refuses_reuse (test_integration.IntegrationTests.test_prepare_inputs_checks_bytes_and_refuses_reuse) ... ok
+test_reconstruction_matches_all_archived_gene_counts (test_integration.IntegrationTests.test_reconstruction_matches_all_archived_gene_counts) ... ok
+test_reconstruction_matches_all_archived_genome_counts (test_integration.IntegrationTests.test_reconstruction_matches_all_archived_genome_counts) ... ok
+test_six_repeat_records_match_primary_raw_evidence (test_integration.IntegrationTests.test_six_repeat_records_match_primary_raw_evidence) ... ok
+test_unmodified_evidence_is_accepted (test_mutations.TestBaseline.test_unmodified_evidence_is_accepted) ... ok
+test_altered_rbh_total_is_rejected (test_mutations.TestDerivedOutputs.test_altered_rbh_total_is_rejected) ... ok
+test_flipped_matrix_cell_is_rejected (test_mutations.TestDerivedOutputs.test_flipped_matrix_cell_is_rejected) ... ok
+test_nonreciprocal_call_marked_reciprocal_is_rejected (test_mutations.TestDerivedOutputs.test_nonreciprocal_call_marked_reciprocal_is_rejected) ... ok
+test_duplicate_genome_column_is_rejected (test_mutations.TestMatrixIdentifiers.test_duplicate_genome_column_is_rejected) ... ok
+test_non_binary_cell_is_rejected (test_mutations.TestMatrixIdentifiers.test_non_binary_cell_is_rejected) ... ok
+test_renamed_query_row_is_rejected (test_mutations.TestMatrixIdentifiers.test_renamed_query_row_is_rejected) ... ok
+test_reviewers_probe_duplicated_universal_row (test_mutations.TestMatrixIdentifiers.test_reviewers_probe_duplicated_universal_row) ... ok
+test_short_row_is_rejected (test_mutations.TestMatrixIdentifiers.test_short_row_is_rejected) ... ok
+test_source_evidence_is_never_written (test_mutations.TestNonDestructive.test_source_evidence_is_never_written) ... ok
+test_negative_evalue_is_rejected (test_mutations.TestNumericIntegrity.test_negative_evalue_is_rejected) ... ok
+test_nonfinite_evalue_is_rejected (test_mutations.TestNumericIntegrity.test_nonfinite_evalue_is_rejected) ... ok
+test_threshold_violation_is_rejected (test_mutations.TestNumericIntegrity.test_threshold_violation_is_rejected) ... ok
+test_duplicate_call_record_is_rejected (test_mutations.TestRecordIntegrity.test_duplicate_call_record_is_rejected) ... ok
+test_missing_call_record_is_rejected (test_mutations.TestRecordIntegrity.test_missing_call_record_is_rejected) ... ok
+test_missing_genome_in_raw_evidence_is_rejected (test_mutations.TestRecordIntegrity.test_missing_genome_in_raw_evidence_is_rejected) ... ok
+test_truncated_json_is_rejected (test_mutations.TestRecordIntegrity.test_truncated_json_is_rejected) ... ok
+test_altered_reverse_evalue_is_rejected (test_mutations.TestReverseDirection.test_altered_reverse_evalue_is_rejected) ... ok
+test_altered_reverse_score_is_rejected (test_mutations.TestReverseDirection.test_altered_reverse_score_is_rejected) ... ok
+test_flipped_reverse_ambiguity_is_rejected (test_mutations.TestReverseDirection.test_flipped_reverse_ambiguity_is_rejected) ... ok
+test_invented_forward_tie_alternatives_are_rejected (test_mutations.TestReverseDirection.test_invented_forward_tie_alternatives_are_rejected) ... ok
+test_invented_reverse_tie_alternatives_are_rejected (test_mutations.TestReverseDirection.test_invented_reverse_tie_alternatives_are_rejected) ... ok
+test_negative_bit_scores_in_raw_hits_are_allowed (test_mutations.TestReverseDirection.test_negative_bit_scores_in_raw_hits_are_allowed)
+A negative bit score is legitimate and must not be rejected. ... ok
+test_nonfinite_reverse_score_is_rejected (test_mutations.TestReverseDirection.test_nonfinite_reverse_score_is_rejected) ... ok
+test_reviewers_probe_negative_reverse_evalue (test_mutations.TestReverseDirection.test_reviewers_probe_negative_reverse_evalue) ... ok
+test_synthetic_exact_tie_must_not_count_as_unique (test_mutations.TestSyntheticTies.test_synthetic_exact_tie_must_not_count_as_unique)
+Duplicate the best forward hit under another target id, same E and ... ok
+test_arbitrary_wrong_target_is_rejected (test_mutations.TestWrongTargetIdentifier.test_arbitrary_wrong_target_is_rejected) ... ok
+test_reviewers_exact_probe_is_rejected (test_mutations.TestWrongTargetIdentifier.test_reviewers_exact_probe_is_rejected)
+ALG19_illumina_contig_2_7 -> ..._999999999, raw hits left intact. ... ok
+
+----------------------------------------------------------------------
+Ran 58 tests in 6.009s
+
+OK

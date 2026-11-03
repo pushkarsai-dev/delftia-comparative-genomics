@@ -1,0 +1,7 @@
+  [PASS] expected identifier sets come from the manifests and match the raw evidence
+  [PASS] raw hit E-values are finite and non-negative and bit scores are finite
+  [PASS] every one of the 1800 call decisions recomputes from the raw evidence, both directions
+  [PASS] presence matrix identifiers are unique and complete, and every cell derives from the recomputed calls
+  ---- 1774 reciprocal best hits
+
+ACCEPTED: evidence is internally consistent (1774 reciprocal best hits)

@@ -1,0 +1,44 @@
+{
+  "checked_date": "2026-09-29",
+  "base_branch": "figure4-review",
+  "base_commit": "27e6c454135d5cc93ab9fc930cf839b663e995a0",
+  "candidate_branch": "figure4-current-analysis",
+  "tests": {
+    "figure_module": 36,
+    "reconstruction": 63,
+    "total": 99,
+    "all_passed": true
+  },
+  "checks": [
+    {
+      "check": "figure-tests",
+      "exit_code": 0,
+      "seconds": 23.215
+    },
+    {
+      "check": "reconstruction-tests",
+      "exit_code": 0,
+      "seconds": 6.472
+    },
+    {
+      "check": "current-evidence",
+      "exit_code": 0,
+      "seconds": 0.245
+    },
+    {
+      "check": "current-aggregation",
+      "exit_code": 0,
+      "seconds": 0.044
+    }
+  ],
+  "raw_evidence_validation": "PASS: 1,800 decisions, 1,774 accepted reciprocal matches",
+  "relocated_aggregation": "PASS: all three outputs byte-identical to validation/current-analysis/",
+  "archive_validation": {
+    "status": "PASS",
+    "members": 875,
+    "uncompressed_bytes": 1053383582,
+    "archive_sha256": "fa33d40d691bf3f6a2e33c9031f36f17bbd74cc464720913c1a047aaf8a88805"
+  },
+  "scope": "Tests and validators executed against this local candidate in the existing pinned environment. No scientific search, new clean installation, push, merge, upload, or release performed.",
+  "deposition_metadata_note": "Branch label normalized on 2026-10-01; the recorded test execution and results are unchanged."
+}

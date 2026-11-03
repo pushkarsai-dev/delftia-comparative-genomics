@@ -1,0 +1,178 @@
+[
+  {
+    "source": "primary reconstruction/results/comparison_to_archive.json",
+    "original_sha256": "08d99587411a906f511eb5eecb68d792c2c9a0ca6ed079500e7248034ad2a199",
+    "public_path": "evidence/comparison_to_archive.json",
+    "public_sha256": "08d99587411a906f511eb5eecb68d792c2c9a0ca6ed079500e7248034ad2a199",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/environment.json",
+    "original_sha256": "61ab994c5378f8e938f2a4cbdee6cb5064c91bbc62fcd0bd211c41ba032f77e3",
+    "public_path": "evidence/environment.json",
+    "public_sha256": "61ab994c5378f8e938f2a4cbdee6cb5064c91bbc62fcd0bd211c41ba032f77e3",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/forward_hits.json",
+    "original_sha256": "3d8cf2936ce1e37073db42ae467e241c936966e9bc1e41bed93eeddae6b2d2b0",
+    "public_path": "evidence/forward_hits.json",
+    "public_sha256": "3d8cf2936ce1e37073db42ae467e241c936966e9bc1e41bed93eeddae6b2d2b0",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/presence_matrix.tsv",
+    "original_sha256": "a6872de3c38050303d04cd87ca358ea9f71768971667b6c77e5d1b1d531348c0",
+    "public_path": "evidence/presence_matrix.tsv",
+    "public_sha256": "a6872de3c38050303d04cd87ca358ea9f71768971667b6c77e5d1b1d531348c0",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/profiles/queries.hmm",
+    "original_sha256": "a296feac13fcbf8fe3135c0a59a2ec877a4a2a3812f5e9a2fffa8fdc165798ca",
+    "public_path": "evidence/profiles/queries.hmm",
+    "public_sha256": "96f26b5bc5581e64a6f2573f5cc6c4d3b8548ad93073b4e28d01f707e6dbcd2d",
+    "byte_preserved": false,
+    "public_copy_transformation": "On 1 October 2026, 45 COM command-history lines were normalized to remove local paths. Original profile parameters and saved scientific results were unchanged."
+  },
+  {
+    "source": "primary reconstruction/results/proteome_manifest.json",
+    "original_sha256": "4ce69fab9c8502bc7ea5acbd305235f044739685eb8688174fafd277e45619be",
+    "public_path": "evidence/proteome_manifest.json",
+    "public_sha256": "4ce69fab9c8502bc7ea5acbd305235f044739685eb8688174fafd277e45619be",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/query_id_check.json",
+    "original_sha256": "c5d915d907216677b0ecbb2a719458ea784c8b7fe5d5c57673f2b87161714d90",
+    "public_path": "evidence/query_id_check.json",
+    "public_sha256": "c5d915d907216677b0ecbb2a719458ea784c8b7fe5d5c57673f2b87161714d90",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/rbh_calls.json",
+    "original_sha256": "4d23cd8272a493c20cae4fe34000e1c298994f24ce89b41c1a8ec89ab4537a8f",
+    "public_path": "evidence/rbh_calls.json",
+    "public_sha256": "4d23cd8272a493c20cae4fe34000e1c298994f24ce89b41c1a8ec89ab4537a8f",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/rbh_calls.tsv",
+    "original_sha256": "2db61c56e59e3770fa0267fb9b95bfb3ac019ca1507fb8d93c19fb18615902e5",
+    "public_path": "evidence/rbh_calls.tsv",
+    "public_sha256": "2db61c56e59e3770fa0267fb9b95bfb3ac019ca1507fb8d93c19fb18615902e5",
+    "byte_preserved": true
+  },
+  {
+    "source": "primary reconstruction/results/reverse_hits.json",
+    "original_sha256": "2f3fa9ca2b340f74d3419babdcbfc64cd01f78594659acf2cf0be78f0c2259ba",
+    "public_path": "evidence/reverse_hits.json",
+    "public_sha256": "2f3fa9ca2b340f74d3419babdcbfc64cd01f78594659acf2cf0be78f0c2259ba",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/results/input_inventory.json",
+    "original_sha256": "c73eecf72d3ebb7572bcbc9501342d7f9bb7a0b6662f109eef4f22054b22da53",
+    "public_path": "evidence/input_inventory.json",
+    "public_sha256": "c73eecf72d3ebb7572bcbc9501342d7f9bb7a0b6662f109eef4f22054b22da53",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/results/environment_supplement.json",
+    "original_sha256": "2548bfb66ab8d987a8047b58c4077eeee372b25d4c4266121957469a25cf22f8",
+    "public_path": "evidence/environment_supplement.json",
+    "public_sha256": "2548bfb66ab8d987a8047b58c4077eeee372b25d4c4266121957469a25cf22f8",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/ALG19_illumina.hardened_runner.json",
+    "original_sha256": "913777191855e01ed413d722c3e2c90c8c1ca87542aeaf0946a0754fa16eeca9",
+    "public_path": "repeat_evidence/ALG19_illumina.hardened_runner.json",
+    "public_sha256": "913777191855e01ed413d722c3e2c90c8c1ca87542aeaf0946a0754fa16eeca9",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/ALG19_illumina.repeat.json",
+    "original_sha256": "1eb43d45fbde9f91f037cf7bb87cfc6e8ab3f223e973b9f731a9dc60bbbbe45b",
+    "public_path": "repeat_evidence/ALG19_illumina.repeat.json",
+    "public_sha256": "1eb43d45fbde9f91f037cf7bb87cfc6e8ab3f223e973b9f731a9dc60bbbbe45b",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/ATCC13751_hybrid.repeat.json",
+    "original_sha256": "b77c579fd12a88730228e79e1d86d263411c43fae3d98c3f96273d956ef98546",
+    "public_path": "repeat_evidence/ATCC13751_hybrid.repeat.json",
+    "public_sha256": "b77c579fd12a88730228e79e1d86d263411c43fae3d98c3f96273d956ef98546",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/ATCC15668_hybrid.repeat.json",
+    "original_sha256": "c398d6ef215290a6aa7883203fb7dfdd882457d39a7e95742714e696be836aeb",
+    "public_path": "repeat_evidence/ATCC15668_hybrid.repeat.json",
+    "public_sha256": "c398d6ef215290a6aa7883203fb7dfdd882457d39a7e95742714e696be836aeb",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/BAA554_hybrid.repeat.json",
+    "original_sha256": "7bea6d067bcc436b7c5cc6da4dbddc9575ff2ab9055aa67a36fbf8c5055096a3",
+    "public_path": "repeat_evidence/BAA554_hybrid.repeat.json",
+    "public_sha256": "7bea6d067bcc436b7c5cc6da4dbddc9575ff2ab9055aa67a36fbf8c5055096a3",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/GCA_001571325.1.repeat.json",
+    "original_sha256": "3f711d800ef86fbc0e3f908b978711062fe44fe26f8735bd7a671de622683c02",
+    "public_path": "repeat_evidence/GCA_001571325.1.repeat.json",
+    "public_sha256": "3f711d800ef86fbc0e3f908b978711062fe44fe26f8735bd7a671de622683c02",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/GCA_001753225.1.repeat.json",
+    "original_sha256": "c603f958580f917001aa5c51dbd62123e76b2e8fa8b6b913e8f76d5c460a9b3a",
+    "public_path": "repeat_evidence/GCA_001753225.1.repeat.json",
+    "public_sha256": "c603f958580f917001aa5c51dbd62123e76b2e8fa8b6b913e8f76d5c460a9b3a",
+    "byte_preserved": true
+  },
+  {
+    "source": "evidence supplement/repeat_evidence/bounded_repeat.json",
+    "original_sha256": "5a09c21466ca044c1180267c925e988f0eb7dde3aaed68da56df1a34e65c52a9",
+    "public_path": "repeat_evidence/bounded_repeat.json",
+    "public_sha256": "0a1a55981ae75829415b70e8045a41b4d0ef7f61fd513b3ab23f0f6659adc3f2",
+    "byte_preserved": false
+  },
+  {
+    "source": "shared validation revision 3/bin/rbh_core.py",
+    "original_sha256": "b467e436468923edf8a25331090f478add9725770793d93c7b14ca6984d3156e",
+    "public_path": "bin/rbh_core.py",
+    "public_sha256": "b467e436468923edf8a25331090f478add9725770793d93c7b14ca6984d3156e",
+    "byte_preserved": true
+  },
+  {
+    "source": "shared validation revision 3/bin/run_rbh.py",
+    "original_sha256": "ec4f323fa2c0e0367dbaf689a75d12488ed02b95ece92a276a24efd58ef4346f",
+    "public_path": "bin/run_rbh.py",
+    "public_sha256": "8ca802529c89b8e36c2847d3884145ad1646f1939c9733ae7971c90d932d170d",
+    "byte_preserved": false
+  },
+  {
+    "source": "shared validation revision 3/bin/validate_evidence.py",
+    "original_sha256": "9a3b8db808c93465441cc1ce92ba671c2e9f42346f0770c72b1506ca52798e48",
+    "public_path": "bin/validate_evidence.py",
+    "public_sha256": "9a3b8db808c93465441cc1ce92ba671c2e9f42346f0770c72b1506ca52798e48",
+    "byte_preserved": true
+  },
+  {
+    "source": "shared validation revision 3/tests/test_guards.py",
+    "original_sha256": "c0fcda8247c53c95f13bd1c8f3d3f1a1f7d6ec67641b421730720007febf6e25",
+    "public_path": "tests/test_guards.py",
+    "public_sha256": "260bb2f0dfbcde0ff8e09157659af83257b9181698c63fb3c028cd6e29b35a88",
+    "byte_preserved": false
+  },
+  {
+    "source": "shared validation revision 3/tests/test_mutations.py",
+    "original_sha256": "c36a382988ab6408873c3a0a517a7cf7ef0b80ab130e6c8e50a67caf35898206",
+    "public_path": "tests/test_mutations.py",
+    "public_sha256": "9c0420201aae3753130a86fb3c440db7341af379c6884e59b27b18902331e543",
+    "byte_preserved": false
+  }
+]

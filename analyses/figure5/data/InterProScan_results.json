@@ -1,0 +1,447 @@
+{
+ "interproscan-version": "5.78-109.0",
+"results": [ {
+  "sequence" : "MQISSPLTDTDLANGWSALHNQAHNGMALQQNSNRLAFADPEFMFRRETRGIRMQLELLKPDLAQIERGIEHTVVVYGSARFVDLEQAEQQLADAQASGDPQRVALAERAVRNAHRYEQARAFTRIVAADSLNQPPEERLYICTGGGPGIMEAANRGAHDVGAPSIGLNIELPHEQNGNRFISPDLSFKFHYFALRKMHFMMRAKALVAFPGGFGTLDELFEVLTLMQTGKTHSVPVILFGTEFWKRLLNIDLMIEEGTISPKDLQLFRYTDDPVEAWALIKQFHAGGW",
+  "md5" : "4ff384cf5794bcdc71124460591a091c",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "G3DSA:3.40.50.450",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 49,
+      "end" : 287,
+      "representative" : true,
+      "hmmStart" : 6,
+      "hmmEnd" : 200,
+      "hmmLength" : 218,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.0E-61,
+      "score" : 207.0,
+      "envelopeStart" : 49,
+      "envelopeEnd" : 287,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 49,
+        "end" : 287,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 3.7E-61,
+    "score" : 208.2,
+    "model-ac" : "5wq3B01"
+  }, {
+    "signature" : {
+      "accession" : "SSF102405",
+      "name" : "MCP/YpsA-like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 41,
+      "end" : 282,
+      "representative" : false,
+      "hmmLength" : 208,
+      "location-fragments" : [ {
+        "start" : 115,
+        "end" : 282,
+        "dc-status" : "N_TERMINAL_DISC"
+      }, {
+        "start" : 41,
+        "end" : 84,
+        "dc-status" : "C_TERMINAL_DISC"
+      } ]
+    } ],
+    "evalue" : 8.09E-51,
+    "model-ac" : "0050465"
+  }, {
+    "signature" : {
+      "accession" : "PF03641",
+      "name" : "Lysine_decarbox",
+      "description" : "Possible lysine decarboxylase",
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.2"
+      },
+      "entry" : {
+        "accession" : "IPR031100",
+        "name" : "LOG_fam",
+        "description" : "LOG family",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ ]
+      }
+    },
+    "locations" : [ {
+      "start" : 151,
+      "end" : 279,
+      "representative" : false,
+      "hmmStart" : 1,
+      "hmmEnd" : 129,
+      "hmmLength" : 131,
+      "hmmBounds" : "N_TERMINAL_COMPLETE",
+      "evalue" : 1.3E-28,
+      "score" : 111.2,
+      "envelopeStart" : 151,
+      "envelopeEnd" : 281,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 151,
+        "end" : 279,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 8.2E-29,
+    "score" : 111.9,
+    "model-ac" : "PF03641"
+  }, {
+    "signature" : {
+      "accession" : "PTHR43393",
+      "name" : "CYTOKININ RIBOSIDE 5'-MONOPHOSPHATE PHOSPHORIBOHYDROLASE",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR052341",
+        "name" : "LOG_family_nucleotidases",
+        "description" : "LOG family pyrimidine/purine nucleotide 5'-monophosphatases",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "NAD salvage (plants)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5381"
+        }, {
+          "name" : "bacimethrin and bacimethrin pyrophosphate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7564"
+        }, {
+          "name" : "trans-zeatin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-2681"
+        }, {
+          "name" : "queuosine biosynthesis III (queuosine salvage)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8106"
+        }, {
+          "name" : "superpathway of nicotine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7342"
+        }, {
+          "name" : "nicotine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5316"
+        }, {
+          "name" : "blasticidin S biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7570"
+        }, {
+          "name" : "adenosine nucleotides degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6617"
+        }, {
+          "name" : "arginomycin biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7569"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 40,
+      "end" : 285,
+      "representative" : true,
+      "hmmStart" : 44,
+      "hmmEnd" : 253,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 11,
+      "envelopeEnd" : 288,
+      "location-fragments" : [ {
+        "start" : 40,
+        "end" : 285,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR43393:SF3",
+    "name" : "LYSINE DECARBOXYLASE-LIKE PROTEIN",
+    "evalue" : 5.7E-64,
+    "score" : 227.5,
+    "proteinClass" : null,
+    "graftPoint" : "PTN005162268",
+    "goXRefs" : [ {
+      "name" : "cytosol",
+      "databaseName" : "GO",
+      "category" : "CELLULAR_COMPONENT",
+      "id" : "GO:0005829"
+    } ],
+    "model-ac" : "PTHR43393:SF3"
+  } ],
+  "xref" : [ {
+    "name" : "HFJBPOEG_02821",
+    "id" : "HFJBPOEG_02821"
+  } ]
+},{
+  "sequence" : "MNETLQRFERKAPAGSLLPQLITPAQPGQDLLAALPPLRRDIDEALLTTGGVLLRGFGVPDVETFQRFASAFGHPLLKYEFASTPRSAVEASSGAGVYTSTEYPAHQSIPLHNEQAYTREWPMKIWFHCVTASPEGGETPIADSRAVYRRIPARIRELFEPGILYVRNFGEMDVPWQKVFNTESRAEVEAFCRHARMDWEWKEDDGLRTRQLCQAMESHPVTGEMVWFNQAHLFHISAREPEEREVLEEVYGIENLPRNTFFADGSTIGDDIFAEVRAALDAETVSFPWEQGDVLMLDNMLVAHARSPFKGPRKVIVAMAEPRSNLDRF",
+  "md5" : "587e27198ff902e0c1efaf2da1f5da89",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "PF02668",
+      "name" : "TauD",
+      "description" : "Taurine catabolism dioxygenase TauD, TfdA family",
+      "type" : "DOMAIN",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "38.2"
+      },
+      "entry" : {
+        "accession" : "IPR003819",
+        "name" : "TauD/TfdA-like",
+        "description" : "TauD/TfdA-like domain",
+        "type" : "DOMAIN",
+        "goXRefs" : [ {
+          "name" : "oxidoreductase activity",
+          "databaseName" : "GO",
+          "category" : "MOLECULAR_FUNCTION",
+          "id" : "GO:0016491"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71262"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 29,
+      "end" : 317,
+      "representative" : false,
+      "hmmStart" : 17,
+      "hmmEnd" : 266,
+      "hmmLength" : 268,
+      "hmmBounds" : "INCOMPLETE",
+      "evalue" : 2.0E-47,
+      "score" : 173.9,
+      "envelopeStart" : 18,
+      "envelopeEnd" : 319,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 29,
+        "end" : 317,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.6E-47,
+    "score" : 174.2,
+    "model-ac" : "PF02668"
+  }, {
+    "signature" : {
+      "accession" : "SSF51197",
+      "name" : "Clavaminate synthase-like",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 10,
+      "end" : 319,
+      "representative" : false,
+      "hmmLength" : 327,
+      "location-fragments" : [ {
+        "start" : 10,
+        "end" : 319,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.28E-88,
+    "model-ac" : "0051173"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.60.130.10",
+      "name" : "",
+      "description" : null,
+      "type" : "HOMOLOGOUS_SUPERFAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR042098",
+        "name" : "GlaH-like_sf",
+        "description" : "Glutarate 2-hydroxylase superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71262"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 3,
+      "end" : 320,
+      "representative" : true,
+      "hmmStart" : 15,
+      "hmmEnd" : 328,
+      "hmmLength" : 330,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 9.2E-98,
+      "score" : 329.2,
+      "envelopeStart" : 3,
+      "envelopeEnd" : 320,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 3,
+        "end" : 320,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 7.1E-98,
+    "score" : 329.5,
+    "model-ac" : "2q4aA00"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10696",
+      "name" : "GAMMA-BUTYROBETAINE HYDROXYLASE-RELATED",
+      "description" : null,
+      "type" : "FAMILY",
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "19.0"
+      },
+      "entry" : {
+        "accession" : "IPR050411",
+        "name" : "AlphaKG_dependent_hydroxylases",
+        "description" : "Alpha-ketoglutarate-dependent hydroxylases",
+        "type" : "FAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-GGA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-BTA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-SCE-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-71262"
+        }, {
+          "name" : "Carnitine synthesis",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-71262"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 35,
+      "end" : 323,
+      "representative" : true,
+      "hmmStart" : 72,
+      "hmmEnd" : 298,
+      "hmmLength" : 0,
+      "hmmBounds" : "INCOMPLETE",
+      "envelopeStart" : 6,
+      "envelopeEnd" : 328,
+      "location-fragments" : [ {
+        "start" : 35,
+        "end" : 323,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "accession" : "PTHR10696:SF56",
+    "name" : "TAUD_TFDA-LIKE DOMAIN-CONTAINING PROTEIN",
+    "evalue" : 2.8E-40,
+    "score" : 150.7,
+    "proteinClass" : null,
+    "graftPoint" : "PTN007456390",
+    "goXRefs" : [ ],
+    "model-ac" : "PTHR10696:SF56"
+  } ],
+  "xref" : [ {
+    "name" : "HFJBPOEG_02843",
+    "id" : "HFJBPOEG_02843"
+  } ]
+} ]
+}

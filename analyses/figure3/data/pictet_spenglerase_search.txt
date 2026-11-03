@@ -1,0 +1,46 @@
+Pictet-Spenglerase search — Delftia 40-genome panel
+Date: 19 August 2026
+Panel: 40 genomes, 239,999 proteins (pyrodigal 3.7.1, uniform re-annotation)
+
+REFERENCE ENZYMES (retrieved from UniProtKB 19 Aug 2026)
+  R4QPW9  McbB, Marinactinospora thermotolerans, 314 aa
+          annotated "Cucumopine synthase"; the beta-carboline synthase of the
+          marinacarboline pathway (Chen et al. 2013). Condenses L-tryptophan
+          with an aldehyde.
+  E4NJY1  Kitasatospora setae KSE_75260, 313 aa, Cucumopine_C domain protein
+  E4NIM4  Kitasatospora setae KSE_70640, 317 aa, Cucumopine_C domain protein
+          KslB, of the kitasetaline pathway, is one of these two.
+
+METHOD 1 — Pfam domain scan (pyhmmer hmmsearch vs Pfam-A, E < 1e-3)
+  PF18631  Cucumopine_C      THE McbB/KslB domain      0 hits in 40 of 40 genomes
+  PF02317  Octopine_DH                                 0 hits in 40 of 40 genomes
+  PF10100  Staph_opine_DH                              0 hits in 40 of 40 genomes
+  PF02423  OCD_Mu_crystall   broad, unrelated family   198 hits, all 40 genomes
+
+METHOD 2 — direct sequence search (pyhmmer phmmer, 3 queries vs 40 proteomes, E < 1)
+  5 hits total across the entire panel. Best: E = 0.0067, bit score 14.0,
+  on a 785 aa protein against a 314 aa query. Noise; no credible homologue.
+
+POSITIVE CONTROLS — both methods detect true homologues
+  phmmer, references against each other:
+     McbB      -> KSE_75260   E = 2.3e-80   score 257.7
+     McbB      -> KSE_70640   E = 1.2e-32   score 100.9
+     KSE_75260 -> KSE_70640   E = 8.0e-25   score  75.3
+  PF18631 against the three references:
+     KSE_75260   E = 8.1e-55   score 172.6
+     McbB        E = 2.7e-52   score 164.5
+     KSE_70640   E = 8.4e-23   score  68.9
+
+CONCLUSION
+  No Pictet-Spenglerase of the characterised bacterial (McbB/KslB) type is
+  present in any of the 40 Delftia genomes, by either method, while both
+  methods detect the reference enzymes at high significance.
+
+  Combined with the PF00282 result (0 hits in 239,999 proteins), Delftia
+  encodes neither the decarboxylase that would generate tryptamine nor the
+  condensing enzyme that would form the beta-carboline ring.
+
+CAVEAT
+  This excludes homologues of the two characterised bacterial enzyme types.
+  It cannot exclude an unrelated enzyme performing the same chemistry, and
+  the manuscript must say so.

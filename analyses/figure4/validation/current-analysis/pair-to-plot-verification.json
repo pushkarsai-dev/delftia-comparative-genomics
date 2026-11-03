@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "source": "reconstruction/full_panel_repeat/results/rbh_calls.tsv",
+  "calls": 1800,
+  "accepted": 1774,
+  "genes": 45,
+  "genomes": 40,
+  "gene_counts_match": true,
+  "genome_and_contig_counts_match": true,
+  "universal_genes": 41,
+  "variable_counts": [
+    25,
+    33,
+    37,
+    39
+  ],
+  "per_genome_count_distribution": {
+    "44": 18,
+    "45": 18,
+    "43": 4
+  },
+  "median_per_genome": 44.0,
+  "contig_distribution": {
+    "3": 8,
+    "1": 23,
+    "5": 1,
+    "4": 3,
+    "2": 5
+  },
+  "input_sha256": {
+    "reconstruction/full_panel_repeat/results/rbh_calls.tsv": "22cf4608e674f5ceacf1ccde802b93c72892fe11aac19e366639d44ecf4e8a98",
+    "reconstruction/full_panel_repeat/results/rbh_calls.json": "5bdd28ed1483e92f10302477fc7caa2f897a64bd861039ed39942fa00785544e",
+    "data/region002_gene_conservation.csv": "38d8be3168baaf7c12763fd7188644e7d5715c78bf35313b09e1acd4af620033",
+    "data/region002_rbh_matrix.csv": "e3e8cc4024c1e66d811ab6f9b1ddd827dee84c498f3c9a89140dada5f91f7df3",
+    "reconstruction/full_panel_repeat/results/query_id_check.json": "d3f13dfc22c6c5f7630b2e57be93207ba059ad100035b53ec3a3c00714a2173e",
+    "reconstruction/full_panel_repeat/results/proteome_manifest.json": "58ca7d02b4326ce869c89c7abf5e70f99dd984ae4c3fbfd91df249eb880a9c97",
+    "reconstruction/full_panel_repeat/results/forward_hits.json": "febd544e20de936316fe8f17d02c968c5a73c005dba32ad3af61e3adaaba291e",
+    "reconstruction/full_panel_repeat/results/reverse_hits.json": "44c571f2171d70bcd69b569cd66186ade0af466067372fb1ec5c54a849650ada",
+    "reconstruction/full_panel_repeat/results/environment.json": "f27db89ed24d7259f6a829a07be9c18315c30448b4700b2433d42ce2cd3ce95b",
+    "reconstruction/full_panel_repeat/results/presence_matrix.tsv": "a6872de3c38050303d04cd87ca358ea9f71768971667b6c77e5d1b1d531348c0"
+  },
+  "output_sha256": {
+    "derived_gene_conservation.csv": "38d8be3168baaf7c12763fd7188644e7d5715c78bf35313b09e1acd4af620033",
+    "derived_genome_recovery.csv": "0310ebb5f23bacd345021757ced9c135c6d5f18f45d156622ffc3c708e278ea2"
+  },
+  "raw_evidence_validated": true,
+  "tsv_json_all_fields_match": true,
+  "manifest_grid_complete": true,
+  "accepted_contigs_match_protein_ids": true,
+  "scope": "Raw-hit validation is required by this command, followed by exact keyed TSV/JSON agreement, complete manifest-grid validation, and comparison with plotted counts."
+}
